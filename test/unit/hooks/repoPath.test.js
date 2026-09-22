@@ -21,6 +21,12 @@ test('a leading ~ is the home folder; ~name is an ordinary folder name', () => {
   expect(resolveRepoPath(REPO, '~other/x', HOME)).toBe(path.join(REPO, '~other', 'x'));
 });
 
+test('a path written with backslashes on Windows means the same folders on macOS and Linux', () => {
+  expect(resolveRepoPath('/r', '~\\.dev-data', '/h', path.posix)).toBe('/h/.dev-data');
+  expect(resolveRepoPath('/r', 'docs\\data', '/h', path.posix)).toBe('/r/docs/data');
+  expect(resolveRepoPath('C:\\r', 'docs/data', 'C:\\h', path.win32)).toBe('C:\\r\\docs\\data');
+});
+
 test("the collector's data folder accepts ~, so a repo can keep a folder it already has", () => {
   const repo = fs.mkdtempSync(path.join(os.tmpdir(), 'fw-cc-'));
   fs.writeFileSync(path.join(repo, 'flowwatch.json'), '{"collector": {"dataDir": "~/.some-data"}}');

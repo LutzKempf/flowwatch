@@ -40,7 +40,7 @@ that does not use openspec.
 ## `collector`
 
 The port the repo's collector listens on (on `127.0.0.1` only), and the folder that holds its database and session
-logs, relative to the repo. The session hooks read the same entry, so a second repo on one machine never posts to,
+logs, relative to the repo (`~` is the home folder). The session hooks read the same entry, so a second repo on one machine never posts to,
 or logs into, the first one's. Without it: port 4477 and `~/.flowwatch`. `FLOWWATCH_PORT` and `FLOWWATCH_DATA_DIR`
 in the environment win over the file. Add the data folder to the repo's `.gitignore`.
 
@@ -76,7 +76,7 @@ The folder where the Claude desktop app keeps its session records: the source of
 sessions wait on you. Without it, `%APPDATA%\Claude\claude-code-sessions` on Windows and
 `~/Library/Application Support/Claude/claude-code-sessions` on macOS. Linux has no Claude desktop app: there, and
 wherever the folder is not found, the Sessions board runs on the session hooks alone and says so, with where it
-looked. A relative path is the repo's; `~` is the home folder.
+looked. A relative path is the repo's; `~` is the home folder. In this folder and the data folder, `/` and `\` both work on every platform.
 
 ```json
 { "sessions": { "appRecords": "~/claude-app/claude-code-sessions" } }
