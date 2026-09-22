@@ -41,7 +41,9 @@ test('a command that prints the format gives data, run in the repo', async () =>
   );
   const out = await read(r);
   expect(out.state).toBe('data');
-  expect(path.resolve(out.data.cwd).toLowerCase()).toBe(path.resolve(r).toLowerCase());
+  // Real paths: macOS's temp folder has two names (/var and /private/var), and the child reports the real one.
+  const real = (/** @type {string} */ p) => fs.realpathSync.native(p).toLowerCase();
+  expect(real(out.data.cwd)).toBe(real(r));
 });
 
 test('a file gives data; a file that is not there is an error naming it', async () => {

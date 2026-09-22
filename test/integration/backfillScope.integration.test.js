@@ -10,31 +10,33 @@ const { backfillDir, projectDirFilter } = require('../../server/sessions/runBack
 
 const FIXTURE = path.join(__dirname, '../fixtures/transcript.jsonl');
 
+// A repo path of this platform's own shape, and the folder name Claude Code gives it there.
+const [REPO, SLUG] =
+  process.platform === 'win32' ? ['C:\\code\\shop', 'C--code-shop'] : ['/srv/code/shop', '-srv-code-shop'];
+
 test("the filter keeps the repo's own folder and its worktrees, never a sibling repo that shares a prefix", () => {
-  const keep = projectDirFilter('C:\\git_repos\\flowwatch-fresh');
-  expect(
-    [
-      'C--git-repos-flowwatch-fresh',
-      'C--git-repos-flowwatch-fresh--claude-worktrees-wt-a',
-      'C--git-repos-flowwatch-fresh-2',
-      'C--git-repos-some-other-repo',
-    ].map(keep)
-  ).toEqual([true, true, false, false]);
+  const keep = projectDirFilter(REPO);
+  expect([SLUG, SLUG + '--claude-worktrees-wt-a', SLUG + '-2', SLUG.replace('shop', 'other')].map(keep)).toEqual([
+    true,
+    true,
+    false,
+    false,
+  ]);
 });
 
 test("with a filter, only the repo's own sessions are backfilled", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bf-scope-'));
   for (const [dir, id] of [
-    ['C--x-repo', 'mine-1'],
-    ['C--x-repo--claude-worktrees-wt', 'mine-2'],
-    ['C--x-repo-2', 'sibling'],
-    ['C--x-other', 'other'],
+    [SLUG, 'mine-1'],
+    [SLUG + '--claude-worktrees-wt', 'mine-2'],
+    [SLUG + '-2', 'sibling'],
+    [SLUG.replace('shop', 'other'), 'other'],
   ]) {
     fs.mkdirSync(path.join(root, dir), { recursive: true });
     fs.copyFileSync(FIXTURE, path.join(root, dir, id + '.jsonl'));
   }
   const db = openDb(':memory:');
-  backfillDir(db, root, { keepProject: projectDirFilter('C:\\x\\repo') });
+  backfillDir(db, root, { keepProject: projectDirFilter(REPO) });
   expect(
     db
       .prepare('SELECT id FROM sessions ORDER BY id')
