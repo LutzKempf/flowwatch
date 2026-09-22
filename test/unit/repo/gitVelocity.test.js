@@ -76,3 +76,22 @@ test('non-PR commits are excluded from the trailing window too', () => {
   const v = vel(['2026-09-08\tchore: no pr number here'], '2026-09-08');
   expect(v.trailing7d).toBe(0);
 });
+
+test('a folder git cannot read counts nothing and warns once, not on every refresh', () => {
+  const fs = require('fs');
+  const os = require('os');
+  const path = require('path');
+  const { velocityFromRepo } = require('../../../server/repo/gitVelocity');
+  const dirs = [1, 2].map(() => fs.mkdtempSync(path.join(os.tmpdir(), 'fw-nogit-')));
+  const warn = jest.spyOn(console, 'warn').mockImplementation(() => {});
+  try {
+    const warned = new Set();
+    for (const d of [dirs[0], dirs[0], dirs[0], dirs[1]]) {
+      expect(velocityFromRepo(d, '8 weeks ago', warned)).toEqual({ totalPRs: 0, perWeek: {}, trailing7d: 0 });
+    }
+    expect(warn).toHaveBeenCalledTimes(2);
+  } finally {
+    warn.mockRestore();
+    for (const d of dirs) fs.rmSync(d, { recursive: true, force: true });
+  }
+});

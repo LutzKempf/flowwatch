@@ -67,16 +67,21 @@ function velocityFromLog(lines, today) {
   return { totalPRs, perWeek, trailing7d };
 }
 
+/** @type {Set<string>} */
+const WARNED = new Set();
+
 /**
  * PR velocity for a repo, shelling out to `git log --since`. FAIL-SOFT: a git
  * failure (not a repo, git missing, transient lock) degrades to an empty
- * velocity with a loud warn — one broken tile must never fail the whole
- * mission payload.
+ * velocity with a warning — one broken tile must never fail the whole
+ * mission payload. The warning is printed once per folder: the pages refresh every few seconds, and the same
+ * failure repeated on each refresh would bury the rest of the log.
  * @param {string} repoDir repo root to run git in
  * @param {string} [since='8 weeks ago'] git --since expression
+ * @param {Set<string>} [warned] folders already warned about (tests pass their own)
  * @returns {{totalPRs: number, perWeek: Object<string, number>, trailing7d: number}}
  */
-function velocityFromRepo(repoDir, since = '8 weeks ago') {
+function velocityFromRepo(repoDir, since = '8 weeks ago', warned = WARNED) {
   try {
     const out = execFileSync(
       'git',
@@ -85,8 +90,11 @@ function velocityFromRepo(repoDir, since = '8 weeks ago') {
     );
     return velocityFromLog(out.split(/\r?\n/).filter(Boolean));
   } catch (e) {
-    const first = /** @type {Error} */ (e).message.split('\n')[0];
-    console.warn('[flowwatch] velocityFromRepo degraded to empty (git failed):', first);
+    if (!warned.has(repoDir)) {
+      warned.add(repoDir);
+      const first = /** @type {Error} */ (e).message.split('\n')[0];
+      console.warn('[flowwatch] merged work is not counted (git log failed):', first);
+    }
     return { totalPRs: 0, perWeek: {}, trailing7d: 0 };
   }
 }
