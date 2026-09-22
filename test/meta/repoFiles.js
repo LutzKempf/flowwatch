@@ -18,15 +18,20 @@ function repoFiles() {
 }
 
 /**
- * Every line of every repo file, for the content checks.
+ * Every line of every repo text file, for the content checks. A file with a zero byte in its first 8,000 is
+ * binary (git's own test): an image's compressed bytes are not text, and read as text they match at random.
  * @param {(file: string) => boolean} [keep] which files to read
  * @returns {{file: string, line: number, text: string}[]}
  */
 function repoLines(keep = () => true) {
   const lines = [];
   for (const file of repoFiles().filter(keep)) {
-    const body = fs.readFileSync(path.join(ROOT, file), 'utf8');
-    body.split(/\r?\n/).forEach((text, i) => lines.push({ file, line: i + 1, text }));
+    const bytes = fs.readFileSync(path.join(ROOT, file));
+    if (bytes.subarray(0, 8000).includes(0)) continue;
+    bytes
+      .toString('utf8')
+      .split(/\r?\n/)
+      .forEach((text, i) => lines.push({ file, line: i + 1, text }));
   }
   return lines;
 }
