@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.9.0 — 2026-09-22
 
 The first release. A local dashboard, `npx flowwatch start`, for a repo worked on by a fleet of Claude Code agent
 sessions: the repo's mission and milestones from its own `MISSION.md`, every open session on one board with the ones

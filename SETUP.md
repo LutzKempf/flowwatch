@@ -19,7 +19,7 @@ Everything repo-specific comes from files in the repo, never from Flowwatch's ow
 ## 1. Install
 
 Flowwatch installs as a development dependency of the repo, straight from GitHub. It needs **Node 22 or newer**
-(`node --version`). Pick a release tag (for example `v0.1.0`) and, from the repo root:
+(`node --version`). Pick a release tag (for example `v1.0.0`) and, from the repo root:
 
 ```bash
 npm install --save-dev github:LutzKempf/flowwatch#<tag>
