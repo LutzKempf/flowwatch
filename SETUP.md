@@ -144,6 +144,11 @@ JSON. The hooks run `node_modules/flowwatch/hooks/emit.js`, never break a sessio
 collector named in step 2. A status line that reports each session's cost is added too, unless the repo already has
 one of its own: that one is kept, and the command says the cost figures are not wired.
 
+A repo may run the emitter through a script of its own instead, for example one that finds the package in the
+main checkout when a fresh worktree has not installed it yet. Name that script `…/hooks/emit.js` (the check
+recognises the hooks by that ending) and have it load `flowwatch/hooks/emit.js`. `install-hooks` then sees the hooks
+are already there and changes nothing, since a second set would count every event twice.
+
 Claude Code reads hooks when a session starts: **start a new session in the repo** after installing them.
 
 **It worked when** `npx flowwatch check` shows `✓ Session tracking hooks`, and — once a session has run a command —

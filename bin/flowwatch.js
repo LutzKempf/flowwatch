@@ -73,7 +73,15 @@ async function main(argv) {
   }
   if (command === 'install-hooks') {
     const { runInstall, fragmentFor } = require('./install-hooks');
-    runInstall(path.join(repoRoot, '.claude', 'settings.json'), { frag: fragmentFor(repoRoot) });
+    const frag = fragmentFor(repoRoot);
+    // A repo that already reports its sessions through a script of its own keeps it: a second set of hooks
+    // beside it would count every event twice.
+    const own = require('../server/setup/checkSetup').hooksOf(repoRoot);
+    if (own.state === 'ok' && own.script && !JSON.stringify(frag).includes(own.script)) {
+      process.stdout.write(`[flowwatch] the session hooks are ${own.detail}: nothing changed\n`);
+      return;
+    }
+    runInstall(path.join(repoRoot, '.claude', 'settings.json'), { frag });
     return;
   }
   if (command === 'demo') {

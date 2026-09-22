@@ -23,7 +23,7 @@ const STEP = {
 /**
  * Hook commands in the repo's Claude Code settings that run the pipeline emitter, and whether its file exists.
  * @param {string} repoRoot
- * @returns {{state: string, detail: string}}
+ * @returns {{state: string, detail: string, script?: string}} `script`: the emitter the working hooks run
  */
 function hooksOf(repoRoot) {
   const found = [];
@@ -49,7 +49,12 @@ function hooksOf(repoRoot) {
       detail: 'no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter',
     };
   const working = found.find((f) => fs.existsSync(path.join(repoRoot, f.script)));
-  if (working) return { state: 'ok', detail: 'installed in ' + working.settings + ', running ' + working.script };
+  if (working)
+    return {
+      state: 'ok',
+      detail: 'installed in ' + working.settings + ', running ' + working.script,
+      script: working.script,
+    };
   return { state: 'problem', detail: 'the hooks run ' + found[0].script + ', which does not exist in this repo' };
 }
 
@@ -143,4 +148,4 @@ function checkSetup({ repoRoot }) {
   return { items, banner, ok: banner.length === 0 };
 }
 
-module.exports = { checkSetup, STEP };
+module.exports = { checkSetup, hooksOf, STEP };

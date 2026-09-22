@@ -83,6 +83,23 @@ test('install-hooks writes hooks that run the installed package emitter', () => 
   expect(settings.statusLine.command).toBe('node node_modules/flowwatch/hooks/statusline.js');
 });
 
+test('install-hooks leaves a repo alone whose hooks already run an emitter of its own, so no event counts twice', () => {
+  const repo = tmp('fw-bin-own-');
+  const script = path.join(repo, 'scripts', 'tracking', 'hooks', 'emit.js');
+  fs.mkdirSync(path.dirname(script), { recursive: true });
+  fs.writeFileSync(script, '// the repo reports its sessions through this script\n');
+  const settings = path.join(repo, '.claude', 'settings.json');
+  fs.mkdirSync(path.dirname(settings), { recursive: true });
+  const command = 'node "$CLAUDE_PROJECT_DIR/scripts/tracking/hooks/emit.js" || true';
+  const hook = { hooks: [{ type: 'command', command }] };
+  const before = JSON.stringify({ hooks: { SessionStart: [hook], Stop: [hook] } }, null, 2) + '\n';
+  fs.writeFileSync(settings, before);
+  const out = run(['install-hooks', '--repo', repo]);
+  expect(out.status).toBe(0);
+  expect(out.stdout).toContain('running scripts/tracking/hooks/emit.js: nothing changed');
+  expect(fs.readFileSync(settings, 'utf8')).toBe(before);
+});
+
 test('install-hooks in the Flowwatch repo itself runs its own hooks/ folder', () => {
   const repo = tmp('fw-bin-self-');
   fs.writeFileSync(path.join(repo, 'package.json'), JSON.stringify({ name: 'flowwatch' }));
