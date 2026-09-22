@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0 — 2026-09-22
+
+The first public release. Since 0.9.0: a repo that runs the emitter through a script of its own keeps it —
+`install-hooks` sees the working hooks and changes nothing, where it used to add a second set beside them and count
+every event twice (SETUP.md step 5 says how to name such a script). The patched qs, body-parser and js-yaml.
+
 ## 0.9.0 — 2026-09-22
 
 The first release. A local dashboard, `npx flowwatch start`, for a repo worked on by a fleet of Claude Code agent
