@@ -8,6 +8,26 @@ const { NAV, LANDING, resolvePanel, hrefOf } = require('../web/lib/nav');
 const { verify, DATA_FILES } = require('./signoff');
 
 const WEB = path.join(__dirname, '..', 'web');
+// Where GitHub Pages serves the site, and `flowwatch demo` too.
+const BASE = '/flowwatch/';
+
+/**
+ * The page GitHub Pages answers with for any address the site has no file for, such as a live dashboard's
+ * /pipeline/sessions. It is served at the missing address, so its link is absolute.
+ * @param {string} landing the landing panel's full address
+ * @returns {string}
+ */
+function notFoundPage(landing) {
+  return (
+    '<!DOCTYPE html>\n<html lang="en">\n<meta charset="utf-8">\n<title>Not in the Flowwatch demo</title>\n' +
+    '<style>body{font:16px/1.5 system-ui,sans-serif;background:#0a0a0b;color:#ececee;margin:15vh auto;max-width:34em;' +
+    'padding:0 16px}a{color:#5ac8fa}</style>\n' +
+    '<h1>Not in the demo</h1>\n<p>This address is not part of the Flowwatch demo.</p>\n' +
+    '<p><a href="' +
+    landing +
+    '">Open the demo</a></p>\n</html>\n'
+  );
+}
 
 /**
  * A live page, as a demo page: it knows it is one from a config written in before any script runs (lib/data.js
@@ -54,11 +74,12 @@ function build({ dataDir, outDir }) {
       to +
       '">Open the Flowwatch demo</a>\n'
   );
+  fs.writeFileSync(path.join(outDir, '404.html'), notFoundPage(BASE + to));
   fs.writeFileSync(path.join(outDir, '.nojekyll'), ''); // GitHub Pages: serve the files as they are
   return { outDir, hash: signed.hash };
 }
 
-module.exports = { build };
+module.exports = { build, BASE };
 
 if (require.main === module) {
   const args = process.argv.slice(2);

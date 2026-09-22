@@ -81,6 +81,12 @@ describe('a build of the signed fixture', () => {
     expect(built('index.html')).toContain('<a href="pipeline.html#sessions">');
   });
 
+  // GitHub Pages serves 404.html at whatever address was missing, so a relative link would resolve against it.
+  test('404.html says the address is not in the demo and links to Sessions by its full address', () => {
+    expect(built('404.html')).toContain('not part of the Flowwatch demo');
+    expect(built('404.html')).toContain('<a href="/flowwatch/pipeline.html#sessions">');
+  });
+
   test.each(PAGES)('%s carries the demo config, before any script runs', (file) => {
     const html = built(file);
     const m = html.match(CONFIG);

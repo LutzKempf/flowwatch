@@ -97,6 +97,12 @@ test('no route of the collector is there: a panel path and the API are missing, 
   }
 });
 
+test("an address under the site that has no file gets the demo's 404 page, as on GitHub Pages", async () => {
+  const r = await get(site + 'pipeline/sessions');
+  expect(r.status).toBe(404);
+  expect(r.body).toContain('<a href="/flowwatch/pipeline.html#sessions">');
+});
+
 test('unsigned data is refused before anything is served', () => {
   const data = fs.mkdtempSync(path.join(TMP, 'unsigned-'));
   for (const f of DATA_FILES) fs.copyFileSync(path.join(FIXTURE, f), path.join(data, f));

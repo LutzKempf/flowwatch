@@ -4,7 +4,7 @@ const express = require('express');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { build } = require('./build');
+const { build, BASE } = require('./build');
 
 /**
  * @param {{dataDir: string, port?: number}} opts port 0 picks a free one
@@ -16,14 +16,16 @@ async function serveDemo({ dataDir, port = 4478 }) {
   process.once('exit', remove); // `flowwatch demo` turns Ctrl-C into an exit, so this runs then too
   build({ dataDir, outDir: dir });
   const app = express();
-  app.use('/flowwatch', express.static(dir));
-  app.get('/', (_req, res) => res.redirect('/flowwatch/'));
+  app.use(BASE, express.static(dir));
+  // Like GitHub Pages: an address the site has no file for gets its 404 page, with the 404 status.
+  app.use(BASE, (_req, res) => res.status(404).sendFile(path.join(dir, '404.html')));
+  app.get('/', (_req, res) => res.redirect(BASE));
   return new Promise((resolve, reject) => {
     const server = app.listen(port, '127.0.0.1'); // localhost only, like the collector
     server.once('error', reject);
     server.once('listening', () =>
       resolve({
-        url: 'http://127.0.0.1:' + /** @type {import('net').AddressInfo} */ (server.address()).port + '/flowwatch/',
+        url: 'http://127.0.0.1:' + /** @type {import('net').AddressInfo} */ (server.address()).port + BASE,
         dir,
         close: () =>
           new Promise((r) =>
