@@ -119,15 +119,9 @@ a {
 .g4 {
   grid-template-columns: repeat(4, 1fr);
 }
-.g2 {
-  grid-template-columns: 1.35fr 0.9fr;
-}
 @media (max-width: 820px) {
   .g4 {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .g2 {
-    grid-template-columns: 1fr;
   }
 }
 
