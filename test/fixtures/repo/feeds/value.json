@@ -1,0 +1,8 @@
+{
+  "format": 1,
+  "figures": [
+    { "text": "**2 of 3** checkout flows take real payments", "tone": "good" },
+    { "text": "**4 days** since a customer-visible release", "tone": "warn" },
+    { "text": "**$1,240.00** in self-serve revenue over **31** orders" }
+  ]
+}

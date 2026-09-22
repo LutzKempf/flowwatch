@@ -1,0 +1,105 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Lint, format and types
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm run types
+
+  test:
+    # Every supported platform and Node version; the repo's own checks (layout, leaks, references, what the
+    # package ships) run here too, as part of the suite.
+    name: Tests (${{ matrix.os }}, Node ${{ matrix.node }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [22, 24, 26]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - run: npm test -- --coverage --coverageReporters=text-summary
+
+  install:
+    # What a user gets: the packed package installed into an empty project, with engines enforced and the
+    # native SQLite binding approved the way a consumer approves it. It must print its version and open a
+    # database, which proves the binding loaded on this platform and Node version.
+    name: Install (${{ matrix.os }}, Node ${{ matrix.node }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [22, 24, 26]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+      - run: mkdir ../consumer && npm pack --pack-destination ../consumer
+      - name: Install into an empty project
+        working-directory: ../consumer
+        run: |
+          npm init -y > /dev/null
+          npm pkg set allowScripts.better-sqlite3=true --json
+          npm install --engine-strict ./flowwatch-*.tgz
+      - name: Run it
+        working-directory: ../consumer
+        run: |
+          npx flowwatch --version
+          node -e "require('flowwatch/server/db').openDb(':memory:').close(); console.log('database opened')"
+
+  browser:
+    name: Browser and accessibility
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+
+  demo:
+    # The public demo builds from the committed, signed snapshot; unsigned or changed data fails here.
+    name: Demo build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build:demo

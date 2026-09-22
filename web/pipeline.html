@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Pipeline — session tracker</title>
+<link rel="stylesheet" href="/lib/tokens.css">
+<link rel="stylesheet" href="/pages/pipeline/page.css">
+<link rel="stylesheet" href="/lib/nav.css">
+</head>
+<body>
+<div class="app">
+<nav id="nav" aria-label="Flowwatch"></nav>
+<div class="wrap">
+  <div id="setup-banner" class="setup-banner" role="status" hidden></div>
+
+  <section data-panel="sessions">
+  <h2 class="panel-title">Sessions</h2>
+  <div class="grid g4" id="tiles"></div>
+
+  <!-- The inbox's sorting and triage, done on the board: what is waiting on you comes from the
+       sessions themselves (/api/inbox); the views, the categories and the undo line sit above the board. -->
+  <section class="inbox" id="triage" aria-label="Sort and triage the sessions" style="margin-top:16px"></section>
+
+  <div class="board" id="board">
+  <h2 class="h">Session × phase — live position board <span style="color:var(--dim)">(select a row to sort it and see its per-phase stats; a title opens the session in the app →)</span></h2>
+  <p class="board-sum" id="board-sum"></p>
+  <div class="board-cols">
+  <div class="scroller">
+    <div class="pipe">
+      <div class="phhead" id="phhead"></div>
+      <div id="lanes"></div>
+      <div class="legend">
+        <span><i class="sw done"></i>phase cleared</span>
+        <span><i class="sw work"></i>agent working now</span>
+        <span><i class="sw waityou"></i>waiting on YOU</span>
+        <span><i class="sw machwait"></i>waiting on machine (CI / deploy)</span>
+        <span><i class="sw pending"></i>not reached</span>
+        <span><i class="sw abandoned"></i>ended mid-turn (never handed back)</span>
+        <span><i class="sw stale"></i>stale (no events &gt;5 min) — dims any state</span>
+        <span><span class="chip">◔ partial</span> estimated from a transcript, not live-tracked</span>
+      </div>
+    </div>
+  </div>
+
+    <!-- the selected session: what it said, its sorting, and its per-phase numbers -->
+    <aside class="card detail" id="detail" aria-label="The selected session">
+      <h3 id="d-name">—</h3>
+      <div class="subttl" id="d-sub"></div>
+      <div id="d-say"></div>
+      <div id="d-sort"></div>
+      <table id="d-table">
+        <thead><tr><th>Phase</th><th>Work</th><th>You-wait</th><th>Tok</th><th>Cmp</th><th>In</th></tr></thead>
+        <tbody id="d-rows"></tbody>
+      </table>
+      <p class="hint" id="d-tot"></p>
+    </aside>
+  </div>
+  </div>
+
+  <!-- tabindex and a name: at phone width the table scrolls inside this card, and a keyboard must reach it -->
+  <div class="card" id="rollup-card" role="region" aria-label="Per-phase rollup" tabindex="0" style="margin-top:14px">
+    <h2 class="h" style="margin:0 0 12px">Per-phase rollup — the process-improvement view</h2>
+    <table>
+      <thead><tr>
+        <th>Phase</th><th title="sessions that recorded activity at this phase">n</th><th>Work</th><th>You-wait</th><th>Tokens</th><th>Compute</th><th>Inputs</th><th style="text-align:left">Signal</th>
+      </tr></thead>
+      <tbody id="agg-rollup"></tbody>
+    </table>
+    <p class="hint"><b>n</b> is how many sessions recorded activity at that phase; every other
+      column is a <b>total</b> across those sessions, live and archived — not a per-session
+      average, and not windowed.
+      <b style="color:var(--violet)">★ target</b> = high you-wait + high input → automate/streamline first.</p>
+  </div>
+
+  <!-- archived-session rollup: the board hides these lanes, the measurement keeps them -->
+  <div class="card" id="history-card" style="margin-top:14px">
+    <h2 class="h" style="margin:0 0 12px">Archived sessions — process history</h2>
+    <div id="history"></div>
+    <p class="hint">A session with no events for over 7 days is archived: it leaves the lane board
+      above but stays in every figure here and in the per-phase rollup. Cleaning the board never
+      discards the measurement.</p>
+  </div>
+
+  <div class="note">
+    <b>Where each phase boundary comes from.</b> Every one is a signal the harness emits:
+    <code>goal</code>=session milestone tag · <code>brainstorm</code>=/brainstorming skill · <code>openspec</code>=new
+    <code>openspec/changes/</code> folder · <code>plan</code>=tasks.md written · <code>execute</code>=first code commit ·
+    <code>test</code>=test runs · <code>PR</code>=<code>gh pr create</code> · <code>PR green</code>=gate marker ·
+    <code>merge</code>=merge+deploy · <code>verify</code>=live-verification report · <code>cleanup</code>=/cleanup.
+    Work-vs-you-wait time, token counts and input counts come from session telemetry. Compute
+    intensity is the one column with no measurement behind it, so it renders <span class="rna">n/a</span>
+    rather than a zero bar — a zero bar would read as "measured low".
+  </div>
+  </section>
+
+  <section data-panel="gates">
+    <h2 class="panel-title">Gate pipeline</h2>
+    <!-- Read-only: the scheduler has no reorder, and changing its order would change the repo's
+         shared gate infrastructure, which a dashboard must not do. -->
+    <aside class="gateq" id="gates" aria-label="Gate queue"></aside>
+  </section>
+
+  <footer>
+    <span id="footer-source">Live data · /api/pipeline · 2 s poll</span>
+    <span>Flowwatch · Pipeline</span>
+  </footer>
+</div>
+</div>
+
+<script src="/lib/data.js"></script>
+<script src="/lib/render.js"></script>
+<script src="/lib/triage.js"></script>
+<script src="/lib/nav.js"></script>
+<script type="module" src="/pages/pipeline/main.js"></script>
+</body>
+</html>

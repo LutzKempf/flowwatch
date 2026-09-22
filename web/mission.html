@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flowwatch</title>
+<link rel="stylesheet" href="/lib/tokens.css">
+<link rel="stylesheet" href="/pages/mission/page.css">
+<link rel="stylesheet" href="/lib/nav.css">
+</head>
+<body>
+<div class="app">
+<nav id="nav" aria-label="Flowwatch"></nav>
+<div class="wrap">
+  <div id="setup-banner" class="setup-banner" role="status" hidden></div>
+
+  <section data-panel="milestones">
+  <!-- The mission is the repo's own, from its MISSION.md (root, else docs/): nothing here names a repo. -->
+  <div class="hero">
+    <h1 id="mission-title">Loading the mission…</h1>
+    <p class="sub" id="mission-statement"></p>
+    <div id="mission-note"></div>
+    <div class="verdict" id="verdict"></div>
+  </div>
+
+  <!-- top stats (live: /api/mission) -->
+  <div class="grid g4">
+    <div class="stat"><div class="n" data-bind="total">—</div><div class="l">spec scenarios</div>
+      <div class="s">the behavior contract of the whole app</div></div>
+    <div class="stat"><div class="n" style="color:var(--green)" data-bind="implemented">—</div><div class="l">@implemented</div>
+      <div class="s" data-bind="breakdown">—</div></div>
+    <div class="stat"><div class="n" style="color:var(--cyan)" data-bind="active-changes">—</div><div class="l">active change specs</div>
+      <div class="s" data-bind="archived">—</div></div>
+    <div class="stat"><div class="n" style="color:var(--amber)" data-bind="prs-week">—</div><div class="l">PRs merged, last 7 days</div>
+      <div class="s">git log, this checkout</div></div>
+  </div>
+
+  <div class="grid g2">
+    <!-- milestones -->
+    <div class="card">
+      <h2><span class="dot" style="background:var(--cyan)"></span>Next milestones — in dependency order</h2>
+      <p class="empty-note" id="ms-focus" hidden></p>
+      <div class="rail" id="ms-rail"><!-- rendered live from /api/mission --></div>
+    </div>
+
+  </div>
+
+  </section>
+
+  <section data-panel="stages">
+  <h3 class="section">Stages — how far each workstream has got, in this repo's own stages</h3>
+  <div class="card">
+    <!-- tabindex and a name: on a narrow screen the grid scrolls sideways inside this box, and a keyboard must reach it -->
+    <div class="lc" role="region" aria-label="Stages grid" tabindex="0"><div class="lcgrid" id="lc-grid"></div></div>
+    <div id="lc-warn"></div>
+    <!-- the states on the grid, drawn by renderStages from the feed -->
+    <div class="legend" id="lc-legend" hidden></div>
+  </div>
+
+  </section>
+
+  <section data-panel="ideas">
+  <h3 class="section">Ideas — every idea this repo has evaluated, with its verdict</h3>
+  <div class="card" id="ideas-card">
+    <div class="ideas-sum" id="ideas-sum">loading the ideas…</div>
+    <div id="ideas"><!-- rendered live from /api/mission ideas --></div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--red)"></i>ruled out</span>
+      <span><i class="sw" style="background:var(--amber)"></i>inconclusive</span>
+      <span><i class="sw" style="background:var(--cyan)"></i>open or promising</span>
+    </div>
+  </div>
+
+  </section>
+
+  <section data-panel="specs">
+  <!-- spec status by capability (live: /api/mission) -->
+  <h3 class="section">Spec status by capability — how done each is</h3>
+  <div class="card">
+    <h2>Capabilities</h2>
+    <div id="spec-bars"><!-- rendered live from /api/mission --></div>
+    <div class="legend">
+      <span><i class="sw seg-i"></i>implemented</span>
+      <span><i class="sw seg-b"></i>known-broken</span>
+      <span><i class="sw seg-a"></i>aspirational</span>
+    </div>
+  </div>
+
+  </section>
+
+  <footer>
+    <span id="mc-sources">Source: /api/mission (30 s poll)</span>
+  </footer>
+</div>
+</div>
+<script src="/lib/data.js"></script>
+<script src="/lib/render.js"></script>
+<script src="/lib/nav.js"></script>
+<script type="module" src="/pages/mission/main.js"></script>
+</body>
+</html>

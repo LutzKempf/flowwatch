@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "generated_at": 1789999800000,
+  "scheduler": { "tick_age_ms": 4000, "mode": "active", "blocked": "concurrency cap reached (1 of 1 in active mode)", "stalled": false },
+  "running": [
+    { "worktree": "checkout-guest-form", "branch": "feat/guest-address-form", "sha": "a1b2c3d", "granted_at": 1789999080000,
+      "ran_ms": 720000, "mode": "active", "cores": 4 }
+  ],
+  "waiting": [
+    { "position": 1, "worktree": "checkout-cart-totals", "branch": "fix/cart-totals", "sha": "d4e5f6a",
+      "queued_since": 1789999500000, "waited_ms": 300000 },
+    { "position": 2, "worktree": "checkout-order-emails", "branch": "feat/order-emails", "sha": "0b1c2d3",
+      "queued_since": 1789999740000, "waited_ms": 60000 }
+  ],
+  "history": { "runs": 24, "p25": 12, "median": 14, "p75": 17, "p90": 21, "window_days": 14 }
+}

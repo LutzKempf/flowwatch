@@ -1,0 +1,77 @@
+{
+  "name": "flowwatch",
+  "version": "0.1.0",
+  "description": "See how work flows through a fleet of AI coding agents toward a stated mission.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "flowwatch": "bin/flowwatch.js"
+  },
+  "files": [
+    "bin/",
+    "hooks/",
+    "server/",
+    "web/",
+    "templates/",
+    "demo/build.js",
+    "demo/serve.js",
+    "demo/signoff.js",
+    "demo/snapshot.js",
+    "demo/data/",
+    "docs/formats.md",
+    "docs/settings.md",
+    "README.md",
+    "SETUP.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "start": "node bin/flowwatch.js start",
+    "build:demo": "node demo/build.js",
+    "screenshots": "node demo/screenshots.js",
+    "test": "jest",
+    "test:browser": "playwright test -c test/browser",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "types": "tsc -p tsconfig.json",
+    "check": "npm run lint && npm run format:check && npm run types && npm test"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/test/**/*.test.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 91,
+        "branches": 83,
+        "functions": 91,
+        "lines": 92
+      }
+    }
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/express": "^4.17.25",
+    "@types/node": "^22.20.4",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.9.8",
+    "supertest": "^7.0.0",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "better-sqlite3": true
+  }
+}

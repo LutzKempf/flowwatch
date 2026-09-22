@@ -1,0 +1,10 @@
+package-lock.json
+coverage/
+demo/site/
+# Fixtures are input data: their exact bytes are what the tests read.
+test/fixtures/
+# The pages' markup is laid out by hand: Prettier would re-indent it and add text nodes between elements, which
+# changes the page's DOM, and the page tests read tags as written. Their styles and scripts (web/pages/) are formatted.
+web/*.html
+# The sidebar's stylesheet keeps compact, hand-laid rules, and a page test reads its narrow-window rule by pattern.
+web/lib/nav.css

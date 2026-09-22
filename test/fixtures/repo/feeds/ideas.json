@@ -1,0 +1,24 @@
+{
+  "format": 1,
+  "source": "docs/checkout-ideas.md",
+  "sections": [
+    {
+      "title": "Checkout flow",
+      "ideas": [
+        { "n": 1, "name": "Guest checkout without an account", "verdict": "Promising: completion up 6 points in the trial",
+          "bucket": "open", "evidence": "trial over 1,200 carts", "date": "2026-08-20", "docs": "docs/guest-checkout-trial.md" },
+        { "n": 2, "name": "Address autocomplete", "verdict": "Ruled out: no change in completion", "bucket": "closed",
+          "evidence": "900 carts, +0.3 points", "date": "2026-07-30", "docs": "docs/address-autocomplete.md" },
+        { "n": 3, "name": "Order notes field", "verdict": "Inconclusive: too few orders used it", "bucket": "inconclusive",
+          "date": "2026-09-02" }
+      ]
+    },
+    {
+      "title": "Payments",
+      "ideas": [
+        { "n": 4, "name": "Saved cards", "verdict": "Open: not measured yet", "bucket": "open", "date": "2026-09-10" },
+        { "n": 5, "name": "Wallet buttons", "verdict": "Not sorted yet", "bucket": "unclassified" }
+      ]
+    }
+  ]
+}

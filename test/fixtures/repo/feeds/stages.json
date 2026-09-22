@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "stages": ["idea", "design", "build", "trial", "rollout", "live"],
+  "milestoneStatus": ["proposed", "designed", "building", "in trial", "rolling out", "live"],
+  "workstreams": [
+    { "id": "guest-checkout", "name": "Guest checkout", "role": "flow",
+      "cells": ["passed", "passed", "inferred", "passed", "frontier", "none"] },
+    { "id": "saved-cards", "name": "Saved cards", "role": "flow",
+      "cells": ["passed", "frontier", "failed", "none", "none", "none"] }
+  ]
+}

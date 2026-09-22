@@ -1,0 +1,18 @@
+/* Flowwatch's colours and fonts, one set for both dashboards and their sidebar. */
+:root {
+  --bg: #0a0a0b;
+  --panel: #141417;
+  --panel2: #1b1b1f;
+  --line: #2c2c33;
+  --ink: #ececee;
+  --mut: #a8a8b0;
+  --dim: #888891;
+  --green: #46d17f;
+  --amber: #f5b544;
+  --red: #ef5b5b;
+  --cyan: #5ac8fa;
+  --violet: #b08cff;
+  --grey: #3a3d45;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}

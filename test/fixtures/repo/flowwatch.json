@@ -1,0 +1,8 @@
+{
+  "stages": { "file": "feeds/stages.json" },
+  "ideas": { "file": "feeds/ideas.json" },
+  "value": { "file": "feeds/value.json" },
+  "gates": { "file": "feeds/gates.json" },
+  "sessions": { "categorize": "scripts/categorize.js" },
+  "cleanup": { "skill": "tidy-up" }
+}
