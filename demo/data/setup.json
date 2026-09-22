@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "mission",
+      "required": true,
+      "state": "ok",
+      "title": "The mission (MISSION.md)",
+      "detail": "docs/MISSION.md",
+      "step": "3 Write the mission"
+    },
+    {
+      "id": "mission-problems",
+      "required": true,
+      "state": "ok",
+      "title": "MISSION.md reads completely",
+      "detail": "every part read",
+      "step": "3 Write the mission"
+    },
+    {
+      "id": "wiring",
+      "required": true,
+      "state": "ok",
+      "title": "flowwatch.json",
+      "detail": "docs/flowwatch.json",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "hooks",
+      "required": true,
+      "title": "Session tracking hooks",
+      "step": "5 Session tracking",
+      "state": "missing",
+      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
+    },
+    {
+      "id": "stages",
+      "required": false,
+      "state": "ok",
+      "title": "Stages panel",
+      "detail": "runs node scripts/flowwatch/stages.js",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "ideas",
+      "required": false,
+      "state": "ok",
+      "title": "Ideas panel",
+      "detail": "runs node scripts/flowwatch/ideas.js",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "value",
+      "required": false,
+      "state": "ok",
+      "title": "Value figures",
+      "detail": "runs node scripts/flowwatch/value.js",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "gates",
+      "required": false,
+      "state": "ok",
+      "title": "Gates panel",
+      "detail": "runs node scripts/flowwatch/gates.js",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "categorize",
+      "required": false,
+      "state": "ok",
+      "title": "Session categories",
+      "detail": "infers the rest with scripts/session-title-normalizer.js",
+      "step": "4 Optional panels"
+    },
+    {
+      "id": "specs",
+      "required": false,
+      "state": "ok",
+      "title": "Specs (openspec)",
+      "detail": "openspec/specs",
+      "step": "4 Optional panels"
+    }
+  ],
+  "banner": [
+    {
+      "id": "hooks",
+      "required": true,
+      "title": "Session tracking hooks",
+      "step": "5 Session tracking",
+      "state": "missing",
+      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
+    }
+  ],
+  "ok": false,
+  "lastEventAt": 1790011799590,
+  "repoRoot": "~/code/crypto-trader\\.claude\\worktrees\\flowwatch-sbs"
+}

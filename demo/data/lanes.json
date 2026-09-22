@@ -1,0 +1,1832 @@
+{
+  "generated_at": 1790067700920,
+  "window_days": 14,
+  "sources": {
+    "app_records": "ok"
+  },
+  "capability_lanes_from": "categories",
+  "stories_touched_from": "git",
+  "cleanup_skill": {
+    "name": "close-out",
+    "state": "installed"
+  },
+  "repo_root": "~/code/crypto-trader",
+  "categories": [
+    "CryptoMM",
+    "AltMM",
+    "IndexMM",
+    "Settler",
+    "FR-Bot",
+    "AltTaker",
+    "IndexTaker",
+    "Arb",
+    "Forecast",
+    "Recorder",
+    "Retro",
+    "Architecture"
+  ],
+  "lanes": [
+    {
+      "name": "CryptoMM",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "crypto-mm",
+          "implemented": 24,
+          "total": 89,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 17,
+      "older": [
+        {
+          "topic": "2026-07-02-crypto-mm-book-always-on",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-02-crypto-mm-decouple-live-panels",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-03-crypto-mm-chart-history",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-05-crypto-mm-relayer-submit-and-shakedown-status",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-05-mm-create-arms-live",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-14-index-mm-trader",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 59
+        },
+        {
+          "topic": "2026-07-24-multi-lane-live-subs",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 57
+        },
+        {
+          "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "front-runner-recorder"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 55
+        },
+        {
+          "topic": "2026-07-25-crypto-mm-phantom-settlement-count-once",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 53
+        },
+        {
+          "topic": "2026-07-26-crypto-mm-recycle-within-market",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 54
+        },
+        {
+          "topic": "2026-08-05-crypto-mm-tier-1-failures",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 47
+        },
+        {
+          "topic": "2026-08-06-crypto-mm-tier-2-verdict-and-config-honesty",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 46
+        },
+        {
+          "topic": "2026-08-06-crypto-mm-upstream-stall-pause",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 45
+        },
+        {
+          "topic": "2026-08-10-crypto-mm-feedless-child-refork-loop",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 24
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 34
+        },
+        {
+          "topic": "2026-08-20-crypto-mm-unattended-12h",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 28
+        },
+        {
+          "topic": "2026-08-28-alt-mm-adopt-crypto-mm-money-safety",
+          "status": "proposed",
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": 21
+        }
+      ]
+    },
+    {
+      "name": "AltMM",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "alt-mm",
+          "implemented": 17,
+          "total": 43,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 8,
+      "older": [
+        {
+          "topic": "2026-06-24-alt-mm-splitsymmetric",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-29-alt-mm-discovery-liveness",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-30-alt-mm-subscription-cards",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-07-01-alt-mm-live-execution",
+          "status": "proposed",
+          "capabilities": [
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "alt-mm"
+          ],
+          "days_since_touched": 34
+        },
+        {
+          "topic": "2026-08-29-alt-mm-spread-aware-market-picker",
+          "status": "proposed",
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": 21
+        }
+      ]
+    },
+    {
+      "name": "IndexMM",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "index-mm",
+          "implemented": 0,
+          "total": 7,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 2,
+      "older": [
+        {
+          "topic": "2026-07-14-index-mm-trader",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "index-mm"
+          ],
+          "days_since_touched": 59
+        },
+        {
+          "topic": "2026-07-21-index-mm-trustworthy-backtest",
+          "status": "proposed",
+          "capabilities": [
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "index-mm"
+          ],
+          "days_since_touched": 59
+        }
+      ]
+    },
+    {
+      "name": "Settler",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "settler",
+          "implemented": 0,
+          "total": 0,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [
+        {
+          "topic": "2026-09-05-settler",
+          "status": "proposed",
+          "capabilities": [
+            "settler"
+          ],
+          "under": [
+            "settler"
+          ],
+          "days_since_touched": 7
+        },
+        {
+          "topic": "2026-09-10-settler-phase3-live",
+          "status": "proposed",
+          "capabilities": [
+            "settler"
+          ],
+          "under": [
+            "settler"
+          ],
+          "days_since_touched": 7
+        }
+      ],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "FR-Bot",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "crypto-taker-backtest",
+          "implemented": 21,
+          "total": 30,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "crypto-taker",
+          "implemented": 131,
+          "total": 157,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 4,
+      "older": [
+        {
+          "topic": "2026-06-20-frbot-decision-loop-isolation",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-taker"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-08-05-frbot-fak-entry",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-taker"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": 18
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": 34
+        },
+        {
+          "topic": "2026-09-01-rotator-boundary-promote",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-taker"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": 20
+        }
+      ]
+    },
+    {
+      "name": "AltTaker",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "alt-taker",
+          "implemented": 0,
+          "total": 4,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "IndexTaker",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "index-taker",
+          "implemented": 0,
+          "total": 4,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "Arb",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "arb-optimizer",
+          "implemented": 4,
+          "total": 11,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "arb-trader-backtest",
+          "implemented": 0,
+          "total": 2,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "arb-trader-dryrun",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "arb-trader-live",
+          "implemented": 4,
+          "total": 13,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 1,
+      "older": [
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "arb-trader-live"
+          ],
+          "days_since_touched": 34
+        }
+      ]
+    },
+    {
+      "name": "Forecast",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "forecast-trader-backtest",
+          "implemented": 4,
+          "total": 11,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "forecast-trader-live",
+          "implemented": 2,
+          "total": 15,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "forecast-trader-paper",
+          "implemented": 5,
+          "total": 14,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "Recorder",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "front-runner-recorder",
+          "implemented": 36,
+          "total": 52,
+          "lane_from": "categories"
+        },
+        {
+          "capability": "recorder",
+          "implemented": 26,
+          "total": 47,
+          "lane_from": "categories"
+        }
+      ],
+      "stories": [
+        {
+          "topic": "2026-08-10-dev-book-recording-opt-in",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "days_since_touched": 12
+        }
+      ],
+      "older_stories": 4,
+      "older": [
+        {
+          "topic": "2026-07-14-index-mm-trader",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "recorder"
+          ],
+          "days_since_touched": 59
+        },
+        {
+          "topic": "2026-07-21-index-mm-trustworthy-backtest",
+          "status": "proposed",
+          "capabilities": [
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "recorder"
+          ],
+          "days_since_touched": 59
+        },
+        {
+          "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "front-runner-recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 55
+        },
+        {
+          "topic": "2026-08-27-recorder-finalized-market-retention",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "days_since_touched": 23
+        }
+      ]
+    },
+    {
+      "name": "Retro",
+      "waiting": 3,
+      "totals": {
+        "work_ms": 9828694,
+        "wait_ms": 316506401,
+        "tokens": 0,
+        "inputs": 35
+      },
+      "sessions": [
+        {
+          "id": "ebf9f586-20fb-468d-8efe-5b044ff73e1a",
+          "worktree": "german-box-market-categories-eb263b",
+          "title": "Retro: Cover order routes outside traders in live-path list",
+          "app_session_id": "local_46411329-cc5e-484c-8914-ca9fae8fb79c",
+          "app_archived": false,
+          "branch": "claude/optimistic-wing-cda0b2",
+          "category": "Retro",
+          "category_from": "title prefix",
+          "state": "waiting",
+          "stale": true,
+          "origin": "live",
+          "phase": 6,
+          "last_seen": 1789627833168,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 1,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 1947039,
+              "wait_ms": 146452791,
+              "inputs": 2,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 1947039,
+            "wait_ms": 146452791,
+            "tokens": 0,
+            "inputs": 3
+          }
+        },
+        {
+          "id": "17f016d4-a517-4640-9c72-cbce158df5f8",
+          "worktree": "vibrant-turing-e152c0",
+          "title": "Retro: Make unbound @implemented scenarios fail",
+          "app_session_id": "local_9631f28e-dc27-4943-b7b3-c2db78381034",
+          "app_archived": false,
+          "branch": "claude/vibrant-turing-e152c0",
+          "category": "Retro",
+          "category_from": "title prefix",
+          "state": "waiting",
+          "stale": true,
+          "origin": "live",
+          "phase": 11,
+          "last_seen": 1789627691065,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 1,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 80601,
+              "wait_ms": 2625957,
+              "inputs": 2,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 742750,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 823351,
+            "wait_ms": 2625957,
+            "tokens": 0,
+            "inputs": 3
+          }
+        },
+        {
+          "id": "8f7f0e20-3fa8-42d7-bb46-5d03f718fcdd",
+          "worktree": "eloquent-lumiere-33fde8",
+          "title": "Agent-driven retro item workflow",
+          "app_session_id": "local_9881b596-324a-4855-b6fe-8f780bc49ff9",
+          "app_archived": false,
+          "branch": "claude/agent-retro-workflow-dc61de",
+          "category": "Retro",
+          "category_from": "inferred",
+          "state": "abandoned",
+          "stale": true,
+          "origin": "live",
+          "phase": 6,
+          "last_seen": 1789627662501,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 1063930,
+              "wait_ms": 3326591,
+              "inputs": 7,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 5187935,
+              "wait_ms": 156465527,
+              "inputs": 19,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 6251865,
+            "wait_ms": 159792118,
+            "tokens": 0,
+            "inputs": 26
+          }
+        },
+        {
+          "id": "50fed633-ab0b-428b-811b-0115b8041bd3",
+          "worktree": "nice-swanson-8d3943",
+          "title": "Retro: Reconcile .milestone with the root-file guard",
+          "app_session_id": "local_51f4640f-54b5-4ffd-9392-8d8e4da42bf5",
+          "app_archived": true,
+          "branch": "claude/quizzical-saha-a96f3b",
+          "category": "Retro",
+          "category_from": "title prefix",
+          "state": "waiting",
+          "stale": true,
+          "origin": "live",
+          "phase": 11,
+          "last_seen": 1789465131672,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 21351,
+              "wait_ms": 1993533,
+              "inputs": 2,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 92330,
+              "wait_ms": 5642002,
+              "inputs": 1,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 692758,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 806439,
+            "wait_ms": 7635535,
+            "tokens": 0,
+            "inputs": 3
+          }
+        }
+      ],
+      "specs": [
+        {
+          "capability": "live-test-runner",
+          "implemented": 13,
+          "total": 41,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 2,
+      "older": [
+        {
+          "topic": "2026-05-27-openspec-bdd-adoption",
+          "status": "proposed",
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-16-clob-latency-robust-sellback",
+          "status": "proposed",
+          "capabilities": [
+            "live-test-runner"
+          ],
+          "under": [
+            "live-test-runner"
+          ],
+          "days_since_touched": null
+        }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "dashboard",
+          "implemented": 14,
+          "total": 23,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "notification",
+          "implemented": 4,
+          "total": 10,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "wallet-service",
+          "implemented": 14,
+          "total": 22,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": null,
+      "waiting": 1,
+      "totals": {
+        "work_ms": 20500031,
+        "wait_ms": 33157451,
+        "tokens": 0,
+        "inputs": 61
+      },
+      "sessions": [
+        {
+          "id": "f24d3aa8-03a6-4012-8d6b-450bd8231bcc",
+          "worktree": "mission-control-research-0b5294",
+          "title": "Mission control research for multi-agent orchestration",
+          "app_session_id": "local_c402bbd3-984c-47ec-be53-c6f6221f10b3",
+          "app_archived": false,
+          "branch": "claude/mission-control-research-0b5294",
+          "category": null,
+          "category_from": null,
+          "state": "abandoned",
+          "stale": true,
+          "origin": "live",
+          "phase": 7,
+          "last_seen": 1790011799590,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 66630,
+              "wait_ms": 101766,
+              "inputs": 2,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 4843860,
+              "wait_ms": 1798837,
+              "inputs": 10,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 12897163,
+              "wait_ms": 15814236,
+              "inputs": 36,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 17807653,
+            "wait_ms": 17714839,
+            "tokens": 0,
+            "inputs": 48
+          }
+        },
+        {
+          "id": "9b0f0c6d-93bb-4df9-910e-3dfa1dfdc88c",
+          "worktree": "gracious-elgamal-3c356b",
+          "title": "Ponytail plugin integration",
+          "app_session_id": "local_0501ff52-91e0-47e1-af2c-3ad7a8fafd91",
+          "app_archived": false,
+          "branch": "claude/ponytail-plugin-integration-68801b",
+          "category": null,
+          "category_from": null,
+          "state": "waiting",
+          "stale": true,
+          "origin": "live",
+          "phase": 7,
+          "last_seen": 1789470546677,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 1,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 4,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 6,
+              "work_ms": 1249111,
+              "wait_ms": 11584431,
+              "inputs": 7,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 7,
+              "work_ms": 1443267,
+              "wait_ms": 3858181,
+              "inputs": 5,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 11,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0
+            }
+          ],
+          "totals": {
+            "work_ms": 2692378,
+            "wait_ms": 15442612,
+            "tokens": 0,
+            "inputs": 13
+          }
+        }
+      ],
+      "specs": [
+        {
+          "capability": "agent-live-verification",
+          "implemented": 7,
+          "total": 8,
+          "lane_from": null
+        },
+        {
+          "capability": "copy-engine-live",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": null
+        },
+        {
+          "capability": "edge-monitor",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": null
+        },
+        {
+          "capability": "exchange-latency-monitor",
+          "implemented": 4,
+          "total": 6,
+          "lane_from": null
+        },
+        {
+          "capability": "withheld in the demo",
+          "implemented": 16,
+          "total": 16,
+          "lane_from": null
+        },
+        {
+          "capability": "walk-forward-harness",
+          "implemented": 4,
+          "total": 13,
+          "lane_from": null
+        }
+      ],
+      "stories": [],
+      "older_stories": 4,
+      "older": [
+        {
+          "topic": "2026-06-21-exchange-latency-monitor",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-22-exchange-latency-enhancements",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-22-exchange-latency-stability",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-08-11-agent-dev-egress-verified-prs",
+          "status": "proposed",
+          "capabilities": [
+            "agent-live-verification"
+          ],
+          "under": [
+            "agent-live-verification"
+          ],
+          "days_since_touched": 40
+        }
+      ]
+    }
+  ],
+  "titles": {
+    "f24d3aa8-03a6-4012-8d6b-450bd8231bcc": {
+      "title": "Mission control research for multi-agent orchestration",
+      "app_session_id": "local_c402bbd3-984c-47ec-be53-c6f6221f10b3",
+      "app_archived": false,
+      "branch": "claude/mission-control-research-0b5294",
+      "category": null,
+      "category_from": null
+    },
+    "e986d1a8-6e42-4e67-98b8-788009b42c49": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_70703914-2f21-4e50-99ed-6b5b7f1caa63",
+      "app_archived": false,
+      "branch": "claude/trusting-mccarthy-577434",
+      "category": null,
+      "category_from": null
+    },
+    "ba5b568d-a030-4f7e-973d-cb8d9fcefe09": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_28375668-d42c-4872-948e-1653efd91516",
+      "app_archived": false,
+      "branch": "claude/nervous-torvalds-e689c3",
+      "category": null,
+      "category_from": null
+    },
+    "9d71513e-50a0-482a-bd31-98550288d447": {
+      "title": "Weekly branch worktree cleanup",
+      "app_session_id": "local_9887d922-ffda-4a18-be1d-87f6144dcd4a",
+      "app_archived": false,
+      "branch": null,
+      "category": null,
+      "category_from": null
+    },
+    "20038dc1-392f-477e-85e8-9556adef4ec0": {
+      "title": "Weekly dev process insights",
+      "app_session_id": "local_3050d08a-dc19-47fb-b7b0-61eb19c18931",
+      "app_archived": false,
+      "branch": "claude/dazzling-cray-656d47",
+      "category": null,
+      "category_from": null
+    },
+    "7461493d-1e61-4e5a-af9b-ff948cd33b5e": {
+      "title": "Weekly memory rot check",
+      "app_session_id": "local_c93f2fe5-92d6-4d16-8116-36b0a2a62d02",
+      "app_archived": false,
+      "branch": null,
+      "category": null,
+      "category_from": null
+    },
+    "1add862e-4abf-48c4-8799-e504b4b4fe4c": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_6201d592-1c4e-4860-80ad-bfb2146154bf",
+      "app_archived": false,
+      "branch": "claude/quizzical-solomon-1d2cf7",
+      "category": null,
+      "category_from": null
+    },
+    "61506568-41f8-4532-8fc1-b4254a2f296e": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_ca071c62-d8af-4295-9152-dff16ecda19e",
+      "app_archived": false,
+      "branch": "claude/vigorous-galileo-d204ad",
+      "category": null,
+      "category_from": null
+    },
+    "e9d7fccf-7cd4-4825-a3e0-fedb8e43113c": {
+      "title": "crypto-trader db backup",
+      "app_session_id": "local_9d6ec306-0746-4e28-83ea-1842d72510c3",
+      "app_archived": false,
+      "branch": null,
+      "category": null,
+      "category_from": null
+    },
+    "728d28bb-4b65-4de0-a858-f9ea0d1f8361": {
+      "title": "Weekly memories leaks",
+      "app_session_id": "local_69e597c6-3f53-406c-bad4-f13261cc40c7",
+      "app_archived": false,
+      "branch": "claude/exciting-haibt-6eb13e",
+      "category": null,
+      "category_from": null
+    },
+    "5c405e84-eca8-476c-8302-f6983bb6cb94": {
+      "title": "Automation loop ideas",
+      "app_session_id": "local_a9e19bb4-d610-44a9-a9c5-ceb2d2dd5652",
+      "app_archived": false,
+      "branch": "claude/gifted-haslett-1a528a",
+      "category": null,
+      "category_from": null
+    },
+    "30e7a9c7-11b3-4a75-903f-2015fbc4af1a": {
+      "title": "Weekly linting health check",
+      "app_session_id": "local_45843dc1-9d24-4b6b-a630-989b96ebdbd4",
+      "app_archived": false,
+      "branch": "claude/epic-goldberg-1f9f93",
+      "category": null,
+      "category_from": null
+    },
+    "bbda1992-8d61-4cb6-b965-d008f873c894": {
+      "title": "Task rot routine",
+      "app_session_id": "local_0b0d3de1-a422-43b9-b0d0-92a22c158728",
+      "app_archived": false,
+      "branch": "claude/jovial-bouman-425b93",
+      "category": null,
+      "category_from": null
+    },
+    "7573b71f-99be-401a-ba7a-5e1adab7d1f5": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_f557ccfe-6e74-40e2-bcbb-581989d8d033",
+      "app_archived": false,
+      "branch": "claude/lucid-lamport-f8a150",
+      "category": null,
+      "category_from": null
+    },
+    "d6647de6-7250-47db-8384-895fb8dc9980": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_a8afd297-a9b1-469f-afc7-d95ac271a5c8",
+      "app_archived": false,
+      "branch": "claude/determined-cartwright-1ac084",
+      "category": null,
+      "category_from": null
+    },
+    "2ee97700-f9ee-4b67-a20e-95ad0eaa1a34": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_d99ce5db-089a-45c8-bf7f-7b0437c91c0e",
+      "app_archived": false,
+      "branch": "claude/focused-cray-58177a",
+      "category": null,
+      "category_from": null
+    },
+    "42d27425-4790-4ed1-adef-49dc8b17e6d2": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_f57f1595-c8e7-418c-b9b0-f413d1958017",
+      "app_archived": false,
+      "branch": "claude/relaxed-goodall-74773c",
+      "category": null,
+      "category_from": null
+    },
+    "ebf9f586-20fb-468d-8efe-5b044ff73e1a": {
+      "title": "Retro: Cover order routes outside traders in live-path list",
+      "app_session_id": "local_46411329-cc5e-484c-8914-ca9fae8fb79c",
+      "app_archived": false,
+      "branch": "claude/optimistic-wing-cda0b2",
+      "category": "Retro",
+      "category_from": "title prefix"
+    },
+    "17f016d4-a517-4640-9c72-cbce158df5f8": {
+      "title": "Retro: Make unbound @implemented scenarios fail",
+      "app_session_id": "local_9631f28e-dc27-4943-b7b3-c2db78381034",
+      "app_archived": false,
+      "branch": "claude/vibrant-turing-e152c0",
+      "category": "Retro",
+      "category_from": "title prefix"
+    },
+    "8f7f0e20-3fa8-42d7-bb46-5d03f718fcdd": {
+      "title": "Agent-driven retro item workflow",
+      "app_session_id": "local_9881b596-324a-4855-b6fe-8f780bc49ff9",
+      "app_archived": false,
+      "branch": "claude/agent-retro-workflow-dc61de",
+      "category": "Retro",
+      "category_from": "inferred"
+    },
+    "ff0fd88d-7300-48f2-a9d7-bc972380db4a": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_e6e82873-e717-44b6-b1d4-ca99c1d19349",
+      "app_archived": false,
+      "branch": "claude/happy-dirac-088c9f",
+      "category": null,
+      "category_from": null
+    },
+    "c26af56f-fa35-44c0-a7b4-57ebc9ba1fe0": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_9dd8f9dc-f138-42b0-a8d7-8addf27c02c7",
+      "app_archived": false,
+      "branch": "claude/sweet-sutherland-64e5d8",
+      "category": null,
+      "category_from": null
+    },
+    "9b0f0c6d-93bb-4df9-910e-3dfa1dfdc88c": {
+      "title": "Ponytail plugin integration",
+      "app_session_id": "local_0501ff52-91e0-47e1-af2c-3ad7a8fafd91",
+      "app_archived": false,
+      "branch": "claude/ponytail-plugin-integration-68801b",
+      "category": null,
+      "category_from": null
+    },
+    "50fed633-ab0b-428b-811b-0115b8041bd3": {
+      "title": "Retro: Reconcile .milestone with the root-file guard",
+      "app_session_id": "local_51f4640f-54b5-4ffd-9392-8d8e4da42bf5",
+      "app_archived": true,
+      "branch": "claude/quizzical-saha-a96f3b",
+      "category": "Retro",
+      "category_from": "title prefix"
+    }
+  },
+  "routine_runs": 18,
+  "without_app_record": 3,
+  "earlier_parts": 4
+}

@@ -1,0 +1,5815 @@
+{
+  "generated_at": 1790067700421,
+  "window_days": 14,
+  "sessions": [
+    {
+      "id": "f24d3aa8-03a6-4012-8d6b-450bd8231bcc",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "abandoned",
+      "last_seen": 1790011799590,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 66630,
+          "wait_ms": 101766,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 4843860,
+          "wait_ms": 1798837,
+          "inputs": 10,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 12897163,
+          "wait_ms": 15814236,
+          "inputs": 36,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e986d1a8-6e42-4e67-98b8-788009b42c49",
+      "worktree": "vigorous-galileo-d204ad",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789991037127,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 56356,
+          "wait_ms": 0,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1032405,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "1139929e-bffd-49c7-b310-936e1da65157",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "abandoned",
+      "last_seen": 1789976233376,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 162195,
+          "wait_ms": 259439927,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1357150,
+          "wait_ms": 658188,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ba5b568d-a030-4f7e-973d-cb8d9fcefe09",
+      "worktree": "exciting-haibt-6eb13e",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789931647794,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 557932,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "9d71513e-50a0-482a-bd31-98550288d447",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789897021578,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 384978,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "20038dc1-392f-477e-85e8-9556adef4ec0",
+      "worktree": "german-box-market-categories-eb263b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789895453271,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 350040,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "7461493d-1e61-4e5a-af9b-ff948cd33b5e",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789893795374,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 283294,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "1add862e-4abf-48c4-8799-e504b4b4fe4c",
+      "worktree": "eloquent-lumiere-33fde8",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789855998644,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 913122,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "61506568-41f8-4532-8fc1-b4254a2f296e",
+      "worktree": "vigorous-galileo-d204ad",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789845459983,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 788603,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e9d7fccf-7cd4-4825-a3e0-fedb8e43113c",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789812254900,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 89804,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "728d28bb-4b65-4de0-a858-f9ea0d1f8361",
+      "worktree": "exciting-haibt-6eb13e",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789812117635,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 831497,
+          "wait_ms": 0,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2492538,
+          "wait_ms": 0,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 36147,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "5c405e84-eca8-476c-8302-f6983bb6cb94",
+      "worktree": "nice-swanson-8d3943",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789805800746,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 484292,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "30e7a9c7-11b3-4a75-903f-2015fbc4af1a",
+      "worktree": "german-box-market-categories-eb263b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789801481409,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 176494,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "bbda1992-8d61-4cb6-b965-d008f873c894",
+      "worktree": "withheld in the demo",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789799789675,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 109524,
+          "wait_ms": 0,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 614444,
+          "wait_ms": 831794,
+          "inputs": 9,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "7573b71f-99be-401a-ba7a-5e1adab7d1f5",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789769568299,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 751240,
+          "wait_ms": 80920,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d6647de6-7250-47db-8384-895fb8dc9980",
+      "worktree": "eloquent-lumiere-33fde8",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789759431747,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1151533,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ab12c9a9-ac91-410d-a6f7-27170866c64c",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "abandoned",
+      "last_seen": 1789714513571,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 73703,
+          "wait_ms": 124053,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 850653,
+          "wait_ms": 1087347,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 5625601,
+          "wait_ms": 164100878,
+          "inputs": 32,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "2ee97700-f9ee-4b67-a20e-95ad0eaa1a34",
+      "worktree": "withheld in the demo",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789683598848,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1313806,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "42d27425-4790-4ed1-adef-49dc8b17e6d2",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789673135914,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1260017,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ebf9f586-20fb-468d-8efe-5b044ff73e1a",
+      "worktree": "german-box-market-categories-eb263b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789627833168,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1947039,
+          "wait_ms": 146452791,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "17f016d4-a517-4640-9c72-cbce158df5f8",
+      "worktree": "vibrant-turing-e152c0",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 11,
+      "state": "waiting",
+      "last_seen": 1789627691065,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 80601,
+          "wait_ms": 2625957,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 742750,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "8f7f0e20-3fa8-42d7-bb46-5d03f718fcdd",
+      "worktree": "eloquent-lumiere-33fde8",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "abandoned",
+      "last_seen": 1789627662501,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1063930,
+          "wait_ms": 3326591,
+          "inputs": 7,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 5187935,
+          "wait_ms": 156465527,
+          "inputs": 19,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ff0fd88d-7300-48f2-a9d7-bc972380db4a",
+      "worktree": "nice-swanson-8d3943",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789597053317,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1142625,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "c26af56f-fa35-44c0-a7b4-57ebc9ba1fe0",
+      "worktree": "withheld in the demo",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789586380625,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 888276,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "0c316aeb-b78d-460d-8e73-f3ed262cbd01",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789471304843,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d28e6ebb-330a-4a2f-ba9a-2683f1ac2100",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 8,
+      "state": "abandoned",
+      "last_seen": 1789471154572,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1004614,
+          "wait_ms": 0,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 14251592,
+          "wait_ms": 17040163,
+          "inputs": 33,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "9b0f0c6d-93bb-4df9-910e-3dfa1dfdc88c",
+      "worktree": "gracious-elgamal-3c356b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789470546677,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1249111,
+          "wait_ms": 11584431,
+          "inputs": 7,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 1443267,
+          "wait_ms": 3858181,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "2126d0ea-a74c-4413-82e0-e9a6bc065d8c",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789466279385,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "5ec58252-2f07-45c6-8477-62e0d836b01e",
+      "worktree": "vibrant-turing-e152c0",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "abandoned",
+      "last_seen": 1789466222357,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 4042423,
+          "wait_ms": 8013554,
+          "inputs": 14,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "6c324a64-8b90-41d1-8ba9-14b4d7f8e42b",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789465591922,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "50fed633-ab0b-428b-811b-0115b8041bd3",
+      "worktree": "nice-swanson-8d3943",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 11,
+      "state": "waiting",
+      "last_seen": 1789465131672,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 21351,
+          "wait_ms": 1993533,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 92330,
+          "wait_ms": 5642002,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 692758,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b6cddf7f-3da8-414d-86d5-99d55ec7e31f",
+      "worktree": "german-box-market-categories-eb263b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789457722417,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2220140,
+          "wait_ms": 759376,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b045e168-2bdb-4d70-9804-1e096204abcb",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789457566281,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 74960,
+          "wait_ms": 2247977,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1128617,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "eeb7df55-b186-4a49-a547-c0cded6833c7",
+      "worktree": "withheld in the demo",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789456572086,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 400266,
+          "wait_ms": 29867,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "7c86f99e-86d7-4cee-a90a-5868f826b7d4",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789456418472,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "909172d5-720c-4058-8f69-4d1d43eea0f6",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789456366700,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "af433d3e-3ede-4642-bad0-10d8b6bcccee",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789456046718,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "3dff2c31-7022-4d8d-b4f4-a8b4d19c0182",
+      "worktree": "crypto-trader",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789454085669,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "190c67d6-23bc-4801-a140-2d74b0644c9d",
+      "worktree": "gracious-elgamal-3c356b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1789453640570,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "5c7017b9-b04c-4249-b778-2f8213905145",
+      "worktree": "project-overview-dev-pipeline-0c95d9",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789453540225,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 2492607,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 90311,
+          "wait_ms": 423353,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b17e43af-e825-494e-a2dd-4e5bd2e81b56",
+      "worktree": "quizzical-bell-19dffe",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789426412219,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1338132,
+          "wait_ms": 0,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 660621,
+          "wait_ms": 1742268,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 39323,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "56ac9247-e938-4f76-bb75-c5d88505d7aa",
+      "worktree": "dreamy-morse-f22c8a",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789423874132,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 48545,
+          "wait_ms": 0,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 739256,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "77191f7d-c2cd-406e-b69a-b328ee16e45b",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789413699122,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1022967,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "70ea060c-ceb3-4a3c-bf55-de4f88b4b67f",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 8,
+      "state": "abandoned",
+      "last_seen": 1789387505973,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 285048,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 603805,
+          "wait_ms": 177127896,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ef227f5e-a271-4033-b9bb-015b357deefb",
+      "worktree": "mission-control-research-0b5294",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 8,
+      "state": "waiting",
+      "last_seen": 1788988467465.547,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1012226,
+          "wait_ms": 13580140,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 158369
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 505770,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 60617
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "18f25342-d759-4f3a-9f97-d6c98907b57b",
+      "worktree": "project-overview-dev-pipeline-0c95d9",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1788981504322,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "6978adc2-42f3-4064-bfeb-afa4541b3d96",
+      "worktree": "project-overview-dev-pipeline-0c95d9",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 8,
+      "state": "waiting",
+      "last_seen": 1788948558479,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 175227,
+          "wait_ms": 999404,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 37914
+        },
+        {
+          "phase": 2,
+          "work_ms": 656241,
+          "wait_ms": 1356111,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 95023
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 236716,
+          "wait_ms": 165,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 11901
+        },
+        {
+          "phase": 6,
+          "work_ms": 4280866,
+          "wait_ms": 2199973,
+          "inputs": 11,
+          "tokens_usd": 0,
+          "tokens": 545720
+        },
+        {
+          "phase": 7,
+          "work_ms": 649427,
+          "wait_ms": 274372,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 46635
+        },
+        {
+          "phase": 8,
+          "work_ms": 260406,
+          "wait_ms": 32584883,
+          "inputs": 7,
+          "tokens_usd": 0,
+          "tokens": 15621
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "1fde313b-25eb-454f-bbe3-f5cc07130d6e",
+      "worktree": "project-overview-dev-pipeline-0c95d9",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 1,
+      "state": "abandoned",
+      "last_seen": 1788948557713,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d528a2e1-03f7-41dc-bdef-d1e95e3d692f",
+      "worktree": "recursing-torvalds-34827a",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1788871290764,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 97120
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 28035540,
+          "wait_ms": 117387321,
+          "inputs": 17,
+          "tokens_usd": 0,
+          "tokens": 200575267
+        },
+        {
+          "phase": 7,
+          "work_ms": 7707599,
+          "wait_ms": 80524886,
+          "inputs": 21,
+          "tokens_usd": 0,
+          "tokens": 542764
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e0139543-6ca0-48cb-8957-a089e22a0ddb",
+      "worktree": "nostalgic-golick-b0a819",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1788871228500,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 998693,
+          "wait_ms": 108,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 119185
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 10587097,
+          "wait_ms": 221994098,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 540738
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "42be3599-db22-4404-b741-089b926f8456",
+      "worktree": "ecstatic-noyce-639b8c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1788869206828,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 301925,
+          "wait_ms": 11,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 136621
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 36837
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 78629
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 10715031,
+          "wait_ms": 180480179,
+          "inputs": 18,
+          "tokens_usd": 0,
+          "tokens": 681145
+        },
+        {
+          "phase": 7,
+          "work_ms": 344481,
+          "wait_ms": 39727246,
+          "inputs": 12,
+          "tokens_usd": 0,
+          "tokens": 15565
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d33835fa-9218-425d-ac7f-af1cfad1ee5f",
+      "worktree": "pr-gate-data-files-a71db2",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1788867238225,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 220135,
+          "wait_ms": 165915,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 8821
+        },
+        {
+          "phase": 2,
+          "work_ms": 17670,
+          "wait_ms": 13,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 51753
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 42440956,
+          "wait_ms": 13279048,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 381220
+        },
+        {
+          "phase": 7,
+          "work_ms": 91187,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 4113
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    }
+  ],
+  "history": {
+    "sessions": 21,
+    "worktrees": 13,
+    "workMs": 117889184,
+    "waitMs": 889377217,
+    "inputs": 138
+  },
+  "aggregate": [
+    {
+      "phase": 1,
+      "work_ms": 13180908,
+      "wait_ms": 280015759,
+      "inputs": 65,
+      "tokens_usd": 0,
+      "tokens": 558030,
+      "sessions": 37,
+      "score": 0.38944603880052664,
+      "target": false
+    },
+    {
+      "phase": 2,
+      "work_ms": 673911,
+      "wait_ms": 1356124,
+      "inputs": 6,
+      "tokens_usd": 0,
+      "tokens": 146776,
+      "sessions": 2,
+      "score": 0.02190441903425434,
+      "target": false
+    },
+    {
+      "phase": 3,
+      "work_ms": 0,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 36837,
+      "sessions": 1,
+      "score": 0,
+      "target": false
+    },
+    {
+      "phase": 4,
+      "work_ms": 0,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 78629,
+      "sessions": 1,
+      "score": 0,
+      "target": false
+    },
+    {
+      "phase": 5,
+      "work_ms": 1427982,
+      "wait_ms": 165,
+      "inputs": 1,
+      "tokens_usd": 0,
+      "tokens": 11901,
+      "sessions": 4,
+      "score": 0.0035212213784948485,
+      "target": false
+    },
+    {
+      "phase": 6,
+      "work_ms": 129938089,
+      "wait_ms": 871927749,
+      "inputs": 142,
+      "tokens_usd": 0,
+      "tokens": 202724090,
+      "sessions": 28,
+      "score": 1,
+      "target": true
+    },
+    {
+      "phase": 7,
+      "work_ms": 29522606,
+      "wait_ms": 310365154,
+      "inputs": 110,
+      "tokens_usd": 0,
+      "tokens": 669694,
+      "sessions": 12,
+      "score": 0.5653003610635012,
+      "target": false
+    },
+    {
+      "phase": 8,
+      "work_ms": 15115803,
+      "wait_ms": 226752942,
+      "inputs": 45,
+      "tokens_usd": 0,
+      "tokens": 15621,
+      "sessions": 3,
+      "score": 0.2884803668092413,
+      "target": false
+    },
+    {
+      "phase": 9,
+      "work_ms": 0,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 0,
+      "sessions": 0,
+      "score": 0,
+      "target": false
+    },
+    {
+      "phase": 10,
+      "work_ms": 0,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 0,
+      "sessions": 0,
+      "score": 0,
+      "target": false
+    },
+    {
+      "phase": 11,
+      "work_ms": 1435508,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 0,
+      "sessions": 2,
+      "score": 0,
+      "target": false
+    },
+    {
+      "phase": 12,
+      "work_ms": 0,
+      "wait_ms": 0,
+      "inputs": 0,
+      "tokens_usd": 0,
+      "tokens": 0,
+      "sessions": 0,
+      "score": 0,
+      "target": false
+    }
+  ]
+}

@@ -3,6 +3,8 @@ coverage/
 demo/site/
 # Fixtures are input data: their exact bytes are what the tests read.
 test/fixtures/
+# The demo's snapshot is signed by its hash: re-formatting a byte would void the sign-off.
+demo/data/
 # The pages' markup is laid out by hand: Prettier would re-indent it and add text nodes between elements, which
 # changes the page's DOM, and the page tests read tags as written. Their styles and scripts (web/pages/) are formatted.
 web/*.html

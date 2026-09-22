@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "generated_at": 1790067701323,
+  "scheduler": {
+    "tick_age_ms": 711,
+    "mode": "idle",
+    "blocked": "nothing queued",
+    "stalled": false
+  },
+  "running": [],
+  "waiting": [],
+  "history": {
+    "runs": 85,
+    "p25": 26,
+    "median": 28,
+    "p75": 36,
+    "p90": 52,
+    "window_days": 14
+  },
+  "state": "data"
+}
