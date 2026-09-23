@@ -17,3 +17,10 @@ accessibility scan of every panel. It needs Chromium once: `npx playwright insta
   share; each page's own code is ES modules in `web/pages/<page>/`, loaded by the browser as they are.
 - **No build step.** What is in the repo is what runs: no bundler, no transpiler, no generated code.
 - **Comments say why.** State the reason in its own words; the code already says what it does.
+
+## How a change reaches `main`
+
+`main` takes pull requests only: no direct pushes, no force-pushes, no deleting the branch. Every merge also needs a
+`private-scan` status on the pull request's head commit. Flowwatch was extracted from a private repo, and that check
+is the maintainer's own scan of the commit for anything belonging to it; it runs outside GitHub, so it appears on a
+pull request once the maintainer has run it. Open the pull request as usual — the check is theirs to add.
