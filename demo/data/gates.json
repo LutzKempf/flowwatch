@@ -1,8 +1,8 @@
 {
   "format": 1,
-  "generated_at": 1790067701323,
+  "generated_at": 1790149364182,
   "scheduler": {
-    "tick_age_ms": 711,
+    "tick_age_ms": 63482,
     "mode": "idle",
     "blocked": "nothing queued",
     "stalled": false
@@ -10,10 +10,10 @@
   "running": [],
   "waiting": [],
   "history": {
-    "runs": 85,
+    "runs": 84,
     "p25": 26,
     "median": 28,
-    "p75": 36,
+    "p75": 34,
     "p90": 52,
     "window_days": 14
   },

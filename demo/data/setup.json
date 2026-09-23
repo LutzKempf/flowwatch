@@ -29,8 +29,8 @@
       "required": true,
       "title": "Session tracking hooks",
       "step": "5 Session tracking",
-      "state": "missing",
-      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
+      "state": "ok",
+      "detail": "installed in .claude/settings.json, running scripts/flowwatch/hooks/emit.js"
     },
     {
       "id": "stages",
@@ -81,17 +81,8 @@
       "step": "4 Optional panels"
     }
   ],
-  "banner": [
-    {
-      "id": "hooks",
-      "required": true,
-      "title": "Session tracking hooks",
-      "step": "5 Session tracking",
-      "state": "missing",
-      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
-    }
-  ],
-  "ok": false,
-  "lastEventAt": 1790011799590,
-  "repoRoot": "~/code/crypto-trader\\.claude\\worktrees\\flowwatch-sbs"
+  "banner": [],
+  "ok": true,
+  "lastEventAt": 1790149358076,
+  "repoRoot": "~/code/crypto-trader\\.claude\\worktrees\\dashboards-host"
 }

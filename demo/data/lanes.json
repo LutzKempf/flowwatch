@@ -1,10 +1,10 @@
 {
-  "generated_at": 1790067700920,
+  "generated_at": 1790149363683,
   "window_days": 14,
   "sources": {
     "app_records": "ok"
   },
-  "capability_lanes_from": "categories",
+  "capability_lanes_from": "inference only",
   "stories_touched_from": "git",
   "cleanup_skill": {
     "name": "close-out",
@@ -41,7 +41,7 @@
           "capability": "crypto-mm",
           "implemented": 24,
           "total": 89,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -113,7 +113,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 59
+          "days_since_touched": null
         },
         {
           "topic": "2026-07-24-multi-lane-live-subs",
@@ -124,7 +124,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 57
+          "days_since_touched": 58
         },
         {
           "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
@@ -136,7 +136,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 55
+          "days_since_touched": 56
         },
         {
           "topic": "2026-07-25-crypto-mm-phantom-settlement-count-once",
@@ -147,7 +147,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 53
+          "days_since_touched": 54
         },
         {
           "topic": "2026-07-26-crypto-mm-recycle-within-market",
@@ -158,7 +158,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 54
+          "days_since_touched": 55
         },
         {
           "topic": "2026-08-05-crypto-mm-tier-1-failures",
@@ -169,7 +169,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 47
+          "days_since_touched": 48
         },
         {
           "topic": "2026-08-06-crypto-mm-tier-2-verdict-and-config-honesty",
@@ -180,7 +180,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 46
+          "days_since_touched": 47
         },
         {
           "topic": "2026-08-06-crypto-mm-upstream-stall-pause",
@@ -191,7 +191,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 45
+          "days_since_touched": 46
         },
         {
           "topic": "2026-08-10-crypto-mm-feedless-child-refork-loop",
@@ -202,7 +202,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 24
+          "days_since_touched": 25
         },
         {
           "topic": "withheld in the demo",
@@ -216,7 +216,7 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 34
+          "days_since_touched": 35
         },
         {
           "topic": "2026-08-20-crypto-mm-unattended-12h",
@@ -227,14 +227,14 @@
           "under": [
             "crypto-mm"
           ],
-          "days_since_touched": 28
+          "days_since_touched": 29
         },
         {
           "topic": "2026-08-28-alt-mm-adopt-crypto-mm-money-safety",
           "status": "proposed",
           "capabilities": [],
           "under": [],
-          "days_since_touched": 21
+          "days_since_touched": 22
         }
       ]
     },
@@ -253,7 +253,7 @@
           "capability": "alt-mm",
           "implemented": 17,
           "total": 43,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -337,14 +337,14 @@
           "under": [
             "alt-mm"
           ],
-          "days_since_touched": 34
+          "days_since_touched": 35
         },
         {
           "topic": "2026-08-29-alt-mm-spread-aware-market-picker",
           "status": "proposed",
           "capabilities": [],
           "under": [],
-          "days_since_touched": 21
+          "days_since_touched": 22
         }
       ]
     },
@@ -363,7 +363,7 @@
           "capability": "index-mm",
           "implemented": 0,
           "total": 7,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -380,7 +380,7 @@
           "under": [
             "index-mm"
           ],
-          "days_since_touched": 59
+          "days_since_touched": null
         },
         {
           "topic": "2026-07-21-index-mm-trustworthy-backtest",
@@ -392,7 +392,7 @@
           "under": [
             "index-mm"
           ],
-          "days_since_touched": 59
+          "days_since_touched": null
         }
       ]
     },
@@ -411,7 +411,7 @@
           "capability": "settler",
           "implemented": 0,
           "total": 0,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [
@@ -424,7 +424,7 @@
           "under": [
             "settler"
           ],
-          "days_since_touched": 7
+          "days_since_touched": 8
         },
         {
           "topic": "2026-09-10-settler-phase3-live",
@@ -435,7 +435,7 @@
           "under": [
             "settler"
           ],
-          "days_since_touched": 7
+          "days_since_touched": 8
         }
       ],
       "older_stories": 0,
@@ -462,11 +462,30 @@
           "capability": "crypto-taker",
           "implemented": 131,
           "total": 157,
-          "lane_from": "categories"
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "front-runner-recorder",
+          "implemented": 36,
+          "total": 52,
+          "lane_from": "inferred"
         }
       ],
-      "stories": [],
-      "older_stories": 4,
+      "stories": [
+        {
+          "topic": "2026-08-10-dev-book-recording-opt-in",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 13
+        }
+      ],
+      "older_stories": 6,
       "older": [
         {
           "topic": "2026-06-20-frbot-decision-loop-isolation",
@@ -480,6 +499,18 @@
           "days_since_touched": null
         },
         {
+          "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "front-runner-recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 56
+        },
+        {
           "topic": "2026-08-05-frbot-fak-entry",
           "status": "proposed",
           "capabilities": [
@@ -488,7 +519,7 @@
           "under": [
             "crypto-taker"
           ],
-          "days_since_touched": 18
+          "days_since_touched": 19
         },
         {
           "topic": "withheld in the demo",
@@ -502,7 +533,19 @@
           "under": [
             "crypto-taker"
           ],
-          "days_since_touched": 34
+          "days_since_touched": 35
+        },
+        {
+          "topic": "2026-08-27-recorder-finalized-market-retention",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 24
         },
         {
           "topic": "2026-09-01-rotator-boundary-promote",
@@ -513,7 +556,7 @@
           "under": [
             "crypto-taker"
           ],
-          "days_since_touched": 20
+          "days_since_touched": 21
         }
       ]
     },
@@ -532,7 +575,7 @@
           "capability": "alt-taker",
           "implemented": 0,
           "total": 4,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -554,7 +597,7 @@
           "capability": "index-taker",
           "implemented": 0,
           "total": 4,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -576,25 +619,25 @@
           "capability": "arb-optimizer",
           "implemented": 4,
           "total": 11,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         },
         {
           "capability": "arb-trader-backtest",
           "implemented": 0,
           "total": 2,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         },
         {
           "capability": "arb-trader-dryrun",
           "implemented": 4,
           "total": 12,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         },
         {
           "capability": "arb-trader-live",
           "implemented": 4,
           "total": 13,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -612,7 +655,7 @@
           "under": [
             "arb-trader-live"
           ],
-          "days_since_touched": 34
+          "days_since_touched": 35
         }
       ]
     },
@@ -631,19 +674,19 @@
           "capability": "forecast-trader-backtest",
           "implemented": 4,
           "total": 11,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         },
         {
           "capability": "forecast-trader-live",
           "implemented": 2,
           "total": 15,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         },
         {
           "capability": "forecast-trader-paper",
           "implemented": 5,
           "total": 14,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
@@ -662,16 +705,10 @@
       "sessions": [],
       "specs": [
         {
-          "capability": "front-runner-recorder",
-          "implemented": 36,
-          "total": 52,
-          "lane_from": "categories"
-        },
-        {
           "capability": "recorder",
           "implemented": 26,
           "total": 47,
-          "lane_from": "categories"
+          "lane_from": "inferred"
         }
       ],
       "stories": [
@@ -683,13 +720,12 @@
             "recorder"
           ],
           "under": [
-            "front-runner-recorder",
             "recorder"
           ],
-          "days_since_touched": 12
+          "days_since_touched": 13
         }
       ],
-      "older_stories": 4,
+      "older_stories": 3,
       "older": [
         {
           "topic": "2026-07-14-index-mm-trader",
@@ -702,7 +738,7 @@
           "under": [
             "recorder"
           ],
-          "days_since_touched": 59
+          "days_since_touched": null
         },
         {
           "topic": "2026-07-21-index-mm-trustworthy-backtest",
@@ -714,19 +750,7 @@
           "under": [
             "recorder"
           ],
-          "days_since_touched": 59
-        },
-        {
-          "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm",
-            "front-runner-recorder"
-          ],
-          "under": [
-            "front-runner-recorder"
-          ],
-          "days_since_touched": 55
+          "days_since_touched": null
         },
         {
           "topic": "2026-08-27-recorder-finalized-market-retention",
@@ -736,21 +760,20 @@
             "recorder"
           ],
           "under": [
-            "front-runner-recorder",
             "recorder"
           ],
-          "days_since_touched": 23
+          "days_since_touched": 24
         }
       ]
     },
     {
       "name": "Retro",
-      "waiting": 3,
+      "waiting": 2,
       "totals": {
-        "work_ms": 9828694,
-        "wait_ms": 316506401,
+        "work_ms": 9022255,
+        "wait_ms": 308870866,
         "tokens": 0,
-        "inputs": 35
+        "inputs": 32
       },
       "sessions": [
         {
@@ -758,7 +781,7 @@
           "worktree": "german-box-market-categories-eb263b",
           "title": "Retro: Cover order routes outside traders in live-path list",
           "app_session_id": "local_46411329-cc5e-484c-8914-ca9fae8fb79c",
-          "app_archived": false,
+          "app_archived": true,
           "branch": "claude/optimistic-wing-cda0b2",
           "category": "Retro",
           "category_from": "title prefix",
@@ -1109,125 +1132,6 @@
             "tokens": 0,
             "inputs": 26
           }
-        },
-        {
-          "id": "50fed633-ab0b-428b-811b-0115b8041bd3",
-          "worktree": "nice-swanson-8d3943",
-          "title": "Retro: Reconcile .milestone with the root-file guard",
-          "app_session_id": "local_51f4640f-54b5-4ffd-9392-8d8e4da42bf5",
-          "app_archived": true,
-          "branch": "claude/quizzical-saha-a96f3b",
-          "category": "Retro",
-          "category_from": "title prefix",
-          "state": "waiting",
-          "stale": true,
-          "origin": "live",
-          "phase": 11,
-          "last_seen": 1789465131672,
-          "phases": [
-            {
-              "phase": 1,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 2,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 3,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 4,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 5,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 6,
-              "work_ms": 21351,
-              "wait_ms": 1993533,
-              "inputs": 2,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 7,
-              "work_ms": 92330,
-              "wait_ms": 5642002,
-              "inputs": 1,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 8,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 9,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 10,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 11,
-              "work_ms": 692758,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 12,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            }
-          ],
-          "totals": {
-            "work_ms": 806439,
-            "wait_ms": 7635535,
-            "tokens": 0,
-            "inputs": 3
-          }
         }
       ],
       "specs": [
@@ -1297,12 +1201,12 @@
     },
     {
       "name": null,
-      "waiting": 1,
+      "waiting": 0,
       "totals": {
-        "work_ms": 20500031,
-        "wait_ms": 33157451,
+        "work_ms": 76222825,
+        "wait_ms": 93042211,
         "tokens": 0,
-        "inputs": 61
+        "inputs": 76
       },
       "sessions": [
         {
@@ -1314,11 +1218,11 @@
           "branch": "claude/mission-control-research-0b5294",
           "category": null,
           "category_from": null,
-          "state": "abandoned",
-          "stale": true,
+          "state": "working",
+          "stale": false,
           "origin": "live",
           "phase": 7,
-          "last_seen": 1790011799590,
+          "last_seen": 1790149358076,
           "phases": [
             {
               "phase": 1,
@@ -1370,9 +1274,9 @@
             },
             {
               "phase": 7,
-              "work_ms": 12897163,
-              "wait_ms": 15814236,
-              "inputs": 36,
+              "work_ms": 71312335,
+              "wait_ms": 91141608,
+              "inputs": 64,
               "tokens_usd": 0,
               "tokens": 0
             },
@@ -1418,129 +1322,10 @@
             }
           ],
           "totals": {
-            "work_ms": 17807653,
-            "wait_ms": 17714839,
+            "work_ms": 76222825,
+            "wait_ms": 93042211,
             "tokens": 0,
-            "inputs": 48
-          }
-        },
-        {
-          "id": "9b0f0c6d-93bb-4df9-910e-3dfa1dfdc88c",
-          "worktree": "gracious-elgamal-3c356b",
-          "title": "Ponytail plugin integration",
-          "app_session_id": "local_0501ff52-91e0-47e1-af2c-3ad7a8fafd91",
-          "app_archived": false,
-          "branch": "claude/ponytail-plugin-integration-68801b",
-          "category": null,
-          "category_from": null,
-          "state": "waiting",
-          "stale": true,
-          "origin": "live",
-          "phase": 7,
-          "last_seen": 1789470546677,
-          "phases": [
-            {
-              "phase": 1,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 1,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 2,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 3,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 4,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 5,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 6,
-              "work_ms": 1249111,
-              "wait_ms": 11584431,
-              "inputs": 7,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 7,
-              "work_ms": 1443267,
-              "wait_ms": 3858181,
-              "inputs": 5,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 8,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 9,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 10,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 11,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 12,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            }
-          ],
-          "totals": {
-            "work_ms": 2692378,
-            "wait_ms": 15442612,
-            "tokens": 0,
-            "inputs": 13
+            "inputs": 76
           }
         }
       ],
@@ -1627,7 +1412,7 @@
           "under": [
             "agent-live-verification"
           ],
-          "days_since_touched": 40
+          "days_since_touched": 41
         }
       ]
     }
@@ -1638,6 +1423,46 @@
       "app_session_id": "local_c402bbd3-984c-47ec-be53-c6f6221f10b3",
       "app_archived": false,
       "branch": "claude/mission-control-research-0b5294",
+      "category": null,
+      "category_from": null
+    },
+    "77af8b95-01e9-4f86-bdd1-fd9c9075d369": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_6bd9a2e1-2ff6-4293-94f7-67dcfb509039",
+      "app_archived": true,
+      "branch": "claude/cool-thompson-817d0c",
+      "category": null,
+      "category_from": null
+    },
+    "18716ae3-afa1-4e38-bc3d-d222b37a1719": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_da829531-18b3-481f-b70f-742d9dd32321",
+      "app_archived": true,
+      "branch": "claude/ecstatic-snyder-3d2b7a",
+      "category": null,
+      "category_from": null
+    },
+    "ec51e6a3-e0fd-4629-a24c-6524044ae640": {
+      "title": "Daily spec openspec audit",
+      "app_session_id": "local_e15900e4-bb2c-43b6-9ac2-8d6beb4aff83",
+      "app_archived": false,
+      "branch": "claude/amazing-moser-56c003",
+      "category": null,
+      "category_from": null
+    },
+    "64673e6c-e358-487b-8ff8-63ce66d0c993": {
+      "title": "Daily income the exchange session",
+      "app_session_id": "local_205afb56-3167-4600-978c-da701c721978",
+      "app_archived": false,
+      "branch": "claude/suspicious-kapitsa-8e1c77",
+      "category": null,
+      "category_from": null
+    },
+    "e4fd38ea-2a4d-4dc2-8977-9f1b75e255bb": {
+      "title": "Graphify at the end of the day",
+      "app_session_id": "local_e23aa271-f0de-45d3-9495-29ee2cdf672c",
+      "app_archived": true,
+      "branch": "claude/angry-matsumoto-9d8bd3",
       "category": null,
       "category_from": null
     },
@@ -1652,7 +1477,7 @@
     "ba5b568d-a030-4f7e-973d-cb8d9fcefe09": {
       "title": "Graphify at the end of the day",
       "app_session_id": "local_28375668-d42c-4872-948e-1653efd91516",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/nervous-torvalds-e689c3",
       "category": null,
       "category_from": null
@@ -1660,7 +1485,7 @@
     "9d71513e-50a0-482a-bd31-98550288d447": {
       "title": "Weekly branch worktree cleanup",
       "app_session_id": "local_9887d922-ffda-4a18-be1d-87f6144dcd4a",
-      "app_archived": false,
+      "app_archived": true,
       "branch": null,
       "category": null,
       "category_from": null
@@ -1676,7 +1501,7 @@
     "7461493d-1e61-4e5a-af9b-ff948cd33b5e": {
       "title": "Weekly memory rot check",
       "app_session_id": "local_c93f2fe5-92d6-4d16-8116-36b0a2a62d02",
-      "app_archived": false,
+      "app_archived": true,
       "branch": null,
       "category": null,
       "category_from": null
@@ -1684,7 +1509,7 @@
     "1add862e-4abf-48c4-8799-e504b4b4fe4c": {
       "title": "Daily spec openspec audit",
       "app_session_id": "local_6201d592-1c4e-4860-80ad-bfb2146154bf",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/quizzical-solomon-1d2cf7",
       "category": null,
       "category_from": null
@@ -1692,7 +1517,7 @@
     "61506568-41f8-4532-8fc1-b4254a2f296e": {
       "title": "Graphify at the end of the day",
       "app_session_id": "local_ca071c62-d8af-4295-9152-dff16ecda19e",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/vigorous-galileo-d204ad",
       "category": null,
       "category_from": null
@@ -1700,7 +1525,7 @@
     "e9d7fccf-7cd4-4825-a3e0-fedb8e43113c": {
       "title": "crypto-trader db backup",
       "app_session_id": "local_9d6ec306-0746-4e28-83ea-1842d72510c3",
-      "app_archived": false,
+      "app_archived": true,
       "branch": null,
       "category": null,
       "category_from": null
@@ -1716,7 +1541,7 @@
     "5c405e84-eca8-476c-8302-f6983bb6cb94": {
       "title": "Automation loop ideas",
       "app_session_id": "local_a9e19bb4-d610-44a9-a9c5-ceb2d2dd5652",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/gifted-haslett-1a528a",
       "category": null,
       "category_from": null
@@ -1724,7 +1549,7 @@
     "30e7a9c7-11b3-4a75-903f-2015fbc4af1a": {
       "title": "Weekly linting health check",
       "app_session_id": "local_45843dc1-9d24-4b6b-a630-989b96ebdbd4",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/epic-goldberg-1f9f93",
       "category": null,
       "category_from": null
@@ -1732,7 +1557,7 @@
     "bbda1992-8d61-4cb6-b965-d008f873c894": {
       "title": "Task rot routine",
       "app_session_id": "local_0b0d3de1-a422-43b9-b0d0-92a22c158728",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/jovial-bouman-425b93",
       "category": null,
       "category_from": null
@@ -1740,7 +1565,7 @@
     "7573b71f-99be-401a-ba7a-5e1adab7d1f5": {
       "title": "Daily spec openspec audit",
       "app_session_id": "local_f557ccfe-6e74-40e2-bcbb-581989d8d033",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/lucid-lamport-f8a150",
       "category": null,
       "category_from": null
@@ -1748,7 +1573,7 @@
     "d6647de6-7250-47db-8384-895fb8dc9980": {
       "title": "Graphify at the end of the day",
       "app_session_id": "local_a8afd297-a9b1-469f-afc7-d95ac271a5c8",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/determined-cartwright-1ac084",
       "category": null,
       "category_from": null
@@ -1756,7 +1581,7 @@
     "2ee97700-f9ee-4b67-a20e-95ad0eaa1a34": {
       "title": "Daily spec openspec audit",
       "app_session_id": "local_d99ce5db-089a-45c8-bf7f-7b0437c91c0e",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/focused-cray-58177a",
       "category": null,
       "category_from": null
@@ -1764,7 +1589,7 @@
     "42d27425-4790-4ed1-adef-49dc8b17e6d2": {
       "title": "Graphify at the end of the day",
       "app_session_id": "local_f57f1595-c8e7-418c-b9b0-f413d1958017",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/relaxed-goodall-74773c",
       "category": null,
       "category_from": null
@@ -1772,7 +1597,7 @@
     "ebf9f586-20fb-468d-8efe-5b044ff73e1a": {
       "title": "Retro: Cover order routes outside traders in live-path list",
       "app_session_id": "local_46411329-cc5e-484c-8914-ca9fae8fb79c",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/optimistic-wing-cda0b2",
       "category": "Retro",
       "category_from": "title prefix"
@@ -1796,7 +1621,7 @@
     "ff0fd88d-7300-48f2-a9d7-bc972380db4a": {
       "title": "Daily spec openspec audit",
       "app_session_id": "local_e6e82873-e717-44b6-b1d4-ca99c1d19349",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/happy-dirac-088c9f",
       "category": null,
       "category_from": null
@@ -1804,29 +1629,13 @@
     "c26af56f-fa35-44c0-a7b4-57ebc9ba1fe0": {
       "title": "Graphify at the end of the day",
       "app_session_id": "local_9dd8f9dc-f138-42b0-a8d7-8addf27c02c7",
-      "app_archived": false,
+      "app_archived": true,
       "branch": "claude/sweet-sutherland-64e5d8",
       "category": null,
       "category_from": null
-    },
-    "9b0f0c6d-93bb-4df9-910e-3dfa1dfdc88c": {
-      "title": "Ponytail plugin integration",
-      "app_session_id": "local_0501ff52-91e0-47e1-af2c-3ad7a8fafd91",
-      "app_archived": false,
-      "branch": "claude/ponytail-plugin-integration-68801b",
-      "category": null,
-      "category_from": null
-    },
-    "50fed633-ab0b-428b-811b-0115b8041bd3": {
-      "title": "Retro: Reconcile .milestone with the root-file guard",
-      "app_session_id": "local_51f4640f-54b5-4ffd-9392-8d8e4da42bf5",
-      "app_archived": true,
-      "branch": "claude/quizzical-saha-a96f3b",
-      "category": "Retro",
-      "category_from": "title prefix"
     }
   },
-  "routine_runs": 18,
-  "without_app_record": 3,
-  "earlier_parts": 4
+  "routine_runs": 23,
+  "without_app_record": 0,
+  "earlier_parts": 2
 }
