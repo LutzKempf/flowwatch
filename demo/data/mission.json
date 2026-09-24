@@ -1,36 +1,129 @@
 {
   "mission": {
-    "file": null,
-    "template": "# <What this repo is trying to achieve, in a few words>\n\n<One paragraph: the outcome that matters, and how you will know you are getting closer to it.\nFlowwatch shows this under the title on every visit.>\n\n## Focus\n\n<The one thing being pushed right now. Optional.>\n\n## Milestones\n\n- `first-milestone` <What done looks like> — specs: <openspec capability>; workstreams: <stages feed row id>\n\n## Categories\n\n- <Lane> — specs: <openspec capability>, <capability prefix>-*\n\n<Lane>, <Lane>\n",
-    "title": null,
-    "statement": null,
-    "focus": null,
-    "milestones": [],
-    "categories": [],
-    "categorySpecs": {},
+    "file": "docs/MISSION.md",
+    "title": "Real, verified trades",
+    "statement": "Cross the line from mock-green to bounded, real-money verification — and only then to an edge that survives contact with the market. Progress is measured in settled round-trips, not merged pull requests.",
+    "focus": "Real, verified trades — stand up Agent Live Verification and drive the MM lanes to first real trades.",
+    "milestones": [
+      {
+        "id": "live-verification",
+        "title": "Agent Live Verification envelope",
+        "specs": [
+          "agent-live-verification"
+        ],
+        "workstreams": [
+          "crypto-mm",
+          "alt-mm",
+          "crypto-taker"
+        ]
+      },
+      {
+        "id": "crypto-mm-live",
+        "title": "Crypto-MM go-live",
+        "specs": [
+          "crypto-mm"
+        ],
+        "workstreams": [
+          "crypto-mm"
+        ]
+      },
+      {
+        "id": "alt-mm-live",
+        "title": "alt-mm live-readiness",
+        "specs": [
+          "alt-mm"
+        ],
+        "workstreams": [
+          "alt-mm"
+        ]
+      },
+      {
+        "id": "frbot-live",
+        "title": "Front-Runner (crypto-taker) LIVE = backtest edge",
+        "specs": [
+          "crypto-taker",
+          "front-runner-recorder",
+          "crypto-taker-backtest",
+          "live-test-runner"
+        ],
+        "workstreams": [
+          "crypto-taker"
+        ]
+      },
+      {
+        "id": "probability-live",
+        "title": "Forecast trader: live captures paper edge",
+        "specs": [
+          "forecast-trader-live",
+          "forecast-trader-paper",
+          "forecast-trader-backtest",
+          "edge-monitor"
+        ],
+        "workstreams": [
+          "probability"
+        ]
+      },
+      {
+        "id": "co-location-latency",
+        "title": "Latency co-location",
+        "specs": [
+          "exchange-latency-monitor",
+          "live-test-runner"
+        ],
+        "workstreams": []
+      }
+    ],
+    "categories": [
+      "CryptoMM",
+      "AltMM",
+      "IndexMM",
+      "Settler",
+      "FR-Bot",
+      "AltTaker",
+      "IndexTaker",
+      "Arb",
+      "Forecast",
+      "Recorder",
+      "Retro",
+      "Architecture"
+    ],
+    "categorySpecs": {
+      "CryptoMM": [],
+      "AltMM": [],
+      "IndexMM": [],
+      "Settler": [],
+      "FR-Bot": [],
+      "AltTaker": [],
+      "IndexTaker": [],
+      "Arb": [],
+      "Forecast": [],
+      "Recorder": [],
+      "Retro": [],
+      "Architecture": []
+    },
     "problems": []
   },
   "sources": {
-    "mission": null,
+    "mission": "docs/MISSION.md",
     "specs": true,
     "changes": true,
-    "wiring": null
+    "wiring": "docs/flowwatch.json"
   },
   "panels": {
     "stages": {
-      "state": "not-set-up"
+      "state": "data"
     },
     "ideas": {
-      "state": "not-set-up"
+      "state": "data"
     },
     "value": {
-      "state": "not-set-up"
+      "state": "data"
     },
     "specs": {
       "state": "data"
     }
   },
-  "focus": null,
+  "focus": "Real, verified trades — stand up Agent Live Verification and drive the MM lanes to first real trades.",
   "totals": {
     "implemented": 362,
     "known_broken": 53,
@@ -232,12 +325,19 @@
   "activeChanges": 38,
   "archivedChanges": 67,
   "changesByLane": {
-    "other": 38
+    "other": 7,
+    "Retro": 1,
+    "FR-Bot": 5,
+    "AltMM": 6,
+    "CryptoMM": 15,
+    "Recorder": 1,
+    "Arb": 1,
+    "Settler": 2
   },
   "velocity": {
-    "totalPRs": 227,
+    "totalPRs": 232,
     "perWeek": {
-      "2026-W31": 5,
+      "2026-W31": 4,
       "2026-W32": 31,
       "2026-W33": 47,
       "2026-W34": 22,
@@ -245,12 +345,965 @@
       "2026-W36": 43,
       "2026-W37": 24,
       "2026-W38": 25,
-      "2026-W39": 5
+      "2026-W39": 11
     },
-    "trailing7d": 5
+    "trailing7d": 11
   },
-  "milestones": [],
-  "value": null,
-  "stages": null,
-  "ideas": null
+  "milestones": [
+    {
+      "id": "live-verification",
+      "title": "Agent Live Verification envelope",
+      "specs": [
+        "agent-live-verification"
+      ],
+      "workstreams": [
+        "crypto-mm",
+        "alt-mm",
+        "crypto-taker"
+      ],
+      "specImplemented": 7,
+      "specTotal": 8,
+      "frontier": 12,
+      "status": "live-validated"
+    },
+    {
+      "id": "crypto-mm-live",
+      "title": "Crypto-MM go-live",
+      "specs": [
+        "crypto-mm"
+      ],
+      "workstreams": [
+        "crypto-mm"
+      ],
+      "specImplemented": 24,
+      "specTotal": 89,
+      "frontier": 12,
+      "status": "live-validated"
+    },
+    {
+      "id": "alt-mm-live",
+      "title": "alt-mm live-readiness",
+      "specs": [
+        "alt-mm"
+      ],
+      "workstreams": [
+        "alt-mm"
+      ],
+      "specImplemented": 17,
+      "specTotal": 43,
+      "frontier": 1,
+      "status": "scoped"
+    },
+    {
+      "id": "frbot-live",
+      "title": "Front-Runner (crypto-taker) LIVE = backtest edge",
+      "specs": [
+        "crypto-taker",
+        "front-runner-recorder",
+        "crypto-taker-backtest",
+        "live-test-runner"
+      ],
+      "workstreams": [
+        "crypto-taker"
+      ],
+      "specImplemented": 201,
+      "specTotal": 280,
+      "frontier": 12,
+      "status": "live-validated"
+    },
+    {
+      "id": "probability-live",
+      "title": "Forecast trader: live captures paper edge",
+      "specs": [
+        "forecast-trader-live",
+        "forecast-trader-paper",
+        "forecast-trader-backtest",
+        "edge-monitor"
+      ],
+      "workstreams": [
+        "probability"
+      ],
+      "specImplemented": 15,
+      "specTotal": 52,
+      "frontier": 4,
+      "status": "recording"
+    },
+    {
+      "id": "co-location-latency",
+      "title": "Latency co-location",
+      "specs": [
+        "exchange-latency-monitor",
+        "live-test-runner"
+      ],
+      "workstreams": [],
+      "specImplemented": 17,
+      "specTotal": 47,
+      "frontier": null,
+      "status": "building"
+    }
+  ],
+  "value": {
+    "format": 1,
+    "figures": [
+      {
+        "text": "**0 of 2** live-validated traders generate profit",
+        "tone": "bad"
+      },
+      {
+        "text": "**35 days** since a live run produced a round-trip",
+        "tone": "warn"
+      },
+      {
+        "text": "**−$23.31** realized on chain over **91** round-trips"
+      }
+    ]
+  },
+  "stages": {
+    "stages": [
+      "idea",
+      "strategy",
+      "record",
+      "harness",
+      "backtest",
+      "dash",
+      "paper",
+      "vs bt",
+      "live fd",
+      "fidelity",
+      "live impl",
+      "live val",
+      "profit"
+    ],
+    "milestoneStatus": [
+      "scoped",
+      "scoped",
+      "recording",
+      "recording",
+      "backtested",
+      "backtested",
+      "backtested",
+      "backtested",
+      "backtested",
+      "backtested",
+      "live-implemented",
+      "live-validated",
+      "profitable"
+    ],
+    "workstreams": [
+      {
+        "id": "crypto-mm",
+        "name": "Crypto market maker",
+        "role": "maker",
+        "cells": [
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "passed",
+          "frontier",
+          "none"
+        ],
+        "frontier": 12
+      },
+      {
+        "id": "crypto-taker",
+        "name": "Crypto taker (front-runner bot)",
+        "role": "taker",
+        "cells": [
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "inferred",
+          "passed",
+          "frontier",
+          "none"
+        ],
+        "frontier": 12
+      },
+      {
+        "id": "probability",
+        "name": "Forecast trader (legacy — no validated edge)",
+        "role": "maker",
+        "cells": [
+          "passed",
+          "skipped",
+          "skipped",
+          "frontier",
+          "failed",
+          "failed",
+          "none",
+          "none",
+          "none",
+          "voided",
+          "failed",
+          "failed",
+          "none"
+        ],
+        "frontier": 4
+      },
+      {
+        "id": "settler",
+        "name": "Crypto post-close winner bid (maker)",
+        "role": "maker",
+        "cells": [
+          "passed",
+          "passed",
+          "passed",
+          "frontier",
+          "failed",
+          "voided",
+          "skipped",
+          "voided",
+          "voided",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": 4
+      },
+      {
+        "id": "alt-taker",
+        "name": "withheld in the demo",
+        "role": "taker",
+        "cells": [
+          "passed",
+          "skipped",
+          "skipped",
+          "frontier",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": 4
+      },
+      {
+        "id": "index-mm",
+        "name": "withheld in the demo",
+        "role": "maker",
+        "cells": [
+          "passed",
+          "passed",
+          "failed",
+          "frontier",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": 4
+      },
+      {
+        "id": "index-taker",
+        "name": "withheld in the demo",
+        "role": "taker",
+        "cells": [
+          "passed",
+          "passed",
+          "passed",
+          "frontier",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": 4
+      },
+      {
+        "id": "arb",
+        "name": "Arb trader (legacy)",
+        "role": null,
+        "cells": [
+          "frontier",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": 1
+      },
+      {
+        "id": "alt-mm",
+        "name": "withheld in the demo",
+        "role": "maker",
+        "cells": [
+          "frontier",
+          "none",
+          "none",
+          "none",
+          "failed",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "voided",
+          "voided",
+          "none"
+        ],
+        "frontier": 1
+      },
+      {
+        "id": "front-runner-classic",
+        "name": "Front-runner classic (legacy; hosts shared feed/edge modules)",
+        "role": null,
+        "cells": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "frontier": null
+      }
+    ],
+    "warnings": []
+  },
+  "ideas": {
+    "source": "docs/superpowers/research/2026-09-05-strategy-graveyard-map.md",
+    "sections": [
+      {
+        "title": "Crypto — directional / forecasting",
+        "ideas": [
+          {
+            "n": 1,
+            "name": "Forecast trader — ECDF forecasting maker (quote around an ECDF fair value of P(up))",
+            "verdict": "KILLED (no validated edge; manifest `frontier: null`)",
+            "bucket": "closed",
+            "evidence": "In-sample Brier model 0.2215 vs market 0.2193 (market better); de-biased grid: 15 dates, 18,675 5-min samples, model 0.2171 vs market 0.2169 (tied), walk-forward beats market 2/5 folds, mean +0.0005; paper fill model overstates fills ~20× (no queue); live −$38; live session 2026-05-15/16: 322 fills, 84 markets, 41.7% win, −$10.45; `brier_holdout` never computed, \"+$100k filtered\" = in-sample leakage",
+            "date": "2026-06-03",
+            "docs": "`2026-06-03-probability-edge-investigation-index.md` L6-19, L47-50; `2026-06-03-debiased-recorder-backtest-methodology.md` L115-121; `2026-05-16-live-session-report.md` L12-16, L289-292; `server/src/traders/probability/trader.manifest.json` L8-9"
+          },
+          {
+            "n": 2,
+            "name": "Same ECDF as crypto-MM \"fair model\" veto",
+            "verdict": "KILLED as a veto (recommended replacing with lead-lag/staleness guard; done 2026-08-18 `guard_signal: leadlag`)",
+            "bucket": "closed",
+            "evidence": "Predicate bug `P(return ≥ 0)` vs market `> 0`: tie mass 44.9 pp @30 s, 14.6 pp @582 s (21,021 windows, 1-s klines, 65.6% unchanged closes); live divergence mean +0.1412 vs predicted +0.146; lane paused 98.6% of run",
+            "date": "2026-08-16",
+            "docs": "`2026-08-16-crypto-mm-fair-model-tie-bias-analysis.md` L10-13, L69-77, L86-90, L175-209"
+          },
+          {
+            "n": 3,
+            "name": "Copy-trade / calibrate to a lead directional bot (Ninetothe9th & 7 others)",
+            "verdict": "NO-PASS (over-claimed) → OPEN-UNTESTED (copy-trade sim \"the product question\" never run)",
+            "bucket": "open",
+            "evidence": "withheld in the demo",
+            "date": "2026-05-24",
+            "docs": "`2026-05-23-5min-btc-edge-pass-conclusions.md` L38-60; `2026-05-24-edge-methodology-redteam.md` L18-31; `handovers/2026-04-30-probability-model-vs-bot-analysis.md` L13-31"
+          },
+          {
+            "n": 4,
+            "name": "withheld in the demo",
+            "verdict": "BTC: OPEN / UNPROVEN LIVE (t=0.62); ETH/SOL/XRP: NO-GO",
+            "bucket": "open",
+            "evidence": "withheld in the demo",
+            "date": "2026-08-27",
+            "docs": "withheld in the demo"
+          },
+          {
+            "n": 5,
+            "name": "fr-bot at realistic (2026-06) latency 1.5–2.5 s, FOK at stale cached ask",
+            "verdict": "NO-GO (honest-fill)",
+            "bucket": "closed",
+            "evidence": "Live sub 24: 10 fills, 1 winner, −$21.86; 1,000 markets / 7 days: at latency ≥1500 ms no cell has net>0, filledN≥30, t≥2 for either `cached` or `fresh` limit; fresh best non-thin 10.66¢ t=1.97 (band none)",
+            "date": "2026-06-19",
+            "docs": "`research/2026-06-19-frbot-honest-fill-sweep.md` L9, L142-158"
+          },
+          {
+            "n": 6,
+            "name": "fr-bot B3 IOC/FAK partial fills + headroom",
+            "verdict": "NO-GO",
+            "bucket": "closed",
+            "evidence": "Pre-committed primary cell IOC band[.50,.60] size100 bps2 @1500 ms: filledN 501, net −1.23¢ (t −0.55); FOK baseline −2.34¢; 18 days / 14 clean",
+            "date": "2026-06-20",
+            "docs": "`research/2026-06-20-frbot-b3-ioc-marketable-fill.md` L77-87; `research/2026-06-20-frbot-b3-findings.md` L20-24"
+          },
+          {
+            "n": 7,
+            "name": "fr-bot \"recommended config\" FAK · 0¢ headroom · [0.45,0.55] · 2 bps · size 20 at ~300 ms",
+            "verdict": "PROMISING-NOT-PURSUED (backtest only, \"config to validate, not to flip live\")",
+            "bucket": "open",
+            "evidence": "~+5.5¢/share, t 2.7, n≈591, 13 clean days; flat 0→500 ms, ns by 750 ms, negative past ~1 s",
+            "date": "2026-06-20",
+            "docs": "`research/2026-06-20-frbot-b3-RECOMMENDED-CONFIG.md` L3-5, L29-35, L51-60; `research/2026-06-20-frbot-b3-latency-curve-findings.md` L32-47"
+          },
+          {
+            "n": 8,
+            "name": "fr-bot intra-candle scalp (TP/SL) and tp_then_hold",
+            "verdict": "KILLED",
+            "bucket": "closed",
+            "evidence": "Scalp: 58-61% intra-candle win, net −0.5 to −1.8¢/trade; tp_then_hold 78-80% win but 6-17× less net (+0.4-1.3¢ vs +6.9-7.8¢)",
+            "date": "2026-06-04",
+            "docs": "withheld in the demo"
+          },
+          {
+            "n": 9,
+            "name": "fr-bot maker entry (resting bid) for a directional front-run",
+            "verdict": "KILLED (structurally dominated)",
+            "bucket": "closed",
+            "evidence": "Optimistic maker model fills 4–19% of signals; every cell |t| < 1.6; best cell +7.5¢/fill, t 1.5, n=102 → +1.43¢ per signal-share vs taker +3.06¢",
+            "date": "2026-06-20",
+            "docs": "`research/2026-06-20-frbot-b3-maker-vs-taker-configs.md` L3-7, L48-64"
+          },
+          {
+            "n": 10,
+            "name": "fr-bot volatility-scaled jump trigger `max(floor, k·σ)`",
+            "verdict": "NO EDGE — economic claim WITHDRAWN (ships default-OFF)",
+            "bucket": "closed",
+            "evidence": "Paired vs corrected estimator, 4,684 candles: k=3 −0.13, k=4 −0.22, k=5 −0.17, k=6 −0.12 ¢/candle, paired t −0.27…−0.61, all CIs straddle 0; k=12 and fixed 5 bps significantly worse. Selection findings stand (Q5 retraced 26.2% @5 s vs Q1 1.9%)",
+            "date": "2026-08-28",
+            "docs": "`2026-08-28-jump-detection-volatility-conditioning-findings.md` L1-32; `2026-08-28-volatility-and-our-traders-deep-analysis.md` L1-32 (correction), L361-394 (withdrawn 2.2× claim)"
+          },
+          {
+            "n": 11,
+            "name": "fr-bot raise fixed threshold (3/5 bps)",
+            "verdict": "NO-GO as composition fix (but 5 bps is latency-robust when slow)",
+            "bucket": "closed",
+            "evidence": "Noisy share 86% → 88% → 90%; throughput ÷12; at 1500 ms fixed 5 bps holds 1.66¢/signal (t 3.5) vs 2 bps 0.50¢",
+            "date": "2026-08-28",
+            "docs": "`2026-08-28-jump-detection-volatility-conditioning-findings.md` L151-168; `…deep-analysis.md` L396-441"
+          },
+          {
+            "n": 12,
+            "name": "fr-bot regime-character / variance-ratio feature",
+            "verdict": "NO-GO",
+            "bucket": "closed",
+            "evidence": "Double-sorted within vol bands: t 1.3 / 1.4 / 0.2 on 3,500/cell; combined gate 0.58 vs 0.62 bps",
+            "date": "2026-08-28",
+            "docs": "`…deep-analysis.md` L235-243"
+          },
+          {
+            "n": 13,
+            "name": "fr-bot fee-based economic frontier `dP > fee + margin` as single gate",
+            "verdict": "NO-GO",
+            "bucket": "closed",
+            "evidence": "97% of jumps clear at margin 1; net 3.79¢ vs 3.92¢ baseline",
+            "date": "2026-08-28",
+            "docs": "`…deep-analysis.md` L245-253"
+          },
+          {
+            "n": 14,
+            "name": "fr-bot \"fix\" the stale limit price (limit at fresh ask)",
+            "verdict": "NO-GO (no change)",
+            "bucket": "closed",
+            "evidence": "0.437¢ vs 0.447¢ per signal — identical",
+            "date": "2026-08-28",
+            "docs": "`…deep-analysis.md` L255-263"
+          },
+          {
+            "n": 15,
+            "name": "fr-bot time-of-day rule",
+            "verdict": "DO NOT BUILD",
+            "bucket": "closed",
+            "evidence": "Hour 22 σ=44.1 bps / 31.4% retraced > any daytime hour",
+            "date": "2026-08-28",
+            "docs": "`2026-08-28-jump-detection-…` L137-149"
+          },
+          {
+            "n": 16,
+            "name": "Crypto horizon lead-lag (1 h BTC as satellite of 15 m/5 m)",
+            "verdict": "NO-GO",
+            "bucket": "closed",
+            "evidence": "314,757,295 book events, 3 days; paired 60m−15m lag diff +0.4 s, p=0.185 (n=49); all horizons ~1.0–1.1¢ spread, 1 h 0% of time ≥3¢; xcorr lag 200–300 ms",
+            "date": "2026-07-20",
+            "docs": "`2026-07-20-crypto-horizon-leadlag.md` L3-14, L146-154, L191-205"
+          },
+          {
+            "n": 17,
+            "name": "Recorder PoC \"does the exchange lag Binance\"",
+            "verdict": "GO (signal confirmed) — the premise of #4",
+            "bucket": "open",
+            "evidence": "the exchange `recv−exchange` p50 683–719 ms, Binance 0 ms; 30-min paired study: 319 ≥5 bps jumps, 40% matched, reaction p50 1.6–2.5 s, p90 3.5–4.3 s, 10th pct tens of ms; `lag_from_confirm` p50 −590 to −851 ms",
+            "date": "2026-04-20",
+            "docs": "`2026-04-20-recorder-poc-verdict.md` L7-24; `2026-04-20-recorder-poc-30min-study.md` L5, L18-24, L55-60"
+          },
+          {
+            "n": 60,
+            "name": "withheld in the demo",
+            "verdict": "KILLED (structural, not statistical — the lock and a tradeable ask almost never coexist)",
+            "bucket": "closed",
+            "evidence": "Lock fired 1,612 / 2,093 eligible candles (77.0%), 0 wrong at every margin tested (95% UB 0.186% at m=2); honest fills 0 of 8 days (0.1 opportunities/day, 0 filled); pre-liveness-gate code reported 142 fake \"fills\" at +44.9¢/sh — 91 of 92 sat inside a recorded CLOB outage (frozen 0.50/0.51 seed book)",
+            "date": "2026-09-05",
+            "docs": "`scripts/research/new-strategies-2026-09/crypto-terminal-taker/RESULTS.md` L7 (verdict), L22-23 (fire rate), L42-46 (0 fills), L50-56 (dead-book artefact)"
+          },
+          {
+            "n": 61,
+            "name": "Crypto open-offset (TWAP-strike moneyness) directional signal — `delta = mid(open) - TWAP60(open)` predicts which side starts in the money",
+            "verdict": "STILL DEAD — NO-GO (K1 fail)",
+            "bucket": "closed",
+            "evidence": "Pooled `|z| in [0.2,0.6]` directional excess over the Gaussian `Phi(z)`: +0.0057, Wilson 95% [-0.0144, +0.0254] — needed >= +0.04; BTC+ETH-only cell +0.0127 [-0.016, +0.040] fails identically; 11 of 12 z-buckets sit at or below the Gaussian, excess goes *more negative* as |z| grows (opposite of a real signal)",
+            "date": "2026-09-05",
+            "docs": "`scripts/research/discarded-at-larger-budget-2026-09/crypto-open-offset/RESULTS.md` L1 (verdict), L28-32 (K1 criterion), L36-40 (headline table), L67-70 (calibration table)"
+          },
+          {
+            "n": 62,
+            "name": "Buy the favourite (~0.99) before the BTC 5m candle closes — taker before close, plus a resting-bid maker mirror of the same idea",
+            "verdict": "NO-GO",
+            "bucket": "closed",
+            "evidence": "Every taker entry bucket fails its Wilson lower bound (e.g. −60s: 97.17% win vs 99.17% break-even = −2.00¢/share, n=212); no ask at all in 8,537 of 12,305 observations; resting-bid maker fills adversely — win-when-filled 93.15% vs win-when-not-filled 100% at −60s = −5.79¢/share (1,120 rested, 73 filled); pre-close tick is 0.01, so 0.991 cannot exist",
+            "date": "2026-09-13",
+            "docs": "`docs/superpowers/research/2026-09-13-buying-the-favourite-before-the-close.md` L26-30 (taker table), L36-38 (no-ask count), L54-59 (maker table)"
+          }
+        ],
+        "counts": {
+          "closed": 16,
+          "inconclusive": 0,
+          "open": 4,
+          "unclassified": 0
+        },
+        "latest": "2026-09-13"
+      },
+      {
+        "title": "Crypto — market making",
+        "ideas": [
+          {
+            "n": 18,
+            "name": "withheld in the demo",
+            "verdict": "NEGATIVE EDGE LIVE; KILLED as profit center (\"a measurement, not the profit center\"); lifecycle 12",
+            "bucket": "closed",
+            "evidence": "btc-15m 20 RT / 39 maker fills −$3.10, sold leg won 4× / lost 1×; btc-5m 5 RT −$6.90, 3/5 adverse (+$1.90 vs −$8.95); cumulative crypto-mm rows dominate the −$23.31 ledger; rebate-only break-even adverse bias b ≈ 0.36% at p=0.5; cancel ~600 ms vs 250 ms bump (\"~2.4× too slow\"); NO liquidity rewards on crypto up/down (`rewards.rates: null`; 0 of 1000 sampling markets); pair gross = 2×offset = $0.02/share, one-sided leg ±$0.50/share = 25× the edge → daily sd ≈ $19 vs $8.60 mean",
+            "date": "2026-08-20",
+            "docs": "`research/2026-06-21-frbot-profitable-maker-strategy.md` L20-25, L151-167, L253-274; `live-verification/2026-07-16-crypto-mm-run-to-30-parked-20.md` L50-63; `live-verification/2026-07-25-crypto-mm-btc5m-shakedown.md` L15-40; `2026-08-16-crypto-mm-fair-model-tie-bias-analysis.md` L222-282; `BACKLOG.md` L20-25"
+          },
+          {
+            "n": 19,
+            "name": "crypto-MM hold-out backtest \"go @ 2723 bps\"",
+            "verdict": "ARTIFACT — NOT AN EDGE",
+            "bucket": "closed",
+            "evidence": "held-out edge 2723 bps [307.7, 5158.0]; adverseSelection = −210,649 (negative = filled on the WINNING leg); 80.4% of net not from spread+rebate; realistic queue → 22% fewer fills, only 8% less edge; fill scoring rests on `price_change` fabricated tape",
+            "date": "2026-08-06",
+            "docs": "`backtest/2026-08-06-crypto-mm-holdout-verdict.md` L8-10, L51-93, L98-113; `2026-07-21-price-change-is-not-a-trade.md` L49-59"
+          },
+          {
+            "n": 20,
+            "name": "crypto-MM `asBookMid` (Avellaneda–Stoikov two-sided around book mid)",
+            "verdict": "NOT MEASURED; design calls it \"the riskiest configuration\"",
+            "bucket": "open",
+            "evidence": "—",
+            "date": "2026-06-21",
+            "docs": "`research/2026-06-21-frbot-profitable-maker-strategy.md` L75-78"
+          },
+          {
+            "n": 21,
+            "name": "Maker-rebate MM on 1-tick liquid crypto candles (rebate-only)",
+            "verdict": "THEORETICALLY POSITIVE, THIN, UNVALIDATED",
+            "bucket": "open",
+            "evidence": "24 candles, ~9,000 fills: markout +0.23% @30 s, −0.30% @60 s, +0.49% @180 s (flat) + rebate 0.35% → ≈+0.3%/fill \"before our own fees/gas/latency and before competition compresses the spread\"; markets $5–50k each",
+            "date": "2026-07-14",
+            "docs": "`2026-07-14-crypto-vs-alt-taker-efficiency.md` L11-19, L45-58, L93-98"
+          },
+          {
+            "n": 22,
+            "name": "Crypto daily/weekly strike maker",
+            "verdict": "AVOID",
+            "bucket": "closed",
+            "evidence": "markout −0.19 @60 s, −0.64 @300 s, +0.35 @900 s; 40% mkts negative",
+            "date": "2026-07-14",
+            "docs": "`2026-07-14-wide-spread-uninformed-flow-market-classes.md` L31, L110"
+          },
+          {
+            "n": 23,
+            "name": "Maker rebate scale-up (gabagool22 model)",
+            "verdict": "PROMISING-NOT-PURSUED (deferred by design)",
+            "bucket": "open",
+            "evidence": "gabagool22 $868,872 PnL / $144.8M volume = 0.6%; rebate 0.36% of notional at p=0.5; bankroll ≥50–100× per-market cap; pilot $2–5K",
+            "date": "2026-05-22",
+            "docs": "`research/2026-05-22-maker-rebate-strategy-capital-sizing.md` L56-64, L88-93, L109-121"
+          },
+          {
+            "n": 63,
+            "name": "Crypto 5m post-close winner resting-bid maker (post-only BUY at 0.991, one tick above the settled winner's 0.99 floor, right after candle close; productionized as trader `settler`)",
+            "verdict": "PASS (backtest) → REFUTED LIVE (2026-09-13: the matching engine enforces the announced 0.01 tick, not `/tick-size`'s 0.001, so 0.991 never exists)",
+            "bucket": "closed",
+            "evidence": "withheld in the demo",
+            "date": "2026-09-13",
+            "docs": "`scripts/research/new-strategies-2026-09/crypto-postclose-maker/RESULTS.md` L8-21 (verdict/K1-K4), L47-68 (headline table); `docs/superpowers/live-verification/2026-09-13-settler-engine-tick-refutation.md` L29-38 (rejection), L69-76 (0/37 no-repair table), L84-91 (rival price priority, \"1,095 fills were an artefact\")"
+          }
+        ],
+        "counts": {
+          "closed": 4,
+          "inconclusive": 0,
+          "open": 3,
+          "unclassified": 0
+        },
+        "latest": "2026-09-13"
+      },
+      {
+        "title": "Other markets — market making",
+        "ideas": [
+          {
+            "n": 24,
+            "name": "Idea 24 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 25,
+            "name": "Idea 25 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 26,
+            "name": "Idea 26 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-03"
+          },
+          {
+            "n": 27,
+            "name": "Idea 27 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-21"
+          },
+          {
+            "n": 28,
+            "name": "Idea 28 (another market)",
+            "verdict": "inconclusive",
+            "bucket": "inconclusive",
+            "date": "2026-07-24"
+          },
+          {
+            "n": 29,
+            "name": "Idea 29 (another market)",
+            "verdict": "inconclusive",
+            "bucket": "inconclusive",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 30,
+            "name": "Idea 30 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 31,
+            "name": "Idea 31 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 32,
+            "name": "Idea 32 (another market)",
+            "verdict": "inconclusive",
+            "bucket": "inconclusive",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 59,
+            "name": "Idea 59 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          },
+          {
+            "n": 64,
+            "name": "Idea 64 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          },
+          {
+            "n": 65,
+            "name": "Idea 65 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          },
+          {
+            "n": 66,
+            "name": "Idea 66 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          }
+        ],
+        "counts": {
+          "closed": 9,
+          "inconclusive": 3,
+          "open": 1,
+          "unclassified": 0
+        },
+        "latest": "2026-09-05"
+      },
+      {
+        "title": "Other markets — taking",
+        "ideas": [
+          {
+            "n": 33,
+            "name": "Idea 33 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-21"
+          },
+          {
+            "n": 34,
+            "name": "Idea 34 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-21"
+          },
+          {
+            "n": 35,
+            "name": "Idea 35 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-20"
+          },
+          {
+            "n": 36,
+            "name": "Idea 36 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-20"
+          },
+          {
+            "n": 37,
+            "name": "Idea 37 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 38,
+            "name": "Idea 38 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 39,
+            "name": "Idea 39 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 40,
+            "name": "Idea 40 (another market)",
+            "verdict": "inconclusive",
+            "bucket": "inconclusive",
+            "date": "2026-07-28"
+          },
+          {
+            "n": 41,
+            "name": "Idea 41 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-28"
+          },
+          {
+            "n": 42,
+            "name": "Idea 42 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 43,
+            "name": "Idea 43 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-20"
+          },
+          {
+            "n": 44,
+            "name": "Idea 44 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-15"
+          },
+          {
+            "n": 45,
+            "name": "Idea 45 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-22"
+          },
+          {
+            "n": 46,
+            "name": "Idea 46 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          }
+        ],
+        "counts": {
+          "closed": 10,
+          "inconclusive": 1,
+          "open": 3,
+          "unclassified": 0
+        },
+        "latest": "2026-07-28"
+      },
+      {
+        "title": "Other market classes",
+        "ideas": [
+          {
+            "n": 47,
+            "name": "Idea 47 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-24"
+          },
+          {
+            "n": 48,
+            "name": "Idea 48 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 49,
+            "name": "Idea 49 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 50,
+            "name": "Idea 50 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 51,
+            "name": "Idea 51 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 52,
+            "name": "Idea 52 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 53,
+            "name": "Idea 53 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 54,
+            "name": "Idea 54 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-07-14"
+          },
+          {
+            "n": 55,
+            "name": "Idea 55 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-05-29"
+          },
+          {
+            "n": 56,
+            "name": "Idea 56 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-05-29"
+          },
+          {
+            "n": 57,
+            "name": "Idea 57 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-05-29"
+          },
+          {
+            "n": 58,
+            "name": "Idea 58 (another market)",
+            "verdict": "open or promising",
+            "bucket": "open",
+            "date": "2026-05-29"
+          },
+          {
+            "n": 67,
+            "name": "Idea 67 (another market)",
+            "verdict": "inconclusive",
+            "bucket": "inconclusive",
+            "date": "2026-09-05"
+          },
+          {
+            "n": 68,
+            "name": "Idea 68 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          },
+          {
+            "n": 69,
+            "name": "Idea 69 (another market)",
+            "verdict": "ruled out",
+            "bucket": "closed",
+            "date": "2026-09-05"
+          }
+        ],
+        "counts": {
+          "closed": 7,
+          "inconclusive": 1,
+          "open": 7,
+          "unclassified": 0
+        },
+        "latest": "2026-09-05"
+      }
+    ],
+    "warnings": []
+  }
 }

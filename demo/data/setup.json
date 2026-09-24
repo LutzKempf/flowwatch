@@ -3,9 +3,17 @@
     {
       "id": "mission",
       "required": true,
-      "state": "missing",
+      "state": "ok",
       "title": "The mission (MISSION.md)",
-      "detail": "no MISSION.md at the repo root or in docs/",
+      "detail": "docs/MISSION.md",
+      "step": "3 Write the mission"
+    },
+    {
+      "id": "mission-problems",
+      "required": true,
+      "state": "ok",
+      "title": "MISSION.md reads completely",
+      "detail": "every part read",
       "step": "3 Write the mission"
     },
     {
@@ -13,7 +21,7 @@
       "required": true,
       "state": "ok",
       "title": "flowwatch.json",
-      "detail": "none (optional)",
+      "detail": "docs/flowwatch.json",
       "step": "4 Optional panels"
     },
     {
@@ -21,39 +29,40 @@
       "required": true,
       "title": "Session tracking hooks",
       "step": "5 Session tracking",
-      "state": "missing",
-      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
+      "state": "ok",
+      "detail": "installed in .claude/settings.json, running scripts/flowwatch/hooks/emit.js",
+      "script": "scripts/flowwatch/hooks/emit.js"
     },
     {
       "id": "stages",
       "required": false,
-      "state": "not-set-up",
+      "state": "ok",
       "title": "Stages panel",
-      "detail": "not in flowwatch.json",
+      "detail": "runs node scripts/flowwatch/stages.js",
       "step": "4 Optional panels"
     },
     {
       "id": "ideas",
       "required": false,
-      "state": "not-set-up",
+      "state": "ok",
       "title": "Ideas panel",
-      "detail": "not in flowwatch.json",
+      "detail": "runs node scripts/flowwatch/ideas.js",
       "step": "4 Optional panels"
     },
     {
       "id": "value",
       "required": false,
-      "state": "not-set-up",
+      "state": "ok",
       "title": "Value figures",
-      "detail": "not in flowwatch.json",
+      "detail": "runs node scripts/flowwatch/value.js",
       "step": "4 Optional panels"
     },
     {
       "id": "gates",
       "required": false,
-      "state": "not-set-up",
+      "state": "ok",
       "title": "Gates panel",
-      "detail": "not in flowwatch.json",
+      "detail": "runs node scripts/flowwatch/gates.js",
       "step": "4 Optional panels"
     },
     {
@@ -61,7 +70,7 @@
       "required": false,
       "state": "ok",
       "title": "Session categories",
-      "detail": "from session titles only (\"Category: goal\"); \"sessions.categorize\" in flowwatch.json can name a module that infers the rest",
+      "detail": "infers the rest with scripts/session-title-normalizer.js",
       "step": "4 Optional panels"
     },
     {
@@ -73,57 +82,8 @@
       "step": "4 Optional panels"
     }
   ],
-  "banner": [
-    {
-      "id": "mission",
-      "required": true,
-      "state": "missing",
-      "title": "The mission (MISSION.md)",
-      "detail": "no MISSION.md at the repo root or in docs/",
-      "step": "3 Write the mission"
-    },
-    {
-      "id": "hooks",
-      "required": true,
-      "title": "Session tracking hooks",
-      "step": "5 Session tracking",
-      "state": "missing",
-      "detail": "no hook in .claude/settings.json or settings.local.json runs the Flowwatch emitter"
-    },
-    {
-      "id": "stages",
-      "required": false,
-      "state": "not-set-up",
-      "title": "Stages panel",
-      "detail": "not in flowwatch.json",
-      "step": "4 Optional panels"
-    },
-    {
-      "id": "ideas",
-      "required": false,
-      "state": "not-set-up",
-      "title": "Ideas panel",
-      "detail": "not in flowwatch.json",
-      "step": "4 Optional panels"
-    },
-    {
-      "id": "value",
-      "required": false,
-      "state": "not-set-up",
-      "title": "Value figures",
-      "detail": "not in flowwatch.json",
-      "step": "4 Optional panels"
-    },
-    {
-      "id": "gates",
-      "required": false,
-      "state": "not-set-up",
-      "title": "Gates panel",
-      "detail": "not in flowwatch.json",
-      "step": "4 Optional panels"
-    }
-  ],
-  "ok": false,
-  "lastEventAt": 1790255180602,
+  "banner": [],
+  "ok": true,
+  "lastEventAt": 1790277058326,
   "repoRoot": "~/code/crypto-trader\\.claude\\worktrees\\dashboards-host"
 }

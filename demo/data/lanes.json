@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790255182464,
+  "generated_at": 1790277069269,
   "window_days": 14,
   "sources": {
     "app_records": "ok"
@@ -7,371 +7,258 @@
   "capability_lanes_from": "inference only",
   "stories_touched_from": "git",
   "cleanup_skill": {
-    "name": null,
-    "state": "not-set"
+    "name": "close-out",
+    "state": "installed"
   },
   "repo_root": "~/code/crypto-trader",
-  "categories": [],
+  "categories": [
+    "CryptoMM",
+    "AltMM",
+    "IndexMM",
+    "Settler",
+    "FR-Bot",
+    "AltTaker",
+    "IndexTaker",
+    "Arb",
+    "Forecast",
+    "Recorder",
+    "Retro",
+    "Architecture"
+  ],
   "lanes": [
     {
-      "name": null,
+      "name": "CryptoMM",
       "waiting": 0,
       "totals": {
-        "work_ms": 87909786,
-        "wait_ms": 585059350,
-        "tokens": 5273712,
-        "inputs": 201
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
       },
-      "sessions": [
-        {
-          "id": "f24d3aa8-03a6-4012-8d6b-450bd8231bcc",
-          "worktree": "mission-control-research-0b5294",
-          "title": "Mission control research for multi-agent orchestration",
-          "app_session_id": "local_c402bbd3-984c-47ec-be53-c6f6221f10b3",
-          "app_archived": false,
-          "branch": "claude/mission-control-research-0b5294",
-          "category": null,
-          "category_from": null,
-          "state": "working",
-          "stale": false,
-          "origin": "live",
-          "phase": 7,
-          "last_seen": 1790255180602,
-          "phases": [
-            {
-              "phase": 1,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 1,
-              "tokens_usd": 0,
-              "tokens": 118482
-            },
-            {
-              "phase": 2,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 3,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 4,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 5,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 6,
-              "work_ms": 860324,
-              "wait_ms": 1533559,
-              "inputs": 1,
-              "tokens_usd": 0,
-              "tokens": 102002
-            },
-            {
-              "phase": 7,
-              "work_ms": 87049462,
-              "wait_ms": 583525791,
-              "inputs": 199,
-              "tokens_usd": 0,
-              "tokens": 5053228
-            },
-            {
-              "phase": 8,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 9,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 10,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 11,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            },
-            {
-              "phase": 12,
-              "work_ms": 0,
-              "wait_ms": 0,
-              "inputs": 0,
-              "tokens_usd": 0,
-              "tokens": 0
-            }
-          ],
-          "totals": {
-            "work_ms": 87909786,
-            "wait_ms": 585059350,
-            "tokens": 5273712,
-            "inputs": 201
-          }
-        }
-      ],
+      "sessions": [],
       "specs": [
-        {
-          "capability": "agent-live-verification",
-          "implemented": 7,
-          "total": 8,
-          "lane_from": null
-        },
-        {
-          "capability": "arb-optimizer",
-          "implemented": 4,
-          "total": 11,
-          "lane_from": null
-        },
-        {
-          "capability": "arb-trader-backtest",
-          "implemented": 0,
-          "total": 2,
-          "lane_from": null
-        },
-        {
-          "capability": "arb-trader-dryrun",
-          "implemented": 4,
-          "total": 12,
-          "lane_from": null
-        },
-        {
-          "capability": "arb-trader-live",
-          "implemented": 4,
-          "total": 13,
-          "lane_from": null
-        },
-        {
-          "capability": "copy-engine-live",
-          "implemented": 4,
-          "total": 12,
-          "lane_from": null
-        },
         {
           "capability": "crypto-mm",
           "implemented": 24,
           "total": 89,
-          "lane_from": null
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 17,
+      "older": [
+        {
+          "topic": "2026-07-02-crypto-mm-book-always-on",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "crypto-taker-backtest",
-          "implemented": 21,
-          "total": 30,
-          "lane_from": null
+          "topic": "2026-07-02-crypto-mm-decouple-live-panels",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "crypto-taker",
-          "implemented": 131,
-          "total": 157,
-          "lane_from": null
+          "topic": "2026-07-03-crypto-mm-chart-history",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "dashboard",
-          "implemented": 14,
-          "total": 23,
-          "lane_from": null
+          "topic": "2026-07-05-crypto-mm-relayer-submit-and-shakedown-status",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "edge-monitor",
-          "implemented": 4,
-          "total": 12,
-          "lane_from": null
+          "topic": "2026-07-05-mm-create-arms-live",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "exchange-latency-monitor",
-          "implemented": 4,
-          "total": 6,
-          "lane_from": null
+          "topic": "2026-07-14-index-mm-trader",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "front-runner-recorder",
-          "implemented": 36,
-          "total": 52,
-          "lane_from": null
+          "topic": "2026-07-24-multi-lane-live-subs",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": null
         },
         {
-          "capability": "withheld in the demo",
-          "implemented": 16,
-          "total": 16,
-          "lane_from": null
+          "topic": "2026-07-25-crypto-mm-feed-watchdog-self-heal",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "front-runner-recorder"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 58
         },
         {
-          "capability": "live-test-runner",
-          "implemented": 13,
-          "total": 41,
-          "lane_from": null
+          "topic": "2026-07-25-crypto-mm-phantom-settlement-count-once",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 56
         },
         {
-          "capability": "notification",
-          "implemented": 4,
-          "total": 10,
-          "lane_from": null
+          "topic": "2026-07-26-crypto-mm-recycle-within-market",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 57
         },
         {
-          "capability": "forecast-trader-backtest",
-          "implemented": 4,
-          "total": 11,
-          "lane_from": null
+          "topic": "2026-08-05-crypto-mm-tier-1-failures",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 49
         },
         {
-          "capability": "forecast-trader-live",
-          "implemented": 2,
-          "total": 15,
-          "lane_from": null
+          "topic": "2026-08-06-crypto-mm-tier-2-verdict-and-config-honesty",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 48
         },
         {
-          "capability": "forecast-trader-paper",
-          "implemented": 5,
-          "total": 14,
-          "lane_from": null
+          "topic": "2026-08-06-crypto-mm-upstream-stall-pause",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 48
         },
         {
-          "capability": "recorder",
-          "implemented": 26,
-          "total": 47,
-          "lane_from": null
+          "topic": "2026-08-10-crypto-mm-feedless-child-refork-loop",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 27
         },
         {
-          "capability": "settler",
-          "implemented": 0,
-          "total": 0,
-          "lane_from": null
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 36
         },
+        {
+          "topic": "2026-08-20-crypto-mm-unattended-12h",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm"
+          ],
+          "under": [
+            "crypto-mm"
+          ],
+          "days_since_touched": 31
+        },
+        {
+          "topic": "2026-08-28-alt-mm-adopt-crypto-mm-money-safety",
+          "status": "proposed",
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": 24
+        }
+      ]
+    },
+    {
+      "name": "AltMM",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
         {
           "capability": "alt-mm",
           "implemented": 17,
           "total": 43,
-          "lane_from": null
-        },
-        {
-          "capability": "alt-taker",
-          "implemented": 0,
-          "total": 4,
-          "lane_from": null
-        },
-        {
-          "capability": "walk-forward-harness",
-          "implemented": 4,
-          "total": 13,
-          "lane_from": null
-        },
-        {
-          "capability": "wallet-service",
-          "implemented": 14,
-          "total": 22,
-          "lane_from": null
-        },
-        {
-          "capability": "index-mm",
-          "implemented": 0,
-          "total": 7,
-          "lane_from": null
-        },
-        {
-          "capability": "index-taker",
-          "implemented": 0,
-          "total": 4,
-          "lane_from": null
+          "lane_from": "inferred"
         }
       ],
       "stories": [],
-      "older_stories": 38,
+      "older_stories": 8,
       "older": [
-        {
-          "topic": "2026-05-27-openspec-bdd-adoption",
-          "status": "proposed",
-          "capabilities": [],
-          "under": [],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-06-16-clob-latency-robust-sellback",
-          "status": "proposed",
-          "capabilities": [
-            "live-test-runner"
-          ],
-          "under": [
-            "live-test-runner"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-06-20-frbot-decision-loop-isolation",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-taker"
-          ],
-          "under": [
-            "crypto-taker"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-06-21-exchange-latency-monitor",
-          "status": "proposed",
-          "capabilities": [
-            "exchange-latency-monitor"
-          ],
-          "under": [
-            "exchange-latency-monitor"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-06-22-exchange-latency-enhancements",
-          "status": "proposed",
-          "capabilities": [
-            "exchange-latency-monitor"
-          ],
-          "under": [
-            "exchange-latency-monitor"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-06-22-exchange-latency-stability",
-          "status": "proposed",
-          "capabilities": [
-            "exchange-latency-monitor"
-          ],
-          "under": [
-            "exchange-latency-monitor"
-          ],
-          "days_since_touched": null
-        },
         {
           "topic": "2026-06-24-alt-mm-splitsymmetric",
           "status": "proposed",
@@ -439,60 +326,49 @@
           "days_since_touched": null
         },
         {
-          "topic": "2026-07-02-crypto-mm-book-always-on",
+          "topic": "withheld in the demo",
           "status": "proposed",
           "capabilities": [
-            "crypto-mm"
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
           ],
           "under": [
-            "crypto-mm"
+            "alt-mm"
           ],
-          "days_since_touched": null
+          "days_since_touched": 36
         },
         {
-          "topic": "2026-07-02-crypto-mm-decouple-live-panels",
+          "topic": "2026-08-29-alt-mm-spread-aware-market-picker",
           "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": 24
+        }
+      ]
+    },
+    {
+      "name": "IndexMM",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
         {
-          "topic": "2026-07-03-crypto-mm-chart-history",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-07-05-crypto-mm-relayer-submit-and-shakedown-status",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-07-05-mm-create-arms-live",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
+          "capability": "index-mm",
+          "implemented": 0,
+          "total": 7,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 2,
+      "older": [
         {
           "topic": "2026-07-14-index-mm-trader",
           "status": "proposed",
@@ -502,8 +378,6 @@
             "index-mm"
           ],
           "under": [
-            "crypto-mm",
-            "recorder",
             "index-mm"
           ],
           "days_since_touched": null
@@ -516,19 +390,98 @@
             "index-mm"
           ],
           "under": [
-            "recorder",
             "index-mm"
           ],
           "days_since_touched": null
-        },
+        }
+      ]
+    },
+    {
+      "name": "Settler",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
         {
-          "topic": "2026-07-24-multi-lane-live-subs",
+          "capability": "settler",
+          "implemented": 0,
+          "total": 0,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [
+        {
+          "topic": "2026-09-05-settler",
           "status": "proposed",
           "capabilities": [
-            "crypto-mm"
+            "settler"
           ],
           "under": [
-            "crypto-mm"
+            "settler"
+          ],
+          "days_since_touched": 10
+        },
+        {
+          "topic": "2026-09-10-settler-phase3-live",
+          "status": "proposed",
+          "capabilities": [
+            "settler"
+          ],
+          "under": [
+            "settler"
+          ],
+          "days_since_touched": 10
+        }
+      ],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "FR-Bot",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "crypto-taker-backtest",
+          "implemented": 21,
+          "total": 30,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "crypto-taker",
+          "implemented": 131,
+          "total": 157,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "front-runner-recorder",
+          "implemented": 36,
+          "total": 52,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 7,
+      "older": [
+        {
+          "topic": "2026-06-20-frbot-decision-loop-isolation",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-taker"
+          ],
+          "under": [
+            "crypto-taker"
           ],
           "days_since_touched": null
         },
@@ -540,43 +493,9 @@
             "front-runner-recorder"
           ],
           "under": [
-            "crypto-mm",
             "front-runner-recorder"
           ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-07-25-crypto-mm-phantom-settlement-count-once",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-07-26-crypto-mm-recycle-within-market",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-05-crypto-mm-tier-1-failures",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
+          "days_since_touched": 58
         },
         {
           "topic": "2026-08-05-frbot-fak-entry",
@@ -587,38 +506,235 @@
           "under": [
             "crypto-taker"
           ],
+          "days_since_touched": 20
+        },
+        {
+          "topic": "2026-08-10-dev-book-recording-opt-in",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 14
+        },
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": 36
+        },
+        {
+          "topic": "2026-08-27-recorder-finalized-market-retention",
+          "status": "proposed",
+          "capabilities": [
+            "front-runner-recorder",
+            "recorder"
+          ],
+          "under": [
+            "front-runner-recorder"
+          ],
+          "days_since_touched": 26
+        },
+        {
+          "topic": "2026-09-01-rotator-boundary-promote",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-taker"
+          ],
+          "under": [
+            "crypto-taker"
+          ],
+          "days_since_touched": 22
+        }
+      ]
+    },
+    {
+      "name": "AltTaker",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "alt-taker",
+          "implemented": 0,
+          "total": 4,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "IndexTaker",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "index-taker",
+          "implemented": 0,
+          "total": 4,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "Arb",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "arb-optimizer",
+          "implemented": 4,
+          "total": 11,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "arb-trader-backtest",
+          "implemented": 0,
+          "total": 2,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "arb-trader-dryrun",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "arb-trader-live",
+          "implemented": 4,
+          "total": 13,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 1,
+      "older": [
+        {
+          "topic": "withheld in the demo",
+          "status": "proposed",
+          "capabilities": [
+            "arb-trader-live",
+            "crypto-mm",
+            "crypto-taker",
+            "alt-mm"
+          ],
+          "under": [
+            "arb-trader-live"
+          ],
+          "days_since_touched": 36
+        }
+      ]
+    },
+    {
+      "name": "Forecast",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "forecast-trader-backtest",
+          "implemented": 4,
+          "total": 11,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "forecast-trader-live",
+          "implemented": 2,
+          "total": 15,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "forecast-trader-paper",
+          "implemented": 5,
+          "total": 14,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": "Recorder",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "recorder",
+          "implemented": 26,
+          "total": 47,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 4,
+      "older": [
+        {
+          "topic": "2026-07-14-index-mm-trader",
+          "status": "proposed",
+          "capabilities": [
+            "crypto-mm",
+            "recorder",
+            "index-mm"
+          ],
+          "under": [
+            "recorder"
+          ],
           "days_since_touched": null
         },
         {
-          "topic": "2026-08-06-crypto-mm-tier-2-verdict-and-config-honesty",
+          "topic": "2026-07-21-index-mm-trustworthy-backtest",
           "status": "proposed",
           "capabilities": [
-            "crypto-mm"
+            "recorder",
+            "index-mm"
           ],
           "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-06-crypto-mm-upstream-stall-pause",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-10-crypto-mm-feedless-child-refork-loop",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
+            "recorder"
           ],
           "days_since_touched": null
         },
@@ -630,8 +746,312 @@
             "recorder"
           ],
           "under": [
+            "recorder"
+          ],
+          "days_since_touched": 14
+        },
+        {
+          "topic": "2026-08-27-recorder-finalized-market-retention",
+          "status": "proposed",
+          "capabilities": [
             "front-runner-recorder",
             "recorder"
+          ],
+          "under": [
+            "recorder"
+          ],
+          "days_since_touched": 26
+        }
+      ]
+    },
+    {
+      "name": "Retro",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "live-test-runner",
+          "implemented": 13,
+          "total": 41,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 2,
+      "older": [
+        {
+          "topic": "2026-05-27-openspec-bdd-adoption",
+          "status": "proposed",
+          "capabilities": [],
+          "under": [],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-16-clob-latency-robust-sellback",
+          "status": "proposed",
+          "capabilities": [
+            "live-test-runner"
+          ],
+          "under": [
+            "live-test-runner"
+          ],
+          "days_since_touched": null
+        }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "waiting": 0,
+      "totals": {
+        "work_ms": 0,
+        "wait_ms": 0,
+        "tokens": 0,
+        "inputs": 0
+      },
+      "sessions": [],
+      "specs": [
+        {
+          "capability": "dashboard",
+          "implemented": 14,
+          "total": 23,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "notification",
+          "implemented": 4,
+          "total": 10,
+          "lane_from": "inferred"
+        },
+        {
+          "capability": "wallet-service",
+          "implemented": 14,
+          "total": 22,
+          "lane_from": "inferred"
+        }
+      ],
+      "stories": [],
+      "older_stories": 0,
+      "older": []
+    },
+    {
+      "name": null,
+      "waiting": 0,
+      "totals": {
+        "work_ms": 32192258,
+        "wait_ms": 212777517,
+        "tokens": 5649752,
+        "inputs": 112
+      },
+      "sessions": [
+        {
+          "id": "f24d3aa8-03a6-4012-8d6b-450bd8231bcc",
+          "worktree": "mission-control-research-0b5294",
+          "title": "Mission control research for multi-agent orchestration",
+          "app_session_id": "local_c402bbd3-984c-47ec-be53-c6f6221f10b3",
+          "app_archived": false,
+          "branch": "claude/mission-control-research-0b5294",
+          "category": null,
+          "category_from": null,
+          "state": "working",
+          "stale": false,
+          "origin": "live",
+          "phase": 7,
+          "last_seen": 1790277058326,
+          "phases": [
+            {
+              "phase": 1,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 746753,
+              "entered": true
+            },
+            {
+              "phase": 2,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 3,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 4,
+              "work_ms": 204546,
+              "wait_ms": 101766,
+              "inputs": 2,
+              "tokens_usd": 0,
+              "tokens": 266152,
+              "entered": true
+            },
+            {
+              "phase": 5,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 6,
+              "work_ms": 3629256,
+              "wait_ms": 1798837,
+              "inputs": 10,
+              "tokens_usd": 0,
+              "tokens": 783963,
+              "entered": true
+            },
+            {
+              "phase": 7,
+              "work_ms": 28358456,
+              "wait_ms": 210876914,
+              "inputs": 100,
+              "tokens_usd": 0,
+              "tokens": 3852884,
+              "entered": true
+            },
+            {
+              "phase": 8,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 9,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 10,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 11,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            },
+            {
+              "phase": 12,
+              "work_ms": 0,
+              "wait_ms": 0,
+              "inputs": 0,
+              "tokens_usd": 0,
+              "tokens": 0,
+              "entered": false
+            }
+          ],
+          "totals": {
+            "work_ms": 32192258,
+            "wait_ms": 212777517,
+            "tokens": 5649752,
+            "inputs": 112
+          }
+        }
+      ],
+      "specs": [
+        {
+          "capability": "agent-live-verification",
+          "implemented": 7,
+          "total": 8,
+          "lane_from": null
+        },
+        {
+          "capability": "copy-engine-live",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": null
+        },
+        {
+          "capability": "edge-monitor",
+          "implemented": 4,
+          "total": 12,
+          "lane_from": null
+        },
+        {
+          "capability": "exchange-latency-monitor",
+          "implemented": 4,
+          "total": 6,
+          "lane_from": null
+        },
+        {
+          "capability": "withheld in the demo",
+          "implemented": 16,
+          "total": 16,
+          "lane_from": null
+        },
+        {
+          "capability": "walk-forward-harness",
+          "implemented": 4,
+          "total": 13,
+          "lane_from": null
+        }
+      ],
+      "stories": [],
+      "older_stories": 4,
+      "older": [
+        {
+          "topic": "2026-06-21-exchange-latency-monitor",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-22-exchange-latency-enhancements",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
+          ],
+          "days_since_touched": null
+        },
+        {
+          "topic": "2026-06-22-exchange-latency-stability",
+          "status": "proposed",
+          "capabilities": [
+            "exchange-latency-monitor"
+          ],
+          "under": [
+            "exchange-latency-monitor"
           ],
           "days_since_touched": null
         },
@@ -644,95 +1064,7 @@
           "under": [
             "agent-live-verification"
           ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "withheld in the demo",
-          "status": "proposed",
-          "capabilities": [
-            "arb-trader-live",
-            "crypto-mm",
-            "crypto-taker",
-            "alt-mm"
-          ],
-          "under": [
-            "arb-trader-live",
-            "crypto-mm",
-            "crypto-taker",
-            "alt-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-20-crypto-mm-unattended-12h",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-mm"
-          ],
-          "under": [
-            "crypto-mm"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-27-recorder-finalized-market-retention",
-          "status": "proposed",
-          "capabilities": [
-            "front-runner-recorder",
-            "recorder"
-          ],
-          "under": [
-            "front-runner-recorder",
-            "recorder"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-28-alt-mm-adopt-crypto-mm-money-safety",
-          "status": "proposed",
-          "capabilities": [],
-          "under": [],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-08-29-alt-mm-spread-aware-market-picker",
-          "status": "proposed",
-          "capabilities": [],
-          "under": [],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-09-01-rotator-boundary-promote",
-          "status": "proposed",
-          "capabilities": [
-            "crypto-taker"
-          ],
-          "under": [
-            "crypto-taker"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-09-05-settler",
-          "status": "proposed",
-          "capabilities": [
-            "settler"
-          ],
-          "under": [
-            "settler"
-          ],
-          "days_since_touched": null
-        },
-        {
-          "topic": "2026-09-10-settler-phase3-live",
-          "status": "proposed",
-          "capabilities": [
-            "settler"
-          ],
-          "under": [
-            "settler"
-          ],
-          "days_since_touched": null
+          "days_since_touched": 42
         }
       ]
     }
@@ -917,5 +1249,5 @@
   },
   "routine_runs": 21,
   "without_app_record": 0,
-  "earlier_parts": 2
+  "earlier_parts": 1
 }
