@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790255182249,
+  "generated_at": 1790277063097,
   "window_days": 14,
   "sources": {
     "app_records": "ok",
@@ -9,7 +9,20 @@
     "found": true,
     "looked": "looked in ~\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\claude-code-sessions"
   },
-  "categories": [],
+  "categories": [
+    "CryptoMM",
+    "AltMM",
+    "IndexMM",
+    "Settler",
+    "FR-Bot",
+    "AltTaker",
+    "IndexTaker",
+    "Arb",
+    "Forecast",
+    "Recorder",
+    "Retro",
+    "Architecture"
+  ],
   "items": [
     {
       "key": "msg_011CfHNbYUB4iCDgxmq8Ek5H",
@@ -24,14 +37,14 @@
       "phase": 6,
       "phase_from": "board",
       "totals": {
-        "work_ms": 1588245,
+        "work_ms": 1590517,
         "wait_ms": 0,
-        "inputs": 3,
+        "inputs": 2,
         "tokens": 165711
       },
       "state": "waiting",
       "since": "2026-09-21T22:29:02.069Z",
-      "hours_waiting": 63,
+      "hours_waiting": 69,
       "pr": {
         "status": "none",
         "numbers": []
@@ -56,14 +69,14 @@
       "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 892982,
-        "wait_ms": 62880,
-        "inputs": 5,
+        "work_ms": 895747,
+        "wait_ms": 62980,
+        "inputs": 3,
         "tokens": 114738
       },
       "state": "waiting",
       "since": "2026-09-21T22:14:53.749Z",
-      "hours_waiting": 63,
+      "hours_waiting": 69,
       "pr": {
         "status": "open",
         "numbers": [
@@ -90,14 +103,14 @@
       "phase": 6,
       "phase_from": "board",
       "totals": {
-        "work_ms": 1086851,
+        "work_ms": 1088761,
         "wait_ms": 0,
-        "inputs": 4,
+        "inputs": 3,
         "tokens": 177635
       },
       "state": "waiting",
       "since": "2026-09-20T22:16:25.966Z",
-      "hours_waiting": 87,
+      "hours_waiting": 93,
       "pr": {
         "status": "none",
         "numbers": []
@@ -122,14 +135,14 @@
       "phase": 5,
       "phase_from": "board",
       "totals": {
-        "work_ms": 347467,
+        "work_ms": 350040,
         "wait_ms": 0,
-        "inputs": 2,
+        "inputs": 1,
         "tokens": 47356
       },
       "state": "waiting",
       "since": "2026-09-20T09:10:50.603Z",
-      "hours_waiting": 100,
+      "hours_waiting": 106,
       "pr": {
         "status": "none",
         "numbers": []
@@ -154,14 +167,14 @@
       "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 3358499,
+        "work_ms": 3360182,
         "wait_ms": 0,
-        "inputs": 6,
+        "inputs": 5,
         "tokens": 132797
       },
       "state": "waiting",
       "since": "2026-09-19T10:01:55.856Z",
-      "hours_waiting": 123,
+      "hours_waiting": 129,
       "pr": {
         "status": "open",
         "numbers": [
@@ -183,19 +196,19 @@
       "routine": false,
       "branch": "claude/agent-retro-workflow-dc61de",
       "worktree": "eloquent-lumiere-33fde8",
-      "category": null,
-      "category_from": null,
-      "phase": 7,
+      "category": "Retro",
+      "category_from": "inferred",
+      "phase": 6,
       "phase_from": "board",
       "totals": {
-        "work_ms": 14922499,
-        "wait_ms": 474684417,
-        "inputs": 75,
+        "work_ms": 6251865,
+        "wait_ms": 159792118,
+        "inputs": 26,
         "tokens": 2582743
       },
       "state": "abandoned",
       "since": "2026-09-17T06:47:51.332Z",
-      "hours_waiting": 174,
+      "hours_waiting": 180,
       "pr": {
         "status": "merged",
         "numbers": [
@@ -217,8 +230,8 @@
       "routine": false,
       "branch": "claude/frosty-lamport-7cb23c",
       "worktree": "ecstatic-noyce-639b8c",
-      "category": null,
-      "category_from": null,
+      "category": "Forecast",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -229,7 +242,7 @@
       },
       "state": "waiting",
       "since": "2026-09-15T11:59:58.537Z",
-      "hours_waiting": 217,
+      "hours_waiting": 223,
       "pr": {
         "status": "merged",
         "numbers": [
@@ -253,19 +266,19 @@
       "routine": false,
       "branch": "claude/vibrant-turing-e152c0",
       "worktree": "crypto-trader",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 11,
       "phase_from": "board",
       "totals": {
-        "work_ms": 1467371,
-        "wait_ms": 10012012,
-        "inputs": 13,
+        "work_ms": 823351,
+        "wait_ms": 2625957,
+        "inputs": 3,
         "tokens": 211067
       },
       "state": "waiting",
       "since": "2026-09-15T10:54:53.211Z",
-      "hours_waiting": 218,
+      "hours_waiting": 224,
       "pr": {
         "status": "open",
         "numbers": [
@@ -288,19 +301,19 @@
       "routine": false,
       "branch": null,
       "worktree": "crypto-trader",
-      "category": null,
-      "category_from": null,
-      "phase": 7,
+      "category": "IndexMM",
+      "category_from": "title prefix",
+      "phase": 1,
       "phase_from": "board",
       "totals": {
-        "work_ms": 3358106,
-        "wait_ms": 394104258,
-        "inputs": 13,
+        "work_ms": 1203577,
+        "wait_ms": 2247977,
+        "inputs": 2,
         "tokens": 999594
       },
       "state": "waiting",
       "since": "2026-09-15T07:32:44.120Z",
-      "hours_waiting": 222,
+      "hours_waiting": 228,
       "pr": {
         "status": "none",
         "numbers": []
@@ -325,14 +338,14 @@
       "phase": 1,
       "phase_from": "board",
       "totals": {
-        "work_ms": 397972,
-        "wait_ms": 29738,
-        "inputs": 4,
+        "work_ms": 400266,
+        "wait_ms": 29867,
+        "inputs": 2,
         "tokens": 75719
       },
       "state": "waiting",
       "since": "2026-09-15T07:16:10.616Z",
-      "hours_waiting": 222,
+      "hours_waiting": 228,
       "pr": {
         "status": "none",
         "numbers": []
@@ -352,19 +365,19 @@
       "routine": false,
       "branch": "claude/amazing-saha-7cb975",
       "worktree": "project-overview-dev-pipeline-0c95d9",
-      "category": null,
-      "category_from": null,
-      "phase": 11,
+      "category": "Settler",
+      "category_from": "title prefix",
+      "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 48635265,
-        "wait_ms": 272729054,
-        "inputs": 79,
+        "work_ms": 90311,
+        "wait_ms": 2915960,
+        "inputs": 2,
         "tokens": 30753330
       },
       "state": "waiting",
       "since": "2026-09-15T06:25:38.648Z",
-      "hours_waiting": 223,
+      "hours_waiting": 229,
       "pr": {
         "status": "merged",
         "numbers": [
@@ -392,14 +405,14 @@
       "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 2034862,
-        "wait_ms": 1742164,
-        "inputs": 6,
+        "work_ms": 2038076,
+        "wait_ms": 1742268,
+        "inputs": 4,
         "tokens": 325879
       },
       "state": "waiting",
       "since": "2026-09-14T22:53:30.366Z",
-      "hours_waiting": 230,
+      "hours_waiting": 236,
       "pr": {
         "status": "open",
         "numbers": [
@@ -433,7 +446,7 @@
       },
       "state": "waiting",
       "since": "2026-09-12T08:15:50.629Z",
-      "hours_waiting": 293,
+      "hours_waiting": 299,
       "pr": {
         "status": "none",
         "numbers": []
@@ -453,19 +466,19 @@
       "routine": false,
       "branch": "claude/nostalgic-golick-b0a819",
       "worktree": "nostalgic-golick-b0a819",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 6,
       "phase_from": "board",
       "totals": {
-        "work_ms": 55326529,
+        "work_ms": 18008264,
         "wait_ms": 438435363,
         "inputs": 11,
         "tokens": 1978605
       },
       "state": "abandoned",
       "since": "2026-09-11T13:31:30.013Z",
-      "hours_waiting": 312,
+      "hours_waiting": 318,
       "pr": {
         "status": "none",
         "numbers": []
@@ -485,8 +498,8 @@
       "routine": false,
       "branch": "claude/busy-saha-6bdf8a",
       "worktree": "busy-saha-6bdf8a",
-      "category": null,
-      "category_from": null,
+      "category": "IndexMM",
+      "category_from": "title prefix",
       "phase": 6,
       "phase_from": "board",
       "totals": {
@@ -497,7 +510,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T10:28:21.753Z",
-      "hours_waiting": 315,
+      "hours_waiting": 321,
       "pr": {
         "status": "none",
         "numbers": []
@@ -517,8 +530,8 @@
       "routine": false,
       "branch": "claude/practical-spence-70aee4",
       "worktree": "sleepy-lumiere-1cdb08",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 6,
       "phase_from": "board",
       "totals": {
@@ -529,7 +542,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T10:09:48.579Z",
-      "hours_waiting": 315,
+      "hours_waiting": 321,
       "pr": {
         "status": "none",
         "numbers": []
@@ -549,8 +562,8 @@
       "routine": false,
       "branch": "claude/brave-lalande-a69044",
       "worktree": "brave-lalande-a69044",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -561,7 +574,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T10:03:46.007Z",
-      "hours_waiting": 315,
+      "hours_waiting": 321,
       "pr": {
         "status": "open",
         "numbers": [
@@ -583,8 +596,8 @@
       "routine": false,
       "branch": "claude/awesome-meitner-85d5b5",
       "worktree": "nervous-davinci-b944b9",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 6,
       "phase_from": "board",
       "totals": {
@@ -595,7 +608,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T09:31:34.087Z",
-      "hours_waiting": 316,
+      "hours_waiting": 322,
       "pr": {
         "status": "none",
         "numbers": []
@@ -615,8 +628,8 @@
       "routine": false,
       "branch": "claude/wonderful-goodall-437f90",
       "worktree": "wonderful-goodall-437f90",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -627,7 +640,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T09:18:39.479Z",
-      "hours_waiting": 316,
+      "hours_waiting": 322,
       "pr": {
         "status": "open",
         "numbers": [
@@ -649,8 +662,8 @@
       "routine": false,
       "branch": "claude/vibrant-bhabha-6f6af9",
       "worktree": "vibrant-bhabha-6f6af9",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -661,7 +674,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T08:37:03.257Z",
-      "hours_waiting": 316,
+      "hours_waiting": 323,
       "pr": {
         "status": "open",
         "numbers": [
@@ -683,8 +696,8 @@
       "routine": false,
       "branch": "claude/practical-borg-ed66f7",
       "worktree": "practical-borg-ed66f7",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -695,7 +708,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T08:08:42.651Z",
-      "hours_waiting": 317,
+      "hours_waiting": 323,
       "pr": {
         "status": "open",
         "numbers": [
@@ -717,8 +730,8 @@
       "routine": false,
       "branch": "claude/strange-mendeleev-d9a9bc",
       "worktree": "stoic-davinci-345c2c",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -729,7 +742,7 @@
       },
       "state": "waiting",
       "since": "2026-09-11T07:36:49.198Z",
-      "hours_waiting": 317,
+      "hours_waiting": 324,
       "pr": {
         "status": "open",
         "numbers": [
@@ -756,14 +769,14 @@
       "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 29527192,
+        "work_ms": 21067832,
         "wait_ms": 443778500,
         "inputs": 87,
         "tokens": 4962633
       },
       "state": "waiting",
       "since": "2026-09-11T07:15:43.647Z",
-      "hours_waiting": 318,
+      "hours_waiting": 324,
       "pr": {
         "status": "open",
         "numbers": [
@@ -785,8 +798,8 @@
       "routine": false,
       "branch": "claude/sweet-mclean-006f2b",
       "worktree": "sweet-mclean-006f2b",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -797,7 +810,7 @@
       },
       "state": "waiting",
       "since": "2026-09-10T21:38:53.045Z",
-      "hours_waiting": 327,
+      "hours_waiting": 334,
       "pr": {
         "status": "open",
         "numbers": [
@@ -819,19 +832,19 @@
       "routine": false,
       "branch": "claude/vibrant-goldstine-ca4b2b",
       "worktree": "quizzical-bell-19dffe",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
-        "work_ms": 23706094,
+        "work_ms": 3687464,
         "wait_ms": 89249300,
         "inputs": 6,
         "tokens": 326064
       },
       "state": "waiting",
       "since": "2026-09-10T20:48:21.289Z",
-      "hours_waiting": 328,
+      "hours_waiting": 334,
       "pr": {
         "status": "open",
         "numbers": [
@@ -853,8 +866,8 @@
       "routine": false,
       "branch": "claude/eager-fermat-14f67c",
       "worktree": "eager-fermat-14f67c",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -865,7 +878,7 @@
       },
       "state": "waiting",
       "since": "2026-09-10T20:34:38.618Z",
-      "hours_waiting": 329,
+      "hours_waiting": 335,
       "pr": {
         "status": "open",
         "numbers": [
@@ -887,8 +900,8 @@
       "routine": false,
       "branch": "claude/priceless-morse-7400d2",
       "worktree": "priceless-morse-7400d2",
-      "category": null,
-      "category_from": null,
+      "category": "Recorder",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -899,7 +912,7 @@
       },
       "state": "waiting",
       "since": "2026-09-10T20:08:00.046Z",
-      "hours_waiting": 329,
+      "hours_waiting": 335,
       "pr": {
         "status": "open",
         "numbers": [
@@ -921,8 +934,8 @@
       "routine": false,
       "branch": "claude/awesome-wilson-1b8edf",
       "worktree": "awesome-wilson-1b8edf",
-      "category": null,
-      "category_from": null,
+      "category": "Retro",
+      "category_from": "title prefix",
       "phase": 7,
       "phase_from": "board",
       "totals": {
@@ -933,7 +946,7 @@
       },
       "state": "waiting",
       "since": "2026-09-10T19:15:48.159Z",
-      "hours_waiting": 330,
+      "hours_waiting": 336,
       "pr": {
         "status": "open",
         "numbers": [

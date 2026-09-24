@@ -1,3 +1,21 @@
 {
-  "state": "not-set-up"
+  "format": 1,
+  "generated_at": 1790277069807,
+  "scheduler": {
+    "tick_age_ms": 89034,
+    "mode": "idle",
+    "blocked": "nothing queued",
+    "stalled": false
+  },
+  "running": [],
+  "waiting": [],
+  "history": {
+    "runs": 76,
+    "p25": 26,
+    "median": 27,
+    "p75": 32,
+    "p90": 52,
+    "window_days": 14
+  },
+  "state": "data"
 }
