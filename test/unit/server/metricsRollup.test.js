@@ -52,3 +52,34 @@ test('a prompt arriving mid-turn (user interrupt) still credits the elapsed work
   const s = rollup(ev);
   expect(s[PHASE.GOAL].work_ms).toBe(4000);
 });
+
+test("a turn's tokens and its minutes land on the SAME phase, even when the phase moved mid-turn", () => {
+  // The real shape that exposed this: a session prompted once, worked 13 minutes, committed (which advances the
+  // phase) and was then prompted again. The work of that turn is credited when the turn ends — to EXECUTE — while
+  // its tokens were credited as they arrived, in GOAL. The board then read "0m work, 96k tokens" beside
+  // "14m work, 15k tokens": the same turn, split across two rows, and neither row true.
+  const min = 60_000;
+  const ev = [
+    { type: 'user_prompt', ts: 0 },
+    { type: 'token_usage', ts: 1000, tokensTotal: 0 }, // baseline
+    { type: 'token_usage', ts: 2 * min, tokensTotal: 96_000 }, // produced during the turn, while cur is still GOAL
+    { type: 'commit', ts: 8 * min }, // -> EXECUTE
+    { type: 'user_prompt', ts: 13 * min }, // interrupts: 13 min of work credited to EXECUTE
+    { type: 'turn_stop', ts: 14 * min },
+  ];
+  const s = rollup(ev);
+  expect(s[PHASE.GOAL].work_ms).toBe(0);
+  expect(s[PHASE.GOAL].tokens).toBe(0); // NOT 96_000: the turn's tokens follow the turn's minutes
+  expect(s[PHASE.EXECUTE].work_ms).toBe(14 * min);
+  expect(s[PHASE.EXECUTE].tokens).toBe(96_000);
+});
+
+test('tokens after the last turn ended are still counted', () => {
+  const ev = [
+    { type: 'user_prompt', ts: 0 },
+    { type: 'token_usage', ts: 100, tokensTotal: 10 }, // baseline
+    { type: 'turn_stop', ts: 200 },
+    { type: 'token_usage', ts: 300, tokensTotal: 60 }, // +50, with no turn boundary after it
+  ];
+  expect(rollup(ev)[PHASE.GOAL].tokens).toBe(50);
+});

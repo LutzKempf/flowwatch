@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.3 — 2026-09-24
+
+Two fixes to the per-phase numbers, both found by reading a real board.
+
+A turn's tokens now land on the same phase as its minutes. Work is credited when a turn ends, to the phase reached
+by then; spend was credited as it arrived, so a turn that crossed a phase boundary was split across two rows —
+"0m work, 96k tokens" beside "14m work, 15k tokens", and neither row true.
+
+Walking the transcript of a session that also reported live now takes only its token figures. The hooks already
+recorded that session's prompts and turns; filing the transcript's copy of them beside the hooks' own counted every
+prompt twice and cut a turn's minutes at a prompt that never happened. A session the hooks never saw is still
+backfilled whole.
+
 ## 1.0.2 — 2026-09-24
 
 The per-phase table drops its compute-intensity column: it read n/a for every session, because nothing a session

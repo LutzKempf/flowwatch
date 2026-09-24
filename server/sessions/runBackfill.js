@@ -68,7 +68,13 @@ function backfillDir(db, root, { keepProject = () => true } = {}) {
       const sessionId = path.basename(e.name, '.jsonl');
       const worktree = deriveWorktree(dir);
       const events = parseTranscript(full, { session_id: sessionId, worktree });
+      // The hooks already recorded a session that reported live: its prompts, commands and turns are on record
+      // under their own ids, and the transcript describes the SAME session. Filing all of it again would file a
+      // second copy of each — every prompt counted twice, a turn's minutes cut at a prompt that never happened.
+      // Only the token figures are new, because nothing but the transcript carries them.
+      const live = db.prepare("SELECT 1 FROM events WHERE session_id=? AND id NOT LIKE 'bf:%' LIMIT 1").get(sessionId);
       events.forEach((ev, i) => {
+        if (live && ev.type !== 'token_usage') return;
         if (ingestEvent(db, { id: stableId(sessionId, ev, i), ...ev })) ingested++;
       });
       // Backfilled sessions are flagged so the board can badge their data as partial. A session that also reported
