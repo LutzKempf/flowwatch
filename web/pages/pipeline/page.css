@@ -270,6 +270,15 @@ h2.h {
 .cell.done .num {
   color: rgba(70, 209, 127, 0.7);
 }
+/* passed without ever being in it: the outline of a cleared phase, none of its fill */
+.cell.skipped {
+  background: transparent;
+  border-style: dashed;
+  border-color: rgba(70, 209, 127, 0.4);
+}
+.cell.skipped .num {
+  color: rgba(70, 209, 127, 0.55);
+}
 .cell .mk {
   position: absolute;
   top: 0;
@@ -312,6 +321,11 @@ h2.h {
 }
 .sw.pending {
   background: #101014;
+}
+.sw.skipped {
+  background: transparent;
+  border: 1px dashed rgba(70, 209, 127, 0.7);
+  box-sizing: border-box;
 }
 .board-sum {
   margin: 0 0 8px;
@@ -358,6 +372,10 @@ tbody tr.now {
 }
 tbody tr.dimr td {
   color: var(--dim);
+}
+tbody tr.skipr td {
+  color: var(--dim);
+  font-style: italic;
 }
 .pname b {
   font-weight: 600;

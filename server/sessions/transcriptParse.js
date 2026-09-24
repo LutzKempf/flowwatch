@@ -33,7 +33,8 @@ function looksLikeKnownFormat(rec) {
 
 // Mirrors mapHookEvent's FILE_SIGNAL — the two mappers are deliberately separate implementations
 // of one rule set, held to the same rules by test/unit/hooks/eventRules.parity.test.js.
-const FILE_SIGNAL = /(openspec\/changes\/|tasks\.md$)/;
+// An openspec change, or a plan: tasks.md, or a markdown file in a plans/ folder (where a plan is usually written).
+const FILE_SIGNAL = /(openspec\/changes\/|tasks\.md$|\/plans\/[^/]+\.md$)/;
 
 /**
  * Parses one Claude Code session transcript (.jsonl) into pipeline events.

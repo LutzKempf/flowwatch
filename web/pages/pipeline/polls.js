@@ -42,6 +42,7 @@ export async function tick() {
           usd: ph.tokens_usd,
           tok: ph.tokens,
           i: ph.inputs,
+          e: ph.entered, // false: passed without ever being in it (absent from an older collector: assume entered)
         })),
       }));
     window.AGG = data.aggregate; // cross-session rollup (server-scored)

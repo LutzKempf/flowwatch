@@ -23,6 +23,22 @@ function stableId(sessionId, ev, i) {
   );
 }
 
+// What the transcript reader turned into file_change events before it learnt to see plans in a plans/ folder
+// (Flowwatch 1.0.5). An event id counts only events the reader could always see, and a plan write outside this
+// rule is identified by its content instead: otherwise every event after the first plan write would get a new id
+// on the next walk, and be filed a second time.
+const FILE_SIGNAL_BEFORE_PLANS = /(openspec\/changes\/|tasks\.md$)/;
+
+/**
+ * Id of a plan write the reader could not see before 1.0.5: by content, so its position changes nothing else's.
+ * @param {string} sessionId transcript basename
+ * @param {{ts:number, path?:string}} ev parsed file_change event
+ * @returns {string}
+ */
+function planWriteId(sessionId, ev) {
+  return 'bf:plan:' + crypto.createHash('sha1').update(`${sessionId}|${ev.ts}|${ev.path}`).digest('hex').slice(0, 16);
+}
+
 /**
  * Which folders of a Claude Code projects dir belong to a repo. Claude Code names a project folder after its
  * working path with every non-alphanumeric character a dash, so the repo's checkout is its slug and each
@@ -73,10 +89,15 @@ function backfillDir(db, root, { keepProject = () => true } = {}) {
       // second copy of each — every prompt counted twice, a turn's minutes cut at a prompt that never happened.
       // Only the token figures are new, because nothing but the transcript carries them.
       const live = db.prepare("SELECT 1 FROM events WHERE session_id=? AND id NOT LIKE 'bf:%' LIMIT 1").get(sessionId);
-      events.forEach((ev, i) => {
-        if (live && ev.type !== 'token_usage') return;
-        if (ingestEvent(db, { id: stableId(sessionId, ev, i), ...ev })) ingested++;
-      });
+      let i = 0;
+      for (const ev of events) {
+        const seenSince = ev.type === 'file_change' && !FILE_SIGNAL_BEFORE_PLANS.test(String(ev.path));
+        const id = seenSince ? planWriteId(sessionId, ev) : stableId(sessionId, ev, i++);
+        // Besides tokens, a live session takes the file writes: pure phase signals that count nothing, which the
+        // hooks did not report before 1.0.5 -- so a past session's plan still moves it into the Plan phase.
+        if (live && ev.type !== 'token_usage' && ev.type !== 'file_change') continue;
+        if (ingestEvent(db, { id, ...ev })) ingested++;
+      }
       // Backfilled sessions are flagged so the board can badge their data as partial. A session that also reported
       // live is not partial, and re-walking its transcript must never say it is: only one whose every event came
       // from a transcript (those ids are prefixed `bf:`) is flagged.

@@ -31,7 +31,8 @@ function phaseForEvent(ev) {
     case 'file_change': {
       // Windows emitters send backslash paths — normalize before matching.
       const p = (ev.path || '').replace(/\\/g, '/');
-      if (/tasks\.md$/.test(p)) return PHASE.PLAN;
+      // A plan: tasks.md, or a markdown file in a plans/ folder (docs/superpowers/plans/, docs/plans/).
+      if (/(?:tasks\.md|\/plans\/[^/]+\.md)$/.test(p)) return PHASE.PLAN;
       if (/openspec\/changes\//.test(p)) return PHASE.OPENSPEC;
       return null;
     }

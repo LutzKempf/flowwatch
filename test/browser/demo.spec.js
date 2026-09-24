@@ -206,3 +206,25 @@ test.describe('at phone width', () => {
     expect(overflow).toBe(0);
   });
 });
+
+// A phase a session passed without ever being in it has no time to show. Painted like a cleared phase with "0m",
+// it read as work that took no time -- which is how almost every session's early phases looked.
+test('a phase the session passed without entering reads as skipped, on the board and in its table', async ({
+  page,
+}) => {
+  const pipeline = JSON.parse(fs.readFileSync(path.join(FIXTURE, 'pipeline.json'), 'utf8'));
+  const s = pipeline.sessions.find((x) => !x.archived && x.current_phase >= 4);
+  s.phases.forEach((p) => (p.entered = p.phase === 1 || p.phase >= 3)); // only phase 2 was passed, never entered
+  await page.route('**/data/pipeline.json', (route) => route.fulfill({ json: pipeline }));
+
+  await page.goto(site.url + 'pipeline.html#sessions');
+  await boardLoaded(page);
+  const lane = page.locator(`#lanes .lane[data-id="${s.id}"]`);
+  await expect(lane.locator('.cell.skipped')).toHaveCount(1);
+  await expect(lane.locator('.cell').nth(1)).toHaveClass(/skipped/);
+  await expect(lane.locator('.cell').nth(2)).toHaveClass(/done/);
+
+  await lane.locator('.lname b').click();
+  await expect(page.locator('#d-rows tr.skipr')).toHaveCount(1);
+  await expect(page.locator('#d-rows tr.skipr td').nth(1)).toHaveText('skipped');
+});

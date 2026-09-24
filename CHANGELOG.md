@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.5 — 2026-09-24
+
+The early phases stop reading "0m" for work nobody did there.
+
+A phase a session passed without ever being in it — most sessions go from Goal straight to their first commit or
+test run — is now shown as skipped: a dashed outline on the board, "skipped" in the session's table. It used to be
+painted like a cleared phase with 0 minutes, as if the work there had taken no time.
+
+A turn is split at every moment its phase moved. An agent's long autonomous turn used to credit all its minutes to
+the phase it ended in, so every phase it passed through read 0m; now each phase gets the minutes spent in it, and the
+tokens spent in that stretch.
+
+A markdown file written in a plans/ folder (where the superpowers writing-plans skill puts a plan) is now the Plan
+phase, reported by the live hooks and read from transcripts; before, only a file named tasks.md was. Walking the
+transcripts again adds those plan writes to past sessions, including ones that reported live, and nothing twice: an
+event id no longer shifts when the reader learns to see a new kind of event.
+
+Stored figures are redone once at the collector's first start, and a database from before gains the column that
+records which phases a session was in.
+
 ## 1.0.4 — 2026-09-24
 
 1.0.3's corrected per-phase figures now reach sessions that have already finished. Each session's figures are
