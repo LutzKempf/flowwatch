@@ -71,8 +71,15 @@ function backfillDir(db, root, { keepProject = () => true } = {}) {
       events.forEach((ev, i) => {
         if (ingestEvent(db, { id: stableId(sessionId, ev, i), ...ev })) ingested++;
       });
-      // Backfilled sessions are flagged so the board can badge their data as partial.
-      if (events.length) db.prepare("UPDATE sessions SET origin='backfill' WHERE id=?").run(sessionId);
+      // Backfilled sessions are flagged so the board can badge their data as partial. A session that also reported
+      // live is not partial, and re-walking its transcript must never say it is: only one whose every event came
+      // from a transcript (those ids are prefixed `bf:`) is flagged.
+      if (events.length) {
+        db.prepare(
+          "UPDATE sessions SET origin='backfill' WHERE id=? AND NOT EXISTS" +
+            " (SELECT 1 FROM events WHERE session_id=? AND id NOT LIKE 'bf:%')"
+        ).run(sessionId, sessionId);
+      }
     }
   };
   if (fs.existsSync(root)) walk(root, true);
