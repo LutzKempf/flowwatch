@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-09-24
+
+Walking the transcripts again (how a finished session's token figures arrive) no longer marks a session that also
+reported live as partial: only a session whose every event came from a transcript is flagged.
+
 ## 1.0.0 — 2026-09-22
 
 The first public release. Since 0.9.0: a repo that runs the emitter through a script of its own keeps it —
