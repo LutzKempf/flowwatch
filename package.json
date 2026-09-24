@@ -1,6 +1,6 @@
 {
   "name": "flowwatch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "See how work flows through a fleet of AI coding agents toward a stated mission.",
   "license": "MIT",
   "engines": {

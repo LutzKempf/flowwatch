@@ -21,6 +21,17 @@ function rollup(events) {
   let lastStop = null; // ts the agent last went idle (waiting on you)
   let lastCost = null; // last cumulative costUsd seen (live statusLine feed)
   let lastTokens = null; // last cumulative tokensTotal seen (backfill transcript feed)
+  // A turn's spend, held until the turn ends. Work is credited at the turn's END (to the phase current then), so
+  // spend credited as it arrived would land on the phase the turn STARTED in whenever the phase moved mid-turn:
+  // one turn split across two rows, "0m work, 96k tokens" beside "14m work, 15k tokens", neither of them true.
+  let pendingUsd = 0;
+  let pendingTokens = 0;
+  const creditTurn = () => {
+    stats[cur].tokens_usd += pendingUsd;
+    stats[cur].tokens += pendingTokens;
+    pendingUsd = 0;
+    pendingTokens = 0;
+  };
 
   for (const ev of events) {
     const p = phaseForEvent(ev);
@@ -32,10 +43,12 @@ function rollup(events) {
       // A prompt with no intervening turn_stop = the user interrupted a working
       // agent; credit the elapsed work before restarting the clock.
       if (lastPrompt != null) stats[cur].work_ms += ev.ts - lastPrompt;
+      creditTurn();
       lastPrompt = ev.ts;
       lastStop = null;
     } else if (ev.type === 'turn_stop') {
       if (lastPrompt != null) stats[cur].work_ms += ev.ts - lastPrompt;
+      creditTurn();
       lastStop = ev.ts;
       lastPrompt = null;
     } else if (ev.type === 'token_usage') {
@@ -43,15 +56,16 @@ function rollup(events) {
       // session is never attributed to the current phase. Two parallel series, both read: costUsd (the live
       // status line) and tokensTotal (backfilled transcripts), so a backfilled session never reads $0/0.
       if (typeof ev.costUsd === 'number') {
-        if (lastCost != null && ev.costUsd >= lastCost) stats[cur].tokens_usd += ev.costUsd - lastCost;
+        if (lastCost != null && ev.costUsd >= lastCost) pendingUsd += ev.costUsd - lastCost;
         lastCost = ev.costUsd;
       }
       if (typeof ev.tokensTotal === 'number') {
-        if (lastTokens != null && ev.tokensTotal >= lastTokens) stats[cur].tokens += ev.tokensTotal - lastTokens;
+        if (lastTokens != null && ev.tokensTotal >= lastTokens) pendingTokens += ev.tokensTotal - lastTokens;
         lastTokens = ev.tokensTotal;
       }
     }
   }
+  creditTurn(); // a turn still running, or spend after the last turn ended, belongs to the phase reached
   return stats;
 }
 
