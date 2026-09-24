@@ -1,5 +1,5 @@
 const { detectPhase } = require('./sessions/phaseDetector');
-const { rollup } = require('./metricsRollup');
+const { rollup, ROLLUP_VERSION } = require('./metricsRollup');
 const { PHASE_COUNT } = require('./sessions/phases');
 const { stateForEvents } = require('./sessionState');
 
@@ -79,4 +79,24 @@ function recompute(db, sessionId) {
   }
 }
 
-module.exports = { ingestEvent };
+/**
+ * Redoes every session's stored roll-up when the rule that made them has changed since (ROLLUP_VERSION), and
+ * records the version it used. Stored figures are otherwise redone only for a session that gets a new event, so a
+ * finished session would show the old rule's numbers for good.
+ * @param {import('better-sqlite3').Database} db
+ * @returns {number} sessions redone (0 when the stored figures are already current)
+ */
+function refreshStoredStats(db) {
+  const stored = db.prepare("SELECT value FROM meta WHERE key='rollup_version'").get();
+  if (stored && Number(/** @type {{value: string}} */ (stored).value) === ROLLUP_VERSION) return 0;
+  const ids = /** @type {Array<{id: string}>} */ (db.prepare('SELECT id FROM sessions').all());
+  db.transaction(() => {
+    for (const { id } of ids) recompute(db, id);
+    db.prepare(
+      "INSERT INTO meta (key, value) VALUES ('rollup_version', ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value"
+    ).run(String(ROLLUP_VERSION));
+  })();
+  return ids.length;
+}
+
+module.exports = { ingestEvent, refreshStoredStats };

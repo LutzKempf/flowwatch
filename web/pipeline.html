@@ -16,7 +16,7 @@
 
   <section data-panel="sessions">
   <h2 class="panel-title">Sessions</h2>
-  <div class="grid g4" id="tiles"></div>
+  <div class="grid g3" id="tiles"></div>
 
   <!-- The inbox's sorting and triage, done on the board: what is waiting on you comes from the
        sessions themselves (/api/inbox); the views, the categories and the undo line sit above the board. -->
@@ -50,7 +50,7 @@
       <div id="d-say"></div>
       <div id="d-sort"></div>
       <table id="d-table">
-        <thead><tr><th>Phase</th><th>Work</th><th>You-wait</th><th>Tok</th><th>In</th></tr></thead>
+        <thead><tr><th>Phase</th><th>Work</th><th>Tok</th><th>In</th></tr></thead>
         <tbody id="d-rows"></tbody>
       </table>
       <p class="hint" id="d-tot"></p>
@@ -63,14 +63,14 @@
     <h2 class="h" style="margin:0 0 12px">Per-phase rollup — the process-improvement view</h2>
     <table>
       <thead><tr>
-        <th>Phase</th><th title="sessions that recorded activity at this phase">n</th><th>Work</th><th>You-wait</th><th>Tokens</th><th>Inputs</th><th style="text-align:left">Signal</th>
+        <th>Phase</th><th title="sessions that recorded activity at this phase">n</th><th>Work</th><th>Tokens</th><th>Inputs</th><th style="text-align:left">Signal</th>
       </tr></thead>
       <tbody id="agg-rollup"></tbody>
     </table>
     <p class="hint"><b>n</b> is how many sessions recorded activity at that phase; every other
       column is a <b>total</b> across those sessions, live and archived — not a per-session
       average, and not windowed.
-      <b style="color:var(--violet)">★ target</b> = high you-wait + high input → automate/streamline first.</p>
+      <b style="color:var(--violet)">★ target</b> = the phase with the most time waiting on you and the most input → automate/streamline first.</p>
   </div>
 
   <!-- archived-session rollup: the board hides these lanes, the measurement keeps them -->
@@ -88,7 +88,7 @@
     <code>openspec/changes/</code> folder · <code>plan</code>=tasks.md written · <code>execute</code>=first code commit ·
     <code>test</code>=test runs · <code>PR</code>=<code>gh pr create</code> · <code>PR green</code>=gate marker ·
     <code>merge</code>=merge+deploy · <code>verify</code>=live-verification report · <code>cleanup</code>=/cleanup.
-    Work-vs-you-wait time, token counts and input counts come from session telemetry.
+    Work time, token counts and input counts come from session telemetry.
   </div>
   </section>
 

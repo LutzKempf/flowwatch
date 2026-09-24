@@ -1,6 +1,11 @@
 const { phaseForEvent } = require('./sessions/phaseDetector');
 const { PHASE, PHASE_COUNT } = require('./sessions/phases');
 
+// The version of the rule below. Each session's roll-up is STORED (phase_stats) and redone only when the session
+// gets a new event, so a changed rule would leave every finished session showing the old one's numbers. Raise this
+// whenever the rule changes: the collector redoes every stored roll-up once, at its next start.
+const ROLLUP_VERSION = 2;
+
 /** @returns {{work_ms: number, wait_ms: number, inputs: number, tokens_usd: number, tokens: number}} */
 function blank() {
   return { work_ms: 0, wait_ms: 0, inputs: 0, tokens_usd: 0, tokens: 0 };
@@ -69,4 +74,4 @@ function rollup(events) {
   return stats;
 }
 
-module.exports = { rollup };
+module.exports = { rollup, ROLLUP_VERSION };

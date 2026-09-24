@@ -11,22 +11,11 @@ export function renderHistory(h) {
     el.innerHTML = '<p class="hint">No archived sessions yet.</p>';
     return;
   }
-  // Absent is not zero, here as in the live tiles: with no measured time,
-  // "0% / 100%" asserts that the agent did nothing and the operator waited
-  // throughout — a strong claim built from no data at all.
-  const total = h.workMs + h.waitMs;
-  const pctW = total ? Math.round((100 * h.workMs) / total) : null;
   el.innerHTML =
-    '<div class="grid g4">' +
+    '<div class="grid g3">' +
     tile(h.sessions, 'archived sessions', 'no events for over 7 days', 'var(--ink)') +
     tile(h.worktrees, 'worktrees', 'distinct, across all archived work', 'var(--ink)') +
     tile(h.inputs.toLocaleString(), 'operator inputs', 'times a session paused for you', 'var(--violet)') +
-    tile(
-      pctW == null ? '—' : pctW + '% / ' + (100 - pctW) + '%',
-      'agent-work / you-wait',
-      total ? 'of wall-clock time in-pipeline' : 'no time measured yet',
-      'var(--cyan)'
-    ) +
     '</div>';
 }
 
@@ -36,7 +25,7 @@ export function renderRollup() {
   const nowPhases = new Set(window.SESS.map((s) => s.cur));
   document.getElementById('agg-rollup').innerHTML = AGG.map((a) => {
     const i = a.phase - 1;
-    const empty = !(a.work_ms || a.wait_ms || a.inputs || a.tokens_usd || a.tokens);
+    const empty = !(a.work_ms || a.inputs || a.tokens_usd || a.tokens);
     const cls = a.target ? 'tgt' : nowPhases.has(a.phase) ? 'now' : empty ? 'dimr' : '';
     const flag = a.target ? '<span class="flag f-tgt">\u2605 target</span>' : '';
     return (
@@ -55,11 +44,6 @@ export function renderRollup() {
       '</td>' +
       '<td>' +
       (empty ? '\u2014' : Math.round(a.work_ms / 60000) + 'm') +
-      '</td>' +
-      '<td style="color:' +
-      (a.wait_ms >= 10 * 60000 ? 'var(--violet)' : 'inherit') +
-      '">' +
-      (empty ? '\u2014' : Math.round(a.wait_ms / 60000) + 'm') +
       '</td>' +
       '<td>' +
       (empty ? '\u2014' : tokCell(a.tokens_usd, a.tokens)) +

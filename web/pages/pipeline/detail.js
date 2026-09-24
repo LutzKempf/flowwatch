@@ -58,7 +58,6 @@ export function renderDetail(r) {
     else {
       part.table = true;
       let tw = 0,
-        tu = 0,
         tusd = 0,
         ttok = 0,
         ti = 0;
@@ -68,7 +67,6 @@ export function renderDetail(r) {
         const cur = i + 1 === b.cur;
         if (d && reached) {
           tw += d.w;
-          tu += d.u;
           tusd += d.usd;
           ttok += d.tok;
           ti += d.i;
@@ -79,7 +77,7 @@ export function renderDetail(r) {
             (i + 1) +
             ' ' +
             p[0] +
-            '</b></td><td>—</td><td>—</td><td>—</td><td>—</td></tr>'
+            '</b></td><td>—</td><td>—</td><td>—</td></tr>'
           );
         return (
           '<tr class="' +
@@ -92,11 +90,6 @@ export function renderDetail(r) {
           '<td>' +
           d.w +
           'm</td>' +
-          '<td style="color:' +
-          (d.u >= 15 ? 'var(--violet)' : 'inherit') +
-          '">' +
-          d.u +
-          'm</td>' +
           '<td>' +
           d.t +
           '</td>' +
@@ -107,24 +100,15 @@ export function renderDetail(r) {
           '</td></tr>'
         );
       }).join('');
-      const pw = tw + tu ? Math.round((100 * tw) / (tw + tu)) : 0;
       part.tot =
         'Session total: <b class="mono">' +
         tw +
-        'm</b> work · ' +
-        '<b class="mono" style="color:var(--violet)">' +
-        tu +
-        'm</b> your-wait · <b class="mono">' +
+        'm</b> work · <b class="mono">' +
         tokCell(tusd, ttok) +
         '</b> tokens · ' +
         '<b class="mono">' +
         ti +
-        '</b> inputs ' +
-        '<span class="wl"><i class="w" style="width:' +
-        pw +
-        '%"></i><i class="u" style="width:' +
-        (100 - pw) +
-        '%"></i></span>';
+        '</b> inputs';
     }
   }
   const sig = JSON.stringify(part);

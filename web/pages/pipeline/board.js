@@ -33,26 +33,17 @@ export function renderPipeline() {
   const shown = shownRows(rows);
 
   /* ---- tiles ---- */
-  let work = 0,
-    uwait = 0,
-    inputs = 0,
+  let inputs = 0,
     waiting = 0;
   SESS.forEach((s) => {
     s.p.forEach((d) => {
-      work += d.w;
-      uwait += d.u;
       inputs += d.i;
     });
     if (s.state === 'waityou') waiting++;
   });
   // Every count on the page agrees: the sessions tile counts the board's rows, and waiting-on-you is the
-  // inbox's own count once the inbox has loaded. Work, inputs and the split are what telemetry recorded.
+  // inbox's own count once the inbox has loaded. Inputs are what telemetry recorded.
   if (window.INBOX) waiting = window.INBOX.items.length;
-  // Absent is not zero. With no measured time at all, "0% / 100%" reads as
-  // "the agent did nothing and you waited the whole time" — a claim, from no data.
-  const measured = work + uwait;
-  const pctW = measured ? Math.round((100 * work) / measured) : null;
-  const splitTxt = pctW == null ? '—' : pctW + '% / ' + (100 - pctW) + '%';
   document.getElementById('tiles').innerHTML =
     // Counts every open session; the caption says how many of them the board shows, once any are hidden or sent to Cleanup.
     tile(
@@ -62,13 +53,7 @@ export function renderPipeline() {
       'var(--ink)'
     ) +
     tile(waiting, 'waiting on YOU now', 'blocked - your call unblocks them', 'var(--violet)') +
-    tile(inputs, 'inputs from you', 'times a session paused for you (recorded)', 'var(--amber)') +
-    tile(
-      splitTxt,
-      'agent-work / you-wait',
-      measured ? 'of wall-clock time in-pipeline (recorded)' : 'no time measured yet',
-      'var(--cyan)'
-    );
+    tile(inputs, 'inputs from you', 'times a session paused for you (recorded)', 'var(--amber)');
 
   /* ---- the board, grouped the way the inbox was ---- */
   // In the Cleanup view the list above takes the board's place.
