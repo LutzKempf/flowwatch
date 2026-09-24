@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 — 2026-09-24
+
+The per-phase table drops its compute-intensity column: it read n/a for every session, because nothing a session
+reports carries the figure it needed.
+
 ## 1.0.1 — 2026-09-24
 
 Walking the transcripts again (how a finished session's token figures arrive) no longer marks a session that also

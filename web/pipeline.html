@@ -50,7 +50,7 @@
       <div id="d-say"></div>
       <div id="d-sort"></div>
       <table id="d-table">
-        <thead><tr><th>Phase</th><th>Work</th><th>You-wait</th><th>Tok</th><th>Cmp</th><th>In</th></tr></thead>
+        <thead><tr><th>Phase</th><th>Work</th><th>You-wait</th><th>Tok</th><th>In</th></tr></thead>
         <tbody id="d-rows"></tbody>
       </table>
       <p class="hint" id="d-tot"></p>
@@ -63,7 +63,7 @@
     <h2 class="h" style="margin:0 0 12px">Per-phase rollup — the process-improvement view</h2>
     <table>
       <thead><tr>
-        <th>Phase</th><th title="sessions that recorded activity at this phase">n</th><th>Work</th><th>You-wait</th><th>Tokens</th><th>Compute</th><th>Inputs</th><th style="text-align:left">Signal</th>
+        <th>Phase</th><th title="sessions that recorded activity at this phase">n</th><th>Work</th><th>You-wait</th><th>Tokens</th><th>Inputs</th><th style="text-align:left">Signal</th>
       </tr></thead>
       <tbody id="agg-rollup"></tbody>
     </table>
@@ -88,9 +88,7 @@
     <code>openspec/changes/</code> folder · <code>plan</code>=tasks.md written · <code>execute</code>=first code commit ·
     <code>test</code>=test runs · <code>PR</code>=<code>gh pr create</code> · <code>PR green</code>=gate marker ·
     <code>merge</code>=merge+deploy · <code>verify</code>=live-verification report · <code>cleanup</code>=/cleanup.
-    Work-vs-you-wait time, token counts and input counts come from session telemetry. Compute
-    intensity is the one column with no measurement behind it, so it renders <span class="rna">n/a</span>
-    rather than a zero bar — a zero bar would read as "measured low".
+    Work-vs-you-wait time, token counts and input counts come from session telemetry.
   </div>
   </section>
 

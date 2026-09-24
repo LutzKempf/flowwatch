@@ -1,5 +1,5 @@
 // The side panel: the selected session's title, what it last said, its sorting controls and its per-phase numbers.
-import { IN_APP, NO_CATEGORY, PHASES, age, displayTitle, factTags, rbar, stateLabel, tokCell } from './format.js';
+import { IN_APP, NO_CATEGORY, PHASES, age, displayTitle, factTags, stateLabel, tokCell } from './format.js';
 import { laneOf, repoCategories, rowKey } from './rows.js';
 
 // The side panel shows the selected session even once it has left the board (sent to Cleanup, say), so
@@ -79,7 +79,7 @@ export function renderDetail(r) {
             (i + 1) +
             ' ' +
             p[0] +
-            '</b></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>'
+            '</b></td><td>—</td><td>—</td><td>—</td><td>—</td></tr>'
           );
         return (
           '<tr class="' +
@@ -99,8 +99,6 @@ export function renderDetail(r) {
           'm</td>' +
           '<td>' +
           d.t +
-          '</td><td>' +
-          rbar(d.r) +
           '</td>' +
           '<td style="color:' +
           (d.i >= 3 ? 'var(--amber)' : 'inherit') +

@@ -171,6 +171,30 @@ test('clicks stay in the browser: no link into the Claude app, nothing leaves th
   expect(visited.filter((u) => !u.startsWith(site.url))).toEqual([]);
 });
 
+// A column removed from a header but not from the rows (or the other way round) shifts every value one place
+// left: the numbers still look like numbers, under the wrong headings, and nothing throws.
+test('every table says as many things as its headings promise', async ({ page }) => {
+  await page.goto(site.url);
+  await boardLoaded(page);
+  await page.locator('.lane').first().click();
+  await expect(page.locator('.detail table thead th').first()).toBeVisible();
+
+  const mismatches = await page.$$eval('table', (tables) =>
+    tables
+      .filter((t) => t.querySelector('thead th') && t.querySelector('tbody tr td'))
+      .flatMap((t) => {
+        const headings = t.querySelectorAll('thead th').length;
+        return [...t.querySelectorAll('tbody tr')]
+          .filter((r) => r.querySelectorAll('td').length && r.querySelectorAll('td').length !== headings)
+          .map(
+            (r) =>
+              `${[...t.querySelectorAll('thead th')].map((h) => h.textContent.trim()).join('|')}: a row has ${r.querySelectorAll('td').length} cells for ${headings} headings`
+          );
+      })
+  );
+  expect(mismatches).toEqual([]);
+});
+
 test.describe('at phone width', () => {
   test.use({ viewport: { width: 390, height: 844 } });
 
