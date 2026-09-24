@@ -38,7 +38,6 @@ export async function tick() {
         backfill: s.origin === 'backfill', // badged: a backfilled session's data is partial
         p: s.phases.map((ph) => ({
           w: Math.round(ph.work_ms / 60000),
-          u: Math.round(ph.wait_ms / 60000),
           t: tokCell(ph.tokens_usd, ph.tokens),
           usd: ph.tokens_usd,
           tok: ph.tokens,

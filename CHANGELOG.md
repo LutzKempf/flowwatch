@@ -6,6 +6,10 @@
 stored and were redone only when the session got a new event, so on an upgraded board every finished session kept
 the old rule's numbers. The collector now redoes all stored figures once, at its first start under a changed rule.
 
+The time a session spent waiting on you is no longer shown: not as a per-phase column, not in a session's total, and
+not as the work/wait split among the headline figures. It is still recorded, and still half of what picks the
+rollup's ★ target.
+
 ## 1.0.3 — 2026-09-24
 
 Two fixes to the per-phase numbers, both found by reading a real board.
