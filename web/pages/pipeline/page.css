@@ -368,30 +368,6 @@ tbody tr.dimr td {
   font-size: 10.5px;
   font-family: var(--mono);
 }
-.rbar {
-  display: inline-flex;
-  gap: 2px;
-  vertical-align: middle;
-  margin-left: 6px;
-}
-.rbar i {
-  width: 6px;
-  height: 9px;
-  background: #26262c;
-  display: inline-block;
-}
-.rbar i.on0 {
-  background: var(--dim);
-}
-.rbar i.on1 {
-  background: var(--cyan);
-}
-.rbar i.on2 {
-  background: var(--amber);
-}
-.rbar i.on3 {
-  background: var(--red);
-}
 .flag {
   font-family: var(--mono);
   font-size: 9.5px;
@@ -1187,11 +1163,6 @@ details.tr-rest .lname b a {
   border-radius: 2px;
   margin-left: 5px;
   vertical-align: middle;
-}
-.rna {
-  font-family: var(--mono);
-  font-size: 9.5px;
-  color: var(--dim);
 }
 .empty {
   border: 1px dashed var(--line);

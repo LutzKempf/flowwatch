@@ -1,5 +1,5 @@
 // The two rollups under the board: per phase across every session, and the archived sessions.
-import { PHASES, rbar, tile, tokCell } from './format.js';
+import { PHASES, tile, tokCell } from './format.js';
 
 /* ---- archived-session rollup ---- */
 // Rendered from the server-precomputed data.history, NOT from window.SESS — the
@@ -63,9 +63,6 @@ export function renderRollup() {
       '</td>' +
       '<td>' +
       (empty ? '\u2014' : tokCell(a.tokens_usd, a.tokens)) +
-      '</td>' +
-      '<td>' +
-      rbar(null) +
       '</td>' +
       '<td style="color:' +
       (a.inputs >= 9 ? 'var(--amber)' : 'inherit') +

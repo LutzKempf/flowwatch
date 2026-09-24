@@ -43,8 +43,7 @@ export async function tick() {
           usd: ph.tokens_usd,
           tok: ph.tokens,
           i: ph.inputs,
-          r: null,
-        })), // compute intensity: not measured -> "n/a"
+        })),
       }));
     window.AGG = data.aggregate; // cross-session rollup (server-scored)
     window.HISTORY = data.history; // archived-session rollup (kept, not discarded)

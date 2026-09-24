@@ -34,14 +34,6 @@ export const STATE_MAP = {
 };
 
 // escapeHtml comes from /lib/render.js (shared with the Mission page — no duplicate escaper)
-// Compute intensity r is NOT MEASURED yet (no thresholds exist): render a dimmed
-// "n/a", never a fake zero-bar - a zero bar reads as "measured low".
-export function rbar(r) {
-  if (r == null) return '<span class="rna">n/a</span>';
-  let s = '<span class="rbar">';
-  for (let k = 0; k < 4; k++) s += '<i class="' + (k <= r ? 'on' + r : '') + '"></i>';
-  return s + '</span>';
-}
 export function tokCell(usd, tok) {
   // live sessions have costUsd (show cents); backfilled have token counts (show k-tokens)
   if (usd > 0) return Math.round(usd * 100) + '\u00a2';
