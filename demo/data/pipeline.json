@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790149360866,
+  "generated_at": 1790255182139,
   "window_days": 14,
   "sessions": [
     {
@@ -9,17 +9,17 @@
       "origin": "live",
       "current_phase": 7,
       "state": "working",
-      "last_seen": 1790149358076,
+      "last_seen": 1790255180602,
       "stale": false,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 66630,
-          "wait_ms": 101766,
-          "inputs": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 118482
         },
         {
           "phase": 2,
@@ -55,19 +55,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 4843860,
-          "wait_ms": 1798837,
-          "inputs": 10,
+          "work_ms": 860324,
+          "wait_ms": 1533559,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 102002
         },
         {
           "phase": 7,
-          "work_ms": 71312335,
-          "wait_ms": 91141608,
-          "inputs": 64,
+          "work_ms": 87049462,
+          "wait_ms": 583525791,
+          "inputs": 199,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 5053228
         },
         {
           "phase": 8,
@@ -118,17 +118,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1790115708125,
+      "last_seen": 1790115706021,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 119,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 7126
         },
         {
           "phase": 2,
@@ -164,11 +164,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 1143261,
+          "work_ms": 1141157,
           "wait_ms": 0,
           "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 153391
         },
         {
           "phase": 7,
@@ -227,17 +227,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1790105122090,
+      "last_seen": 1790105120367,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 973759,
+          "work_ms": 972143,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 177466
         },
         {
           "phase": 2,
@@ -336,17 +336,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1790029744444,
+      "last_seen": 1790029742069,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 103,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1262
         },
         {
           "phase": 2,
@@ -382,11 +382,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 1590517,
+          "work_ms": 1588142,
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 164449
         },
         {
           "phase": 7,
@@ -445,17 +445,17 @@
       "origin": "live",
       "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1790028895384,
+      "last_seen": 1790028893749,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 99,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 96094
         },
         {
           "phase": 2,
@@ -483,6 +483,14 @@
         },
         {
           "phase": 5,
+          "work_ms": 841844,
+          "wait_ms": 62880,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 15298
+        },
+        {
+          "phase": 6,
           "work_ms": 0,
           "wait_ms": 0,
           "inputs": 0,
@@ -490,20 +498,12 @@
           "tokens": 0
         },
         {
-          "phase": 6,
-          "work_ms": 843073,
-          "wait_ms": 62980,
-          "inputs": 2,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
           "phase": 7,
-          "work_ms": 52674,
+          "work_ms": 51039,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 3346
         },
         {
           "phase": 8,
@@ -554,126 +554,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1790018754807,
+      "last_seen": 1790018752492,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1014616,
-          "wait_ms": 0,
-          "inputs": 1,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 2,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 3,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 4,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 5,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 6,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 8,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 9,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 10,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 11,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 12,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        }
-      ]
-    },
-    {
-      "id": "e986d1a8-6e42-4e67-98b8-788009b42c49",
-      "worktree": "vigorous-galileo-d204ad",
-      "milestone": "unassigned",
-      "origin": "live",
-      "current_phase": 6,
-      "state": "waiting",
-      "last_seen": 1789991037127,
-      "stale": true,
-      "archived": false,
-      "phases": [
-        {
-          "phase": 1,
-          "work_ms": 56356,
+          "work_ms": 1012411,
           "wait_ms": 0,
           "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 186689
         },
         {
           "phase": 2,
@@ -709,9 +600,9 @@
         },
         {
           "phase": 6,
-          "work_ms": 1032405,
+          "work_ms": 0,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
         },
@@ -770,19 +661,19 @@
       "worktree": "mission-control-research-0b5294",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 6,
+      "current_phase": 7,
       "state": "abandoned",
-      "last_seen": 1789976233376,
+      "last_seen": 1789976243426,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 162195,
-          "wait_ms": 259439927,
-          "inputs": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 118482
         },
         {
           "phase": 2,
@@ -818,11 +709,120 @@
         },
         {
           "phase": 6,
-          "work_ms": 1357150,
-          "wait_ms": 658188,
-          "inputs": 2,
+          "work_ms": 860324,
+          "wait_ms": 1533559,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 102002
+        },
+        {
+          "phase": 7,
+          "work_ms": 3867906,
+          "wait_ms": 388079036,
+          "inputs": 30,
+          "tokens_usd": 0,
+          "tokens": 748795
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e986d1a8-6e42-4e67-98b8-788009b42c49",
+      "worktree": "vigorous-galileo-d204ad",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789942585966,
+      "stale": true,
+      "archived": false,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 56454,
+          "wait_ms": 0,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 18521
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1030397,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 159114
         },
         {
           "phase": 7,
@@ -881,17 +881,17 @@
       "origin": "live",
       "current_phase": 5,
       "state": "waiting",
-      "last_seen": 1789931647794,
+      "last_seen": 1789931645804,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 100,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 88080
         },
         {
           "phase": 2,
@@ -919,11 +919,11 @@
         },
         {
           "phase": 5,
-          "work_ms": 557932,
+          "work_ms": 555942,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 18591
         },
         {
           "phase": 6,
@@ -988,19 +988,19 @@
       "worktree": "crypto-trader",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 1,
+      "current_phase": 5,
       "state": "waiting",
-      "last_seen": 1789897021578,
+      "last_seen": 1789897019437,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 384978,
+          "work_ms": 95,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 43777
         },
         {
           "phase": 2,
@@ -1028,11 +1028,11 @@
         },
         {
           "phase": 5,
-          "work_ms": 0,
+          "work_ms": 382837,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 18901
         },
         {
           "phase": 6,
@@ -1099,17 +1099,17 @@
       "origin": "live",
       "current_phase": 5,
       "state": "waiting",
-      "last_seen": 1789895453271,
+      "last_seen": 1789895450603,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 95,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 42594
         },
         {
           "phase": 2,
@@ -1137,11 +1137,11 @@
         },
         {
           "phase": 5,
-          "work_ms": 350040,
+          "work_ms": 347372,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 4762
         },
         {
           "phase": 6,
@@ -1208,17 +1208,17 @@
       "origin": "live",
       "current_phase": 5,
       "state": "waiting",
-      "last_seen": 1789893795374,
+      "last_seen": 1789893793490,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 96,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 16860
         },
         {
           "phase": 2,
@@ -1246,11 +1246,11 @@
         },
         {
           "phase": 5,
-          "work_ms": 283294,
+          "work_ms": 281410,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1373
         },
         {
           "phase": 6,
@@ -1317,17 +1317,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789855998644,
+      "last_seen": 1789855996224,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 101,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1449
         },
         {
           "phase": 2,
@@ -1363,11 +1363,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 913122,
+          "work_ms": 910702,
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 114900
         },
         {
           "phase": 7,
@@ -1426,17 +1426,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789845459983,
+      "last_seen": 1789845457968,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 788603,
+          "work_ms": 786692,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 156394
         },
         {
           "phase": 2,
@@ -1535,17 +1535,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789812254900,
+      "last_seen": 1789812253078,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 89804,
+          "work_ms": 88111,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 12276
         },
         {
           "phase": 2,
@@ -1644,17 +1644,17 @@
       "origin": "live",
       "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1789812117635,
+      "last_seen": 1789812115856,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 831497,
+          "work_ms": 831593,
           "wait_ms": 0,
-          "inputs": 2,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 80504
         },
         {
           "phase": 2,
@@ -1694,15 +1694,15 @@
           "wait_ms": 0,
           "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 49655
         },
         {
           "phase": 7,
-          "work_ms": 36147,
+          "work_ms": 34368,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 2638
         },
         {
           "phase": 8,
@@ -1753,17 +1753,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789805800746,
+      "last_seen": 1789805799137,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 484292,
-          "wait_ms": 0,
-          "inputs": 1,
+          "work_ms": 482649,
+          "wait_ms": 136,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 87502
         },
         {
           "phase": 2,
@@ -1862,17 +1862,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789801481409,
+      "last_seen": 1789801479987,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 176494,
+          "work_ms": 175170,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 9850
         },
         {
           "phase": 2,
@@ -1971,17 +1971,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789799789675,
+      "last_seen": 1789799787955,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 109524,
+          "work_ms": 109632,
           "wait_ms": 0,
-          "inputs": 5,
+          "inputs": 6,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 12246
         },
         {
           "phase": 2,
@@ -2017,11 +2017,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 614444,
-          "wait_ms": 831794,
-          "inputs": 9,
+          "work_ms": 602979,
+          "wait_ms": 830967,
+          "inputs": 17,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 86678
         },
         {
           "phase": 7,
@@ -2080,17 +2080,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789769568299,
+      "last_seen": 1789769565942,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 111,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 2580
         },
         {
           "phase": 2,
@@ -2126,11 +2126,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 751240,
-          "wait_ms": 80920,
-          "inputs": 3,
+          "work_ms": 747757,
+          "wait_ms": 80539,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 126246
         },
         {
           "phase": 7,
@@ -2189,17 +2189,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789759431747,
+      "last_seen": 1789759429828,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1151533,
+          "work_ms": 1149712,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 229205
         },
         {
           "phase": 2,
@@ -2298,17 +2298,17 @@
       "origin": "live",
       "current_phase": 7,
       "state": "abandoned",
-      "last_seen": 1789714513571,
+      "last_seen": 1789714516187,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 73703,
-          "wait_ms": 124053,
-          "inputs": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 2278
         },
         {
           "phase": 2,
@@ -2344,19 +2344,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 850653,
-          "wait_ms": 1087347,
-          "inputs": 3,
+          "work_ms": 4338670,
+          "wait_ms": 12770291,
+          "inputs": 17,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 683277
         },
         {
           "phase": 7,
-          "work_ms": 5625601,
-          "wait_ms": 164100878,
-          "inputs": 32,
+          "work_ms": 5996701,
+          "wait_ms": 226952507,
+          "inputs": 68,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1145995
         },
         {
           "phase": 8,
@@ -2407,17 +2407,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789683598848,
+      "last_seen": 1789683597130,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 99,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 7140
         },
         {
           "phase": 2,
@@ -2453,11 +2453,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 1313806,
+          "work_ms": 1312088,
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 168950
         },
         {
           "phase": 7,
@@ -2516,17 +2516,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789673135914,
+      "last_seen": 1789673133890,
       "stale": true,
       "archived": false,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1260017,
+          "work_ms": 1258095,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 171133
         },
         {
           "phase": 2,
@@ -2623,19 +2623,19 @@
       "worktree": "german-box-market-categories-eb263b",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 6,
+      "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1789627833168,
+      "last_seen": 1789627831441,
       "stale": true,
-      "archived": false,
+      "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 1,
+          "work_ms": 12462,
+          "wait_ms": 119,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 279807
         },
         {
           "phase": 2,
@@ -2671,19 +2671,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 1947039,
-          "wait_ms": 146452791,
-          "inputs": 2,
+          "work_ms": 1816901,
+          "wait_ms": 4358724,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 119016
         },
         {
           "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 218864,
+          "wait_ms": 141988620,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 31254
         },
         {
           "phase": 8,
@@ -2712,115 +2712,6 @@
         {
           "phase": 11,
           "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 12,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        }
-      ]
-    },
-    {
-      "id": "17f016d4-a517-4640-9c72-cbce158df5f8",
-      "worktree": "vibrant-turing-e152c0",
-      "milestone": "unassigned",
-      "origin": "live",
-      "current_phase": 11,
-      "state": "waiting",
-      "last_seen": 1789627691065,
-      "stale": true,
-      "archived": false,
-      "phases": [
-        {
-          "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 1,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 2,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 3,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 4,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 5,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 6,
-          "work_ms": 80601,
-          "wait_ms": 2625957,
-          "inputs": 2,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 8,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 9,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 10,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 11,
-          "work_ms": 742750,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
@@ -2841,27 +2732,27 @@
       "worktree": "eloquent-lumiere-33fde8",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 6,
+      "current_phase": 7,
       "state": "abandoned",
-      "last_seen": 1789627662501,
+      "last_seen": 1789627671332,
       "stale": true,
-      "archived": false,
+      "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1063930,
-          "wait_ms": 3326591,
-          "inputs": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
           "tokens_usd": 0,
           "tokens": 0
         },
         {
           "phase": 2,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 7421028,
+          "wait_ms": 319863459,
+          "inputs": 13,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 713002
         },
         {
           "phase": 3,
@@ -2881,27 +2772,27 @@
         },
         {
           "phase": 5,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 431127,
+          "wait_ms": 252753,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 11772
         },
         {
           "phase": 6,
-          "work_ms": 5187935,
-          "wait_ms": 156465527,
-          "inputs": 19,
+          "work_ms": 5886107,
+          "wait_ms": 22790712,
+          "inputs": 36,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1518535
         },
         {
           "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 1184237,
+          "wait_ms": 131777493,
+          "inputs": 22,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 339434
         },
         {
           "phase": 8,
@@ -2952,17 +2843,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789597053317,
+      "last_seen": 1789597051577,
       "stale": true,
-      "archived": false,
+      "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 93,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1105
         },
         {
           "phase": 2,
@@ -2998,11 +2889,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 1142625,
+          "work_ms": 1140885,
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 118316
         },
         {
           "phase": 7,
@@ -3061,17 +2952,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789586380625,
+      "last_seen": 1789586378711,
       "stale": true,
-      "archived": false,
+      "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 888276,
+          "work_ms": 886457,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 154723
         },
         {
           "phase": 2,
@@ -3120,6 +3011,333 @@
           "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "7dd5a8e1-380a-4761-ada8-2fd67247d002",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789510823520,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 1555
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1323808,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 150182
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "31ba7725-91d7-4bd3-9e2f-4857e70ca316",
+      "worktree": "nice-swanson-8d3943",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789499906567,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 819273,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 146581
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "72c164d6-a1ad-46cc-a616-65dc5a212a12",
+      "worktree": "ecstatic-noyce-639b8c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789473598537,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 44917
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1928606,
+          "wait_ms": 2253399,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 153651
+        },
+        {
+          "phase": 7,
+          "work_ms": 7600009,
+          "wait_ms": 263148808,
+          "inputs": 15,
+          "tokens_usd": 0,
+          "tokens": 1045331
         },
         {
           "phase": 8,
@@ -3279,17 +3497,17 @@
       "origin": "live",
       "current_phase": 8,
       "state": "abandoned",
-      "last_seen": 1789471154572,
+      "last_seen": 1789471200717,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 1,
+          "work_ms": 11602986,
+          "wait_ms": 62508699,
+          "inputs": 10,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1610072
         },
         {
           "phase": 2,
@@ -3325,27 +3543,27 @@
         },
         {
           "phase": 6,
-          "work_ms": 1004614,
-          "wait_ms": 0,
-          "inputs": 2,
+          "work_ms": 882397,
+          "wait_ms": 1372606,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 98782
         },
         {
           "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 1538261,
+          "wait_ms": 175868184,
+          "inputs": 7,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 301322
         },
         {
           "phase": 8,
-          "work_ms": 14251592,
-          "wait_ms": 17040163,
-          "inputs": 33,
+          "work_ms": 14488927,
+          "wait_ms": 68125990,
+          "inputs": 72,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 2043614
         },
         {
           "phase": 9,
@@ -3388,7 +3606,116 @@
       "origin": "live",
       "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1789470546677,
+      "last_seen": 1789470545141,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 862374,
+          "wait_ms": 47464412,
+          "inputs": 6,
+          "tokens_usd": 0,
+          "tokens": 218409
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 367893,
+          "wait_ms": 342984904,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 40217
+        },
+        {
+          "phase": 6,
+          "work_ms": 1458161,
+          "wait_ms": 11583207,
+          "inputs": 16,
+          "tokens_usd": 0,
+          "tokens": 230396
+        },
+        {
+          "phase": 7,
+          "work_ms": 1436709,
+          "wait_ms": 3857485,
+          "inputs": 10,
+          "tokens_usd": 0,
+          "tokens": 128901
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "17f016d4-a517-4640-9c72-cbce158df5f8",
+      "worktree": "vibrant-turing-e152c0",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 11,
+      "state": "waiting",
+      "last_seen": 1789469693211,
       "stale": true,
       "archived": true,
       "phases": [
@@ -3398,7 +3725,7 @@
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 14374
         },
         {
           "phase": 2,
@@ -3434,19 +3761,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 1249111,
-          "wait_ms": 11584431,
-          "inputs": 7,
+          "work_ms": 727163,
+          "wait_ms": 10011689,
+          "inputs": 10,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 109675
         },
         {
           "phase": 7,
-          "work_ms": 1443267,
-          "wait_ms": 3858181,
-          "inputs": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 5299
         },
         {
           "phase": 8,
@@ -3474,11 +3801,11 @@
         },
         {
           "phase": 11,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 740208,
+          "wait_ms": 323,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 81719
         },
         {
           "phase": 12,
@@ -3604,9 +3931,9 @@
       "worktree": "vibrant-turing-e152c0",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 6,
+      "current_phase": 7,
       "state": "abandoned",
-      "last_seen": 1789466222357,
+      "last_seen": 1789466233346,
       "stale": true,
       "archived": true,
       "phases": [
@@ -3614,9 +3941,9 @@
           "phase": 1,
           "work_ms": 0,
           "wait_ms": 0,
-          "inputs": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 132718
         },
         {
           "phase": 2,
@@ -3652,19 +3979,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 4042423,
-          "wait_ms": 8013554,
-          "inputs": 14,
+          "work_ms": 3060216,
+          "wait_ms": 5955475,
+          "inputs": 5,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1092247
         },
         {
           "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 4560556,
+          "wait_ms": 318622476,
+          "inputs": 25,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 1261429
         },
         {
           "phase": 8,
@@ -3824,17 +4151,17 @@
       "origin": "live",
       "current_phase": 11,
       "state": "waiting",
-      "last_seen": 1789465131672,
+      "last_seen": 1789465131516,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 251301,
+          "wait_ms": 17,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 409525
         },
         {
           "phase": 2,
@@ -3870,19 +4197,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 21351,
-          "wait_ms": 1993533,
-          "inputs": 2,
+          "work_ms": 2256222,
+          "wait_ms": 76238051,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 636513
         },
         {
           "phase": 7,
-          "work_ms": 92330,
-          "wait_ms": 5642002,
-          "inputs": 1,
+          "work_ms": 4494399,
+          "wait_ms": 337431373,
+          "inputs": 13,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 953698
         },
         {
           "phase": 8,
@@ -3910,11 +4237,11 @@
         },
         {
           "phase": 11,
-          "work_ms": 692758,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 692287,
+          "wait_ms": 315,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 171228
         },
         {
           "phase": 12,
@@ -3927,13 +4254,13 @@
       ]
     },
     {
-      "id": "b6cddf7f-3da8-414d-86d5-99d55ec7e31f",
-      "worktree": "german-box-market-categories-eb263b",
+      "id": "3057d0b7-781f-4247-85b5-683cbd34b047",
+      "worktree": "ecdf-degenerate-guard",
       "milestone": "unassigned",
-      "origin": "live",
-      "current_phase": 6,
-      "state": "waiting",
-      "last_seen": 1789457722417,
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "abandoned",
+      "last_seen": 1789464324093,
       "stale": true,
       "archived": true,
       "phases": [
@@ -3941,9 +4268,9 @@
           "phase": 1,
           "work_ms": 0,
           "wait_ms": 0,
-          "inputs": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 44917
         },
         {
           "phase": 2,
@@ -3979,19 +4306,128 @@
         },
         {
           "phase": 6,
-          "work_ms": 2220140,
-          "wait_ms": 759376,
-          "inputs": 3,
+          "work_ms": 1928606,
+          "wait_ms": 2253399,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 153651
         },
         {
           "phase": 7,
+          "work_ms": 7081760,
+          "wait_ms": 254392613,
+          "inputs": 10,
+          "tokens_usd": 0,
+          "tokens": 958894
+        },
+        {
+          "phase": 8,
           "work_ms": 0,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b6cddf7f-3da8-414d-86d5-99d55ec7e31f",
+      "worktree": "german-box-market-categories-eb263b",
+      "milestone": "unassigned",
+      "origin": "live",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789457720036,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 74280,
+          "wait_ms": 951,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 202645
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2058889,
+          "wait_ms": 1730992,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 628636
+        },
+        {
+          "phase": 7,
+          "work_ms": 3388700,
+          "wait_ms": 312836875,
+          "inputs": 10,
+          "tokens_usd": 0,
+          "tokens": 707644
         },
         {
           "phase": 8,
@@ -4040,19 +4476,19 @@
       "worktree": "crypto-trader",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 6,
+      "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1789457566281,
+      "last_seen": 1789457564120,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 74960,
-          "wait_ms": 2247977,
+          "work_ms": 12711,
+          "wait_ms": 9759,
           "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 336557
         },
         {
           "phase": 2,
@@ -4088,19 +4524,19 @@
         },
         {
           "phase": 6,
-          "work_ms": 1128617,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 1708932,
+          "wait_ms": 41117237,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 342050
         },
         {
           "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 1636463,
+          "wait_ms": 352977262,
+          "inputs": 7,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 320987
         },
         {
           "phase": 8,
@@ -4151,17 +4587,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789456572086,
+      "last_seen": 1789456570616,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 400266,
-          "wait_ms": 29867,
-          "inputs": 2,
+          "work_ms": 397972,
+          "wait_ms": 29738,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 75719
         },
         {
           "phase": 2,
@@ -4581,6 +5017,224 @@
       ]
     },
     {
+      "id": "85a17df4-df7e-41a9-8426-4d5a1e9d25c3",
+      "worktree": "wonderful-goodall-437f90",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789454605612,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 97448,
+          "wait_ms": 19,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 722943
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 323347,
+          "wait_ms": 2897820,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 427727
+        },
+        {
+          "phase": 7,
+          "work_ms": 1020500,
+          "wait_ms": 313873032,
+          "inputs": 6,
+          "tokens_usd": 0,
+          "tokens": 212424
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b037eca2-8cc1-493a-ba32-4f6dd660246c",
+      "worktree": "kind-wing-8eea61",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 11,
+      "state": "waiting",
+      "last_seen": 1789454445760,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 123740,
+          "wait_ms": 364,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 185852
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 504143,
+          "wait_ms": 1859388,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 112313
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 203765,
+          "wait_ms": 316756451,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 19976
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 725857,
+          "wait_ms": 675,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 243138
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
       "id": "3dff2c31-7022-4d8d-b4f4-a8b4d19c0182",
       "worktree": "crypto-trader",
       "milestone": "unassigned",
@@ -4598,6 +5252,115 @@
           "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "405dd5a4-0faf-48b2-9e0d-19be986072ce",
+      "worktree": "zen-tesla-e1ae55",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789453857261,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 2874966,
+          "wait_ms": 316937000,
+          "inputs": 18,
+          "tokens_usd": 0,
+          "tokens": 756549
         },
         {
           "phase": 2,
@@ -4803,19 +5566,19 @@
       "worktree": "project-overview-dev-pipeline-0c95d9",
       "milestone": "unassigned",
       "origin": "live",
-      "current_phase": 7,
+      "current_phase": 11,
       "state": "waiting",
-      "last_seen": 1789453540225,
+      "last_seen": 1789453538648,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
+          "work_ms": 374768,
           "wait_ms": 0,
-          "inputs": 0,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 16830570
         },
         {
           "phase": 2,
@@ -4831,7 +5594,7 @@
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 158961
         },
         {
           "phase": 4,
@@ -4839,31 +5602,31 @@
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 17613
         },
         {
           "phase": 5,
           "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "wait_ms": 168,
+          "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 181579
         },
         {
           "phase": 6,
-          "work_ms": 0,
-          "wait_ms": 2492607,
-          "inputs": 1,
+          "work_ms": 8442762,
+          "wait_ms": 4490539,
+          "inputs": 9,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 6805024
         },
         {
           "phase": 7,
-          "work_ms": 90311,
-          "wait_ms": 423353,
-          "inputs": 1,
+          "work_ms": 38873737,
+          "wait_ms": 267814791,
+          "inputs": 64,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 6621987
         },
         {
           "phase": 8,
@@ -4891,11 +5654,11 @@
         },
         {
           "phase": 11,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 943998,
+          "wait_ms": 423556,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 137596
         },
         {
           "phase": 12,
@@ -4914,17 +5677,17 @@
       "origin": "live",
       "current_phase": 7,
       "state": "waiting",
-      "last_seen": 1789426412219,
+      "last_seen": 1789426410366,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1338132,
+          "work_ms": 1338235,
           "wait_ms": 0,
-          "inputs": 3,
+          "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 295767
         },
         {
           "phase": 2,
@@ -4952,6 +5715,14 @@
         },
         {
           "phase": 5,
+          "work_ms": 659157,
+          "wait_ms": 1742164,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 27223
+        },
+        {
+          "phase": 6,
           "work_ms": 0,
           "wait_ms": 0,
           "inputs": 0,
@@ -4959,20 +5730,12 @@
           "tokens": 0
         },
         {
-          "phase": 6,
-          "work_ms": 660621,
-          "wait_ms": 1742268,
-          "inputs": 1,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
           "phase": 7,
-          "work_ms": 39323,
+          "work_ms": 37470,
           "wait_ms": 0,
           "inputs": 0,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 2889
         },
         {
           "phase": 8,
@@ -5023,17 +5786,17 @@
       "origin": "live",
       "current_phase": 6,
       "state": "waiting",
-      "last_seen": 1789423874132,
+      "last_seen": 1789423872248,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 48545,
+          "work_ms": 48650,
           "wait_ms": 0,
-          "inputs": 2,
+          "inputs": 3,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 19199
         },
         {
           "phase": 2,
@@ -5069,11 +5832,11 @@
         },
         {
           "phase": 6,
-          "work_ms": 739256,
+          "work_ms": 737372,
           "wait_ms": 0,
           "inputs": 1,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 144158
         },
         {
           "phase": 7,
@@ -5132,17 +5895,17 @@
       "origin": "live",
       "current_phase": 1,
       "state": "waiting",
-      "last_seen": 1789413699122,
+      "last_seen": 1789413697255,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1022967,
+          "work_ms": 1021196,
           "wait_ms": 0,
-          "inputs": 1,
+          "inputs": 2,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 158115
         },
         {
           "phase": 2,
@@ -5241,17 +6004,17 @@
       "origin": "live",
       "current_phase": 8,
       "state": "abandoned",
-      "last_seen": 1789387505973,
+      "last_seen": 1789387512157,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
+          "work_ms": 18806801,
+          "wait_ms": 140239835,
+          "inputs": 29,
           "tokens_usd": 0,
-          "tokens": 0
+          "tokens": 4584543
         },
         {
           "phase": 2,
@@ -5287,9 +6050,227 @@
         },
         {
           "phase": 6,
-          "work_ms": 285048,
+          "work_ms": 882397,
           "wait_ms": 0,
           "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 84738
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 572478,
+          "wait_ms": 177162529,
+          "inputs": 10,
+          "tokens_usd": 0,
+          "tokens": 127192
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b2418897-9979-4072-b685-a0d84f40a898",
+      "worktree": "wonderful-goodall-437f90",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789337234804,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 3424
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 499880,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 77088
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "9f95426d-3d6d-40f7-a035-8c95433818ba",
+      "worktree": "quizzical-bell-19dffe",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789326943858,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 622423,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 128071
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
         },
@@ -5303,9 +6284,1317 @@
         },
         {
           "phase": 8,
-          "work_ms": 603805,
-          "wait_ms": 177127896,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "878e0035-ef82-42de-9d73-538948ab460f",
+      "worktree": "C--git-repos-testing-autocoder-crypto-trader",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789292283438,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 43335
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 405603,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 19001
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "0d10201c-dc02-41ab-bad8-fdd60a8218cc",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789290685513,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 55144
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 341859,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 4323
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "f67d3328-c271-4580-9f45-9206972149f8",
+      "worktree": "C--git-repos-testing-autocoder-crypto-trader",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789288924709,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 12675
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 172504,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 1190
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "6e40685a-7639-4a3d-9921-b1ba08d6d6a7",
+      "worktree": "dreamy-morse-f22c8a",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789251109430,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 19002
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 787615,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 119998
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "b8b9da44-e735-4664-8b28-e95276fce2a1",
+      "worktree": "wonderful-goodall-437f90",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789240556072,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 104423
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 644756,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 22384
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e59c9964-52a2-45d1-b2ed-bd2015d4544b",
+      "worktree": "vibrant-bhabha-6f6af9",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789208920540,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 209126
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 2088490,
+          "wait_ms": 2834700,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 58031
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d5a7c006-1650-46d1-a9dc-cd64405487d2",
+      "worktree": "C--git-repos-testing-autocoder-crypto-trader",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789207521138,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 115531,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 4487
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "08f137f3-4343-4aa0-900f-d98b2759cf96",
+      "worktree": "stoic-davinci-345c2c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789200950629,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 59407
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 453195,
+          "wait_ms": 10,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 21364
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "771b284b-953b-46a1-9a00-43f3ea09317a",
+      "worktree": "priceless-morse-7400d2",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789196790698,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 305871,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 32357
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "039595e1-060b-45e1-a4fb-db9f4a67af6d",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789194760526,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 14183
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 914677,
+          "wait_ms": 426984,
           "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 86708
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "ad5efdf0-d424-4bbc-b3cd-77fddf1dc0e8",
+      "worktree": "quizzical-bell-19dffe",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789164514635,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 9444
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 600208,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 91631
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "a71846f1-8f62-4141-9706-65072306c051",
+      "worktree": "dreamy-morse-f22c8a",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789154430056,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 139442
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 919688,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 27900
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
         },
@@ -5349,18 +7638,18 @@
       "milestone": "unassigned",
       "origin": "backfill",
       "current_phase": 8,
-      "state": "waiting",
-      "last_seen": 1788988467465.547,
+      "state": "abandoned",
+      "last_seen": 1789134193181,
       "stale": true,
       "archived": true,
       "phases": [
         {
           "phase": 1,
-          "work_ms": 1012226,
+          "work_ms": 687738,
           "wait_ms": 13580140,
           "inputs": 4,
           "tokens_usd": 0,
-          "tokens": 158369
+          "tokens": 8270304
         },
         {
           "phase": 2,
@@ -5404,237 +7693,19 @@
         },
         {
           "phase": 7,
-          "work_ms": 505770,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 60617
-        },
-        {
-          "phase": 8,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 9,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 10,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 11,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 12,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        }
-      ]
-    },
-    {
-      "id": "18f25342-d759-4f3a-9f97-d6c98907b57b",
-      "worktree": "project-overview-dev-pipeline-0c95d9",
-      "milestone": "unassigned",
-      "origin": "live",
-      "current_phase": 1,
-      "state": "abandoned",
-      "last_seen": 1788981504322,
-      "stale": true,
-      "archived": true,
-      "phases": [
-        {
-          "phase": 1,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 2,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 3,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 4,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 5,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 6,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 7,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 8,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 9,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 10,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 11,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 12,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        }
-      ]
-    },
-    {
-      "id": "6978adc2-42f3-4064-bfeb-afa4541b3d96",
-      "worktree": "project-overview-dev-pipeline-0c95d9",
-      "milestone": "unassigned",
-      "origin": "backfill",
-      "current_phase": 8,
-      "state": "waiting",
-      "last_seen": 1788948558479,
-      "stale": true,
-      "archived": true,
-      "phases": [
-        {
-          "phase": 1,
-          "work_ms": 175227,
-          "wait_ms": 999404,
-          "inputs": 2,
-          "tokens_usd": 0,
-          "tokens": 37914
-        },
-        {
-          "phase": 2,
-          "work_ms": 656241,
-          "wait_ms": 1356111,
+          "work_ms": 14857494,
+          "wait_ms": 50946871,
           "inputs": 5,
           "tokens_usd": 0,
-          "tokens": 95023
-        },
-        {
-          "phase": 3,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 4,
-          "work_ms": 0,
-          "wait_ms": 0,
-          "inputs": 0,
-          "tokens_usd": 0,
-          "tokens": 0
-        },
-        {
-          "phase": 5,
-          "work_ms": 236716,
-          "wait_ms": 165,
-          "inputs": 1,
-          "tokens_usd": 0,
-          "tokens": 11901
-        },
-        {
-          "phase": 6,
-          "work_ms": 4280866,
-          "wait_ms": 2199973,
-          "inputs": 11,
-          "tokens_usd": 0,
-          "tokens": 545720
-        },
-        {
-          "phase": 7,
-          "work_ms": 649427,
-          "wait_ms": 274372,
-          "inputs": 2,
-          "tokens_usd": 0,
-          "tokens": 46635
+          "tokens": 233791
         },
         {
           "phase": 8,
-          "work_ms": 260406,
-          "wait_ms": 32584883,
-          "inputs": 7,
+          "work_ms": 13932014,
+          "wait_ms": 183078600,
+          "inputs": 43,
           "tokens_usd": 0,
-          "tokens": 15621
+          "tokens": 3810174
         },
         {
           "phase": 9,
@@ -5671,13 +7742,122 @@
       ]
     },
     {
-      "id": "1fde313b-25eb-454f-bbe3-f5cc07130d6e",
-      "worktree": "project-overview-dev-pipeline-0c95d9",
+      "id": "740deb0c-22cf-4cdc-97fa-7afa4b4f3ca9",
+      "worktree": "german-box-market-categories-eb263b",
       "milestone": "unassigned",
-      "origin": "live",
-      "current_phase": 1,
-      "state": "abandoned",
-      "last_seen": 1788948557713,
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789134059056,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 3977
+        },
+        {
+          "phase": 2,
+          "work_ms": 50940,
+          "wait_ms": 7,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 70289
+        },
+        {
+          "phase": 3,
+          "work_ms": 895268,
+          "wait_ms": 11,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 114154
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 442049,
+          "wait_ms": 9,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 55675
+        },
+        {
+          "phase": 6,
+          "work_ms": 33652229,
+          "wait_ms": 149597387,
+          "inputs": 24,
+          "tokens_usd": 0,
+          "tokens": 974724
+        },
+        {
+          "phase": 7,
+          "work_ms": 22792665,
+          "wait_ms": 120990241,
+          "inputs": 34,
+          "tokens_usd": 0,
+          "tokens": 7254816
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "8de3364a-4cb0-4f76-93ec-f1b1f69438d7",
+      "worktree": "recursing-torvalds-34827a",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789133951678,
       "stale": true,
       "archived": true,
       "phases": [
@@ -5688,6 +7868,2186 @@
           "inputs": 0,
           "tokens_usd": 0,
           "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2338943,
+          "wait_ms": 914105,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 566057
+        },
+        {
+          "phase": 7,
+          "work_ms": 12836022,
+          "wait_ms": 95435075,
+          "inputs": 34,
+          "tokens_usd": 0,
+          "tokens": 2790281
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "e0139543-6ca0-48cb-8957-a089e22a0ddb",
+      "worktree": "nostalgic-golick-b0a819",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "abandoned",
+      "last_seen": 1789133490013,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 998693,
+          "wait_ms": 108,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 119185
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 54327836,
+          "wait_ms": 438435255,
+          "inputs": 9,
+          "tokens_usd": 0,
+          "tokens": 1859420
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "9221cbe9-a6ce-49c8-9f27-a6dc6921f278",
+      "worktree": "hopeful-einstein-c4f3ab",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789127129621,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 12711,
+          "wait_ms": 9759,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 336557
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 1708932,
+          "wait_ms": 41117237,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 342050
+        },
+        {
+          "phase": 7,
+          "work_ms": 436694,
+          "wait_ms": 23744172,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 92534
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "44c2b99f-3f81-4188-9259-0f4ccf79a0c6",
+      "worktree": "busy-saha-6bdf8a",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789122501753,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 288055,
+          "wait_ms": 8897,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 309449
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 4029056,
+          "wait_ms": 58075375,
+          "inputs": 8,
+          "tokens_usd": 0,
+          "tokens": 1029360
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "62934487-a048-42e5-b54f-049e73f04e3e",
+      "worktree": "sleepy-lumiere-1cdb08",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789121388579,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 57827,
+          "wait_ms": 0,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 59049
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2039310,
+          "wait_ms": 58507818,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 615737
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "d4e35015-e671-4741-a14b-cfd7b757b61a",
+      "worktree": "brave-lalande-a69044",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789121026007,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 1352
+        },
+        {
+          "phase": 2,
+          "work_ms": 19077,
+          "wait_ms": 12,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 23031455
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 108533
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 5605834,
+          "wait_ms": 2941498,
+          "inputs": 11,
+          "tokens_usd": 0,
+          "tokens": 12992129
+        },
+        {
+          "phase": 6,
+          "work_ms": 12083204,
+          "wait_ms": 62484966,
+          "inputs": 19,
+          "tokens_usd": 0,
+          "tokens": 7999698
+        },
+        {
+          "phase": 7,
+          "work_ms": 176343,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 44308
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "2dcb7338-fd5f-4d6e-a9e6-7a3ea29b4e1c",
+      "worktree": "nervous-davinci-b944b9",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789119094087,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 46464,
+          "wait_ms": 13,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 122299
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2791538,
+          "wait_ms": 56161643,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 905151
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "73de3125-c453-48b1-b2b0-047507780dc1",
+      "worktree": "wonderful-goodall-437f90",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789118319479,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 12321,
+          "wait_ms": 10,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 390467
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2979444,
+          "wait_ms": 64981297,
+          "inputs": 5,
+          "tokens_usd": 0,
+          "tokens": 607712
+        },
+        {
+          "phase": 7,
+          "work_ms": 259304,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 34723
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "3513a0f7-deef-4fe3-9e42-97a3658211c7",
+      "worktree": "vibrant-bhabha-6f6af9",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789115823257,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 20781,
+          "wait_ms": 12,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 1010098
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 3644359,
+          "wait_ms": 68170960,
+          "inputs": 6,
+          "tokens_usd": 0,
+          "tokens": 1254612
+        },
+        {
+          "phase": 7,
+          "work_ms": 188864,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 13377
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "a2e826f4-cf06-4f0b-964b-f1401b48edb1",
+      "worktree": "practical-borg-ed66f7",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789114122651,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 1038811,
+          "wait_ms": 54,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 561719
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2600910,
+          "wait_ms": 66559955,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 948064
+        },
+        {
+          "phase": 7,
+          "work_ms": 116811,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 11777
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "8e3d4689-70f4-4f12-b414-46284ffdf299",
+      "worktree": "stoic-davinci-345c2c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789112209198,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 9375,
+          "wait_ms": 41,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 335173
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2409833,
+          "wait_ms": 65823495,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 679224
+        },
+        {
+          "phase": 7,
+          "work_ms": 170929,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 10335
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "42be3599-db22-4404-b741-089b926f8456",
+      "worktree": "ecstatic-noyce-639b8c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789110943647,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 301925,
+          "wait_ms": 11,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 136621
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 36837
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 78629
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 10715031,
+          "wait_ms": 180480179,
+          "inputs": 18,
+          "tokens_usd": 0,
+          "tokens": 681145
+        },
+        {
+          "phase": 7,
+          "work_ms": 18510236,
+          "wait_ms": 263298310,
+          "inputs": 67,
+          "tokens_usd": 0,
+          "tokens": 4029401
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "3992090e-0620-4643-b61b-8ce809ec5c37",
+      "worktree": "pr-gate-data-files-a71db2",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 6,
+      "state": "waiting",
+      "last_seen": 1789078358057,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 23622
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 855551,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 116523
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "3c9d6fdf-4927-46c6-b93d-67fbf0d7248a",
+      "worktree": "sweet-mclean-006f2b",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789076333045,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 953786,
+          "wait_ms": 43,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 561974
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 2539260,
+          "wait_ms": 35012356,
+          "inputs": 7,
+          "tokens_usd": 0,
+          "tokens": 656874
+        },
+        {
+          "phase": 7,
+          "work_ms": 123453,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 6888
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "18428389-8daa-4e7c-b719-b4be0366d46c",
+      "worktree": "quizzical-bell-19dffe",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789073301289,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 22844193,
+          "wait_ms": 6422574,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 277660
+        },
+        {
+          "phase": 7,
+          "work_ms": 861901,
+          "wait_ms": 82826726,
+          "inputs": 4,
+          "tokens_usd": 0,
+          "tokens": 48404
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "7f71352d-9f3d-4dc7-b2fb-848886baa4ce",
+      "worktree": "eager-fermat-14f67c",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789072478618,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 5952,
+          "wait_ms": 17,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 190639
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 3709474,
+          "wait_ms": 30500461,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 1182841
+        },
+        {
+          "phase": 7,
+          "work_ms": 195071,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 7736
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "1450cb23-db7a-4587-9b39-958f2dcf656d",
+      "worktree": "priceless-morse-7400d2",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789070880046,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 9219,
+          "wait_ms": 26,
+          "inputs": 2,
+          "tokens_usd": 0,
+          "tokens": 386298
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 3618622,
+          "wait_ms": 29330953,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 716251
+        },
+        {
+          "phase": 7,
+          "work_ms": 235394,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 6665
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "f9487262-7b8d-4cd9-8667-ba6d56e990d4",
+      "worktree": "determined-driscoll-793f75",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 5,
+      "state": "waiting",
+      "last_seen": 1789068258995,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 162281
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 1165474,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 26393
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "37aa037f-aac1-44be-8215-a95dd2fc320f",
+      "worktree": "awesome-wilson-1b8edf",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 7,
+      "state": "waiting",
+      "last_seen": 1789067748159,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 2,
+          "work_ms": 28916,
+          "wait_ms": 37,
+          "inputs": 3,
+          "tokens_usd": 0,
+          "tokens": 213322
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 3157782,
+          "wait_ms": 26301632,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 1004829
+        },
+        {
+          "phase": 7,
+          "work_ms": 209291,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 28604
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "72805baa-d4a1-4e5c-a57d-1d0fb13bdb12",
+      "worktree": "C--git-repos-testing-autocoder-crypto-trader",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789049546035,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 71574,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 13412
+        },
+        {
+          "phase": 2,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 3,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 4,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 5,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 6,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 7,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 8,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 9,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 10,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 11,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        },
+        {
+          "phase": 12,
+          "work_ms": 0,
+          "wait_ms": 0,
+          "inputs": 0,
+          "tokens_usd": 0,
+          "tokens": 0
+        }
+      ]
+    },
+    {
+      "id": "dff02349-3d26-4869-b4a5-cf0023f7faa0",
+      "worktree": "C--git-repos-testing-autocoder-crypto-trader",
+      "milestone": "unassigned",
+      "origin": "backfill",
+      "current_phase": 1,
+      "state": "waiting",
+      "last_seen": 1789045940145,
+      "stale": true,
+      "archived": true,
+      "phases": [
+        {
+          "phase": 1,
+          "work_ms": 65731,
+          "wait_ms": 0,
+          "inputs": 1,
+          "tokens_usd": 0,
+          "tokens": 10821
         },
         {
           "phase": 2,
@@ -5781,44 +10141,44 @@
     }
   ],
   "history": {
-    "sessions": 24,
-    "worktrees": 11,
-    "workMs": 39226316,
-    "waitMs": 283950256,
-    "inputs": 121
+    "sessions": 69,
+    "worktrees": 33,
+    "workMs": 456599831,
+    "waitMs": 7137006492,
+    "inputs": 916
   },
   "aggregate": [
     {
       "phase": 1,
-      "work_ms": 13648530,
-      "wait_ms": 279849725,
-      "inputs": 63,
+      "work_ms": 51200395,
+      "wait_ms": 580790137,
+      "inputs": 212,
       "tokens_usd": 0,
-      "tokens": 196283,
-      "sessions": 38,
-      "score": 0.7101101336638365,
+      "tokens": 42192995,
+      "sessions": 84,
+      "score": 0.22469454845730058,
       "target": false
     },
     {
       "phase": 2,
-      "work_ms": 656241,
-      "wait_ms": 1356111,
-      "inputs": 5,
+      "work_ms": 8473747,
+      "wait_ms": 319863558,
+      "inputs": 20,
       "tokens_usd": 0,
-      "tokens": 95023,
-      "sessions": 1,
-      "score": 0.025585954307014405,
+      "tokens": 24590042,
+      "sessions": 5,
+      "score": 0.04756167616026601,
       "target": false
     },
     {
       "phase": 3,
-      "work_ms": 0,
-      "wait_ms": 0,
-      "inputs": 0,
+      "work_ms": 895268,
+      "wait_ms": 11,
+      "inputs": 1,
       "tokens_usd": 0,
-      "tokens": 0,
-      "sessions": 0,
-      "score": 0,
+      "tokens": 418485,
+      "sessions": 4,
+      "score": 0.0007874026688636718,
       "target": false
     },
     {
@@ -5827,53 +10187,53 @@
       "wait_ms": 0,
       "inputs": 0,
       "tokens_usd": 0,
-      "tokens": 0,
-      "sessions": 0,
+      "tokens": 96242,
+      "sessions": 2,
       "score": 0,
       "target": false
     },
     {
       "phase": 5,
-      "work_ms": 1427982,
-      "wait_ms": 165,
-      "inputs": 1,
+      "work_ms": 16611177,
+      "wait_ms": 352678474,
+      "inputs": 30,
       "tokens_usd": 0,
-      "tokens": 11901,
-      "sessions": 4,
-      "score": 0.00471722460257803,
+      "tokens": 13660419,
+      "sessions": 20,
+      "score": 0.05869946501154571,
       "target": false
     },
     {
       "phase": 6,
-      "work_ms": 41736316,
-      "wait_ms": 338850083,
-      "inputs": 106,
+      "work_ms": 227295736,
+      "wait_ms": 1643107397,
+      "inputs": 285,
       "tokens_usd": 0,
-      "tokens": 545720,
-      "sessions": 27,
+      "tokens": 37517318,
+      "sessions": 51,
+      "score": 0.3878329885310444,
+      "target": false
+    },
+    {
+      "phase": 7,
+      "work_ms": 242245378,
+      "wait_ms": 5027144192,
+      "inputs": 635,
+      "tokens_usd": 0,
+      "tokens": 34479111,
+      "sessions": 35,
       "score": 1,
       "target": true
     },
     {
-      "phase": 7,
-      "work_ms": 79847185,
-      "wait_ms": 265440394,
-      "inputs": 105,
-      "tokens_usd": 0,
-      "tokens": 107252,
-      "sessions": 10,
-      "score": 0.88696123781645,
-      "target": false
-    },
-    {
       "phase": 8,
-      "work_ms": 15115803,
-      "wait_ms": 226752942,
-      "inputs": 45,
+      "work_ms": 28993419,
+      "wait_ms": 428367119,
+      "inputs": 125,
       "tokens_usd": 0,
-      "tokens": 15621,
+      "tokens": 5980980,
       "sessions": 3,
-      "score": 0.5468559857637525,
+      "score": 0.1410306108428635,
       "target": false
     },
     {
@@ -5900,13 +10260,13 @@
     },
     {
       "phase": 11,
-      "work_ms": 1435508,
-      "wait_ms": 0,
-      "inputs": 0,
+      "work_ms": 3102350,
+      "wait_ms": 424869,
+      "inputs": 10,
       "tokens_usd": 0,
-      "tokens": 0,
-      "sessions": 2,
-      "score": 0,
+      "tokens": 633681,
+      "sessions": 4,
+      "score": 0.007916273238942152,
       "target": false
     },
     {
