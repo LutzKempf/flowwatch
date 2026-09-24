@@ -98,3 +98,44 @@ test('tokens after the last turn ended are still counted', () => {
   ];
   expect(rollup(ev)[PHASE.GOAL].tokens).toBe(50);
 });
+
+// A turn is work only while something happens in it. The board that exposed this credited one session 1,451 minutes
+// of work: a turn ended with no stop recorded, and the 14 hours until the next morning's prompt counted as work.
+// Others held 3-day silences inside a single turn -- a session left open on a permission prompt, or a closed lid.
+// No single tool call runs longer than 10 minutes, so no silence inside a turn counts for more than 15.
+describe('silence inside a turn', () => {
+  const min = 60_000;
+  const work = (ev) => Object.values(rollup(ev)).reduce((n, s) => n + s.work_ms, 0);
+
+  test('a long silence counts for at most 15 minutes', () => {
+    expect(
+      work([
+        { type: 'user_prompt', ts: 0 },
+        { type: 'bash', command: 'ls', ts: 2 * min },
+        { type: 'bash', command: 'ls', ts: 3 * 24 * 60 * min }, // three days later
+        { type: 'turn_stop', ts: 3 * 24 * 60 * min + min },
+      ])
+    ).toBe(2 * min + 15 * min + min);
+  });
+
+  test('a turn with no recorded stop ends 15 minutes after its last sign of life, not at the next prompt', () => {
+    expect(
+      work([
+        { type: 'user_prompt', ts: 0 },
+        { type: 'bash', command: 'ls', ts: 3 * min },
+        { type: 'user_prompt', ts: 14 * 60 * min }, // the next morning; no turn_stop in between
+        { type: 'turn_stop', ts: 14 * 60 * min + min },
+      ])
+    ).toBe(3 * min + 15 * min + min);
+  });
+
+  test('a tool call that runs its full ten minutes still counts in full', () => {
+    expect(
+      work([
+        { type: 'user_prompt', ts: 0 },
+        { type: 'bash', command: 'npm run build', ts: min },
+        { type: 'turn_stop', ts: 11 * min },
+      ])
+    ).toBe(11 * min);
+  });
+});

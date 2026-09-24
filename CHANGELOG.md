@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.6 — 2026-09-24
+
+Work time stops counting sessions that were left open. Inside a turn, work now runs from event to event, and no single
+silence counts for more than 15 minutes — a tool call runs for at most 10. A turn whose stop was never recorded used
+to count as work until the next prompt, and a session left open on a permission prompt or a closed lid counted every
+hour of it: one session read 1,451 minutes of work, 864 of them a single night. On the board that exposed it, total
+work fell from 97,163 to 31,758 minutes, and that session to 528.
+
 ## 1.0.5 — 2026-09-24
 
 The early phases stop reading "0m" for work nobody did there.
