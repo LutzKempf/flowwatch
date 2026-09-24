@@ -150,7 +150,7 @@ function buildPipeline(
     const byPhase = new Map(rows.map((r) => [r.phase, r]));
     const phases = [];
     for (let p = 1; p <= PHASE_COUNT; p++) {
-      const r = byPhase.get(p) || { work_ms: 0, wait_ms: 0, inputs: 0, tokens_usd: 0, tokens: 0 };
+      const r = byPhase.get(p) || { work_ms: 0, wait_ms: 0, inputs: 0, tokens_usd: 0, tokens: 0, entered: 0 };
       phases.push({
         phase: p,
         work_ms: r.work_ms,
@@ -158,6 +158,7 @@ function buildPipeline(
         inputs: r.inputs,
         tokens_usd: roundUsd(r.tokens_usd),
         tokens: r.tokens || 0,
+        entered: Boolean(r.entered),
       });
       const a = aggregate[p - 1];
       a.work_ms += r.work_ms;

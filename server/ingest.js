@@ -70,12 +70,22 @@ function recompute(db, sessionId) {
   // as working, including the ones waiting on you and the dead ones. Staleness and archiving stay derived
   // per request in buildPipeline().
   db.prepare('UPDATE sessions SET current_phase=?, state=? WHERE id=?').run(phase, stateForEvents(events), sessionId);
-  const up = db.prepare(`INSERT INTO phase_stats (session_id, phase, work_ms, wait_ms, inputs, tokens_usd, tokens)
-    VALUES (@s,@p,@w,@wa,@i,@t,@tk)
-    ON CONFLICT(session_id,phase) DO UPDATE SET work_ms=@w, wait_ms=@wa, inputs=@i, tokens_usd=@t, tokens=@tk`);
+  const up =
+    db.prepare(`INSERT INTO phase_stats (session_id, phase, work_ms, wait_ms, inputs, tokens_usd, tokens, entered)
+    VALUES (@s,@p,@w,@wa,@i,@t,@tk,@e)
+    ON CONFLICT(session_id,phase) DO UPDATE SET work_ms=@w, wait_ms=@wa, inputs=@i, tokens_usd=@t, tokens=@tk, entered=@e`);
   for (let p = 1; p <= PHASE_COUNT; p++) {
     const st = stats[p];
-    up.run({ s: sessionId, p, w: st.work_ms, wa: st.wait_ms, i: st.inputs, t: st.tokens_usd, tk: st.tokens });
+    up.run({
+      s: sessionId,
+      p,
+      w: st.work_ms,
+      wa: st.wait_ms,
+      i: st.inputs,
+      t: st.tokens_usd,
+      tk: st.tokens,
+      e: st.entered ? 1 : 0,
+    });
   }
 }
 

@@ -53,25 +53,40 @@ test('a prompt arriving mid-turn (user interrupt) still credits the elapsed work
   expect(s[PHASE.GOAL].work_ms).toBe(4000);
 });
 
-test("a turn's tokens and its minutes land on the SAME phase, even when the phase moved mid-turn", () => {
-  // The real shape that exposed this: a session prompted once, worked 13 minutes, committed (which advances the
-  // phase) and was then prompted again. The work of that turn is credited when the turn ends — to EXECUTE — while
-  // its tokens were credited as they arrived, in GOAL. The board then read "0m work, 96k tokens" beside
-  // "14m work, 15k tokens": the same turn, split across two rows, and neither row true.
+test('a turn that crosses a phase boundary is split at the boundary, its tokens staying where they were spent', () => {
+  // The real shape: a session prompted once, worked, committed (which advances the phase) and was prompted again.
+  // Credited whole at the turn's end, all of its minutes landed on the phase it ENDED in and the phases it passed
+  // through read 0m -- the board's early phases were 0m almost everywhere. Split at the moment the phase moved,
+  // each phase gets the minutes spent in it, and the tokens produced in that stretch.
   const min = 60_000;
   const ev = [
     { type: 'user_prompt', ts: 0 },
     { type: 'token_usage', ts: 1000, tokensTotal: 0 }, // baseline
-    { type: 'token_usage', ts: 2 * min, tokensTotal: 96_000 }, // produced during the turn, while cur is still GOAL
-    { type: 'commit', ts: 8 * min }, // -> EXECUTE
-    { type: 'user_prompt', ts: 13 * min }, // interrupts: 13 min of work credited to EXECUTE
+    { type: 'token_usage', ts: 2 * min, tokensTotal: 96_000 }, // produced while still in GOAL
+    { type: 'commit', ts: 8 * min }, // -> EXECUTE, mid-turn
+    { type: 'token_usage', ts: 10 * min, tokensTotal: 111_000 }, // produced in EXECUTE
+    { type: 'user_prompt', ts: 13 * min },
     { type: 'turn_stop', ts: 14 * min },
   ];
   const s = rollup(ev);
-  expect(s[PHASE.GOAL].work_ms).toBe(0);
-  expect(s[PHASE.GOAL].tokens).toBe(0); // NOT 96_000: the turn's tokens follow the turn's minutes
-  expect(s[PHASE.EXECUTE].work_ms).toBe(14 * min);
-  expect(s[PHASE.EXECUTE].tokens).toBe(96_000);
+  expect([s[PHASE.GOAL].work_ms, s[PHASE.GOAL].tokens]).toEqual([8 * min, 96_000]);
+  expect([s[PHASE.EXECUTE].work_ms, s[PHASE.EXECUTE].tokens]).toEqual([6 * min, 15_000]);
+});
+
+// A phase the session passed without ever being in it has no minutes to show, and "0m" would say it took none.
+// The roll-up says which phases the session was actually in, so the board can say "skipped" instead.
+test('it records which phases the session was actually in', () => {
+  const ev = [
+    { type: 'user_prompt', ts: 0 },
+    { type: 'commit', ts: 1000 }, // GOAL -> EXECUTE: BRAINSTORM, OPENSPEC and PLAN are passed, never entered
+    { type: 'bash', command: 'npm test', ts: 2000 }, // -> TEST
+    { type: 'turn_stop', ts: 3000 },
+  ];
+  const s = rollup(ev);
+  const entered = Object.entries(s)
+    .filter(([, st]) => st.entered)
+    .map(([p]) => Number(p));
+  expect(entered).toEqual([PHASE.GOAL, PHASE.EXECUTE, PHASE.TEST]);
 });
 
 test('tokens after the last turn ended are still counted', () => {

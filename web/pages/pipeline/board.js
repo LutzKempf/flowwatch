@@ -182,7 +182,8 @@ function laneHtml(r) {
     let c = 'cell',
       mk = '';
     if (ph < s.cur) {
-      c += ' done';
+      // Passed without ever being in it: no time was spent there, so it is shown as skipped, not as work done.
+      c += s.p && s.p[ph - 1] && s.p[ph - 1].e === false ? ' skipped' : ' done';
     } else if (ph === s.cur) {
       c += ' cur ' + s.state + (s.stale ? ' stale' : '');
       mk = s.state === 'waityou' ? '🙋' : s.state === 'machwait' ? '⏳' : s.state === 'abandoned' ? '··' : '▶';

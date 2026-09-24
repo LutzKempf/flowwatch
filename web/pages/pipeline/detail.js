@@ -71,6 +71,14 @@ export function renderDetail(r) {
           ttok += d.tok;
           ti += d.i;
         }
+        if (reached && !cur && d && d.e === false)
+          return (
+            '<tr class="skipr"><td class="pname"><b>' +
+            (i + 1) +
+            ' ' +
+            p[0] +
+            '</b></td><td>skipped</td><td>—</td><td>—</td></tr>'
+          );
         if (!reached || !d)
           return (
             '<tr class="dimr"><td class="pname"><b>' +

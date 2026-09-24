@@ -63,13 +63,20 @@ test('a session that also reported live keeps its origin when its transcript is 
 
 // The hooks already recorded this session's prompts, commands and turns while it ran. Its transcript describes the
 // same session, so walking it wholesale files a SECOND copy of each of them under a different id: the board then
-// counts every prompt twice, and a turn's minutes are cut at a prompt that never happened. Only the token figures
-// are new, because nothing but the transcript has them.
-test("walking a live session's transcript adds its token figures and nothing else", () => {
+// counts every prompt twice, and a turn's minutes are cut at a prompt that never happened. What the transcript adds
+// is what the hooks could not have: the token figures, and file writes -- phase signals that count nothing, which the
+// hooks did not report for a plan before 1.0.5.
+test("walking a live session's transcript adds its token figures and its file writes, and nothing else", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bf-dup-'));
   const wtDir = path.join(root, 'C--repo--worktrees-wtD');
   fs.mkdirSync(wtDir, { recursive: true });
-  fs.copyFileSync(path.join(__dirname, '../fixtures/transcript.jsonl'), path.join(wtDir, 'sess-dup.jsonl'));
+  const fixture = fs.readFileSync(path.join(__dirname, '../fixtures/transcript.jsonl'), 'utf8').trimEnd();
+  const planWrite = JSON.stringify({
+    type: 'assistant',
+    timestamp: '2026-09-21T08:00:00.000Z',
+    message: { content: [{ type: 'tool_use', name: 'Write', input: { file_path: '/r/docs/plans/p.md' } }] },
+  });
+  fs.writeFileSync(path.join(wtDir, 'sess-dup.jsonl'), fixture + '\n' + planWrite + '\n');
 
   const db = openDb(':memory:');
   const { ingestEvent } = require('../../server/ingest');
@@ -78,9 +85,10 @@ test("walking a live session's transcript adds its token figures and nothing els
 
   backfillDir(db, root);
   const byType = db
-    .prepare("SELECT type, COUNT(*) c FROM events WHERE session_id=? AND id LIKE 'bf:%' GROUP BY type")
-    .all('sess-dup');
-  expect(byType.map((r) => r.type)).toEqual(['token_usage']);
+    .prepare("SELECT type FROM events WHERE session_id=? AND id LIKE 'bf:%' GROUP BY type ORDER BY type")
+    .all('sess-dup')
+    .map((r) => r.type);
+  expect(byType).toEqual(['file_change', 'token_usage']);
   // the one prompt the hooks recorded is still the only prompt
   expect(db.prepare("SELECT COUNT(*) c FROM events WHERE session_id=? AND type='user_prompt'").get('sess-dup').c).toBe(
     1
@@ -102,5 +110,41 @@ test('a session with no live events is backfilled whole', () => {
     .all('sess-new')
     .map((r) => r.type);
   expect(types.length).toBeGreaterThan(1);
+  db.close();
+});
+
+// A backfilled event's id comes from its position in the transcript, so that a second walk skips it. The reader
+// learning to see a new kind of event (a plan written in a plans/ folder) inserts events into that list: were the
+// ids still counted over every event, each one after the first new event would get a new id, and the next walk
+// would file a second copy of all of them.
+test('a walk after the reader learnt to see plans adds the plan writes and nothing twice', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bf-plan-'));
+  const wtDir = path.join(root, 'C--repo--worktrees-wtP');
+  fs.mkdirSync(wtDir, { recursive: true });
+  const file = path.join(wtDir, 'sess-plan.jsonl');
+  const line = (ts, content, extra = {}) =>
+    JSON.stringify({ type: 'assistant', timestamp: ts, message: { content, ...extra } });
+  const prompt = (ts) => JSON.stringify({ type: 'user', timestamp: ts, message: { role: 'user', content: 'go' } });
+  const bash = (ts, command) => line(ts, [{ type: 'tool_use', name: 'Bash', input: { command } }]);
+  const planWrite = line('2026-09-21T08:00:02.000Z', [
+    { type: 'tool_use', name: 'Write', input: { file_path: '/r/docs/superpowers/plans/p.md', content: '#' } },
+  ]);
+  const before = [
+    prompt('2026-09-21T08:00:00.000Z'),
+    bash('2026-09-21T08:00:01.000Z', 'ls'),
+    bash('2026-09-21T08:00:03.000Z', 'npm test'),
+    prompt('2026-09-21T08:00:04.000Z'),
+  ];
+  // What an older reader filed: the same transcript, with the plan write it could not see left out.
+  fs.writeFileSync(file, before.join('\n') + '\n');
+  const db = openDb(':memory:');
+  backfillDir(db, root);
+  const count = () => db.prepare('SELECT COUNT(*) c FROM events WHERE session_id=?').get('sess-plan').c;
+  const had = count();
+
+  fs.writeFileSync(file, [before[0], before[1], planWrite, before[2], before[3]].join('\n') + '\n');
+  expect(backfillDir(db, root)).toBe(1);
+  expect(count()).toBe(had + 1);
+  expect(db.prepare("SELECT current_phase FROM sessions WHERE id='sess-plan'").get().current_phase).toBe(6);
   db.close();
 });

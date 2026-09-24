@@ -10,7 +10,8 @@ function worktreeOf(cwd) {
   return i >= 0 && parts[i + 1] ? parts[i + 1] : parts[parts.length - 1];
 }
 
-const FILE_SIGNAL = /(openspec\/changes\/|tasks\.md$)/;
+// An openspec change, or a plan: tasks.md, or a markdown file in a plans/ folder (where a plan is usually written).
+const FILE_SIGNAL = /(openspec\/changes\/|tasks\.md$|\/plans\/[^/]+\.md$)/;
 
 /**
  * Maps one Claude Code hook payload to pipeline events. Keep in sync with the backfill parser
