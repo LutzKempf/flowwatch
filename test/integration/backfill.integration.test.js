@@ -38,3 +38,25 @@ test('skips subagents/ dirs — subagent transcripts must not become phantom ses
   expect(ids).toEqual(['sess-1']); // agent-x never ingested
   db.close();
 });
+
+// A session that reported live while it ran is not partial. Re-walking the transcripts (which is how the token
+// figures arrive for finished sessions) must not badge it as partial, or the board would call its best data partial.
+test('a session that also reported live keeps its origin when its transcript is walked', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bf-live-'));
+  const wtDir = path.join(root, 'C--repo--worktrees-wtC');
+  fs.mkdirSync(wtDir, { recursive: true });
+  fs.copyFileSync(path.join(__dirname, '../fixtures/transcript.jsonl'), path.join(wtDir, 'sess-live.jsonl'));
+
+  const db = openDb(':memory:');
+  const { ingestEvent } = require('../../server/ingest');
+  ingestEvent(db, { id: 'hook-1', session_id: 'sess-live', worktree: 'wtC', ts: 1000, type: 'session_start' });
+  expect(db.prepare('SELECT origin FROM sessions WHERE id=?').get('sess-live').origin).toBe('live');
+
+  expect(backfillDir(db, root)).toBeGreaterThan(0);
+  expect(db.prepare('SELECT origin FROM sessions WHERE id=?').get('sess-live').origin).toBe('live');
+  // and the transcript's own events did land on it
+  expect(
+    db.prepare("SELECT COUNT(*) c FROM events WHERE session_id=? AND id LIKE 'bf:%'").get('sess-live').c
+  ).toBeGreaterThan(0);
+  db.close();
+});
