@@ -7,6 +7,7 @@ const { ingestLogFile } = require('./appendLog');
 const { scanOnce } = require('./repo/repoWatcher');
 const { readWiring } = require('./repo/settings');
 const { backfillDir, projectDirFilter } = require('./sessions/runBackfill');
+const { refreshStoredStats } = require('./ingest');
 const { canonicalRepoRoot } = require('./repo/repoRoot');
 const { collectorConfig, dataDirFor } = require('../hooks/lib/collectorConfig');
 
@@ -101,6 +102,15 @@ function startServer(opts = {}) {
           console.error('[flowwatch] backfill failed:', /** @type {Error} */ (e).message);
         }
       }
+    }
+
+    // Stored roll-ups made under an older rule are redone once, so a finished session never keeps numbers the
+    // current rule would not give it.
+    try {
+      const n = refreshStoredStats(db);
+      if (n) console.log(`[flowwatch] per-phase figures redone under the current rule: ${n} sessions`);
+    } catch (e) {
+      console.error('[flowwatch] redoing per-phase figures failed:', /** @type {Error} */ (e).message);
     }
 
     // The Mission page's folders derive from repoRoot (set above): folders relative to the working

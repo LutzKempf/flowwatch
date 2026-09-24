@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 — 2026-09-24
+
+1.0.3's corrected per-phase figures now reach sessions that have already finished. Each session's figures are
+stored and were redone only when the session got a new event, so on an upgraded board every finished session kept
+the old rule's numbers. The collector now redoes all stored figures once, at its first start under a changed rule.
+
 ## 1.0.3 — 2026-09-24
 
 Two fixes to the per-phase numbers, both found by reading a real board.
