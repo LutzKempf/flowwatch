@@ -10,7 +10,8 @@
  */
 function stateForEvents(events) {
   const last = events[events.length - 1];
-  return last && last.type === 'turn_stop' ? 'waiting' : 'working';
+  // Waiting on the operator: after a turn ended, or while a question or permission prompt is open inside one.
+  return last && (last.type === 'turn_stop' || last.type === 'waiting') ? 'waiting' : 'working';
 }
 
 module.exports = { stateForEvents };
