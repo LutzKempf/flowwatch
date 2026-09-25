@@ -7,7 +7,7 @@ const fs = require('fs');
 
 /**
  * @typedef {{session_id: string, worktree?: string, ts: number, type: string, command?: string, name?: string,
- *   path?: string, tokensTotal?: number, touchesCode?: null}} TranscriptEvent
+ *   path?: string, tokensTotal?: number, touchesCode?: null, reason?: string}} TranscriptEvent
  */
 
 /**
@@ -58,6 +58,8 @@ function parseTranscript(file, { session_id, worktree, warn = console.warn }) {
   /** @type {TranscriptEvent|null} last assistant msg of the current (possibly multi-message) turn */
   let pendingStop = null;
   let cumTokens = 0;
+  /** @type {Set<string>} the ids of questions put to the operator, so their answers can be told apart */
+  const questions = new Set();
 
   const flushStop = () => {
     if (pendingStop) {
@@ -87,9 +89,22 @@ function parseTranscript(file, { session_id, worktree, warn = console.warn }) {
       out.push({ ...base, type: 'user_prompt' });
       continue;
     }
+    // The operator's answer to a question arrives as a tool result, not a prompt: the turn goes on after it.
+    if (rec.type === 'user' && rec.message && Array.isArray(rec.message.content)) {
+      if (
+        rec.message.content.some(
+          (/** @type {any} */ b) => b && b.type === 'tool_result' && questions.has(b.tool_use_id)
+        )
+      )
+        out.push({ ...base, type: 'answered' });
+    }
     if (rec.type === 'assistant') {
       const blocks = rec.message && Array.isArray(rec.message.content) ? rec.message.content : [];
       for (const b of blocks) {
+        if (b.type === 'tool_use' && b.name === 'AskUserQuestion') {
+          out.push({ ...base, type: 'waiting', reason: 'question' });
+          if (b.id) questions.add(b.id);
+        }
         if (b.type === 'tool_use' && /^(Bash|PowerShell)$/.test(b.name) && b.input && b.input.command) {
           out.push({ ...base, type: 'bash', command: b.input.command });
           // touchesCode stays null: a historical commit has no HEAD to interrogate,

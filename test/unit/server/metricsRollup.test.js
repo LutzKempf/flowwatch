@@ -139,3 +139,45 @@ describe('silence inside a turn', () => {
     ).toBe(11 * min);
   });
 });
+
+// While a question or a permission prompt waits on the operator, the agent is not working: the turn has not ended,
+// but its work clock stops at the question and the wait until the answer is the operator's.
+describe('a turn paused on the operator', () => {
+  const min = 60_000;
+  const total = (st, key) => Object.values(st).reduce((n, s) => n + s[key], 0);
+
+  test('work stops at the question, and the wait until the answer is waiting on you', () => {
+    const st = rollup([
+      { type: 'user_prompt', ts: 0 },
+      { type: 'bash', command: 'ls', ts: 2 * min },
+      { type: 'waiting', ts: 3 * min }, // AskUserQuestion
+      { type: 'waiting', ts: 3 * min + 6000 }, // the permission_prompt notification for it: the same pause
+      { type: 'answered', ts: 232 * min }, // 3 h 49 min later
+      { type: 'bash', command: 'ls', ts: 233 * min },
+      { type: 'turn_stop', ts: 234 * min },
+    ]);
+    expect(total(st, 'work_ms')).toBe(3 * min + 2 * min);
+    expect(total(st, 'wait_ms')).toBe(229 * min);
+    expect(total(st, 'inputs')).toBe(2); // the prompt, and the answer
+  });
+
+  test('a permission prompt ends at the next sign of activity', () => {
+    const st = rollup([
+      { type: 'user_prompt', ts: 0 },
+      { type: 'waiting', ts: min }, // permission_prompt for a command
+      { type: 'bash', command: 'npm test', ts: 41 * min }, // approved 40 minutes later; the command runs
+      { type: 'turn_stop', ts: 43 * min },
+    ]);
+    expect([total(st, 'work_ms'), total(st, 'wait_ms')]).toEqual([3 * min, 40 * min]);
+  });
+
+  test('a new prompt while paused ends the pause and starts a turn', () => {
+    const st = rollup([
+      { type: 'user_prompt', ts: 0 },
+      { type: 'waiting', ts: min },
+      { type: 'user_prompt', ts: 10 * min }, // answered by typing instead
+      { type: 'turn_stop', ts: 12 * min },
+    ]);
+    expect([total(st, 'work_ms'), total(st, 'wait_ms'), total(st, 'inputs')]).toEqual([3 * min, 9 * min, 2]);
+  });
+});

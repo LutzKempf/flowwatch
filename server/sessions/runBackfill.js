@@ -24,19 +24,36 @@ function stableId(sessionId, ev, i) {
 }
 
 // What the transcript reader turned into file_change events before it learnt to see plans in a plans/ folder
-// (Flowwatch 1.0.5). An event id counts only events the reader could always see, and a plan write outside this
-// rule is identified by its content instead: otherwise every event after the first plan write would get a new id
-// on the next walk, and be filed a second time.
+// (Flowwatch 1.0.5). An event id counts only events the reader could always see, and an event it learnt to see
+// later -- a plan write outside this rule, a question and its answer (1.0.7) -- is identified by its content
+// instead: otherwise every event after the first new one would get a new id on the next walk, and be filed twice.
 const FILE_SIGNAL_BEFORE_PLANS = /(openspec\/changes\/|tasks\.md$)/;
 
 /**
- * Id of a plan write the reader could not see before 1.0.5: by content, so its position changes nothing else's.
+ * @param {{type: string, path?: string}} ev a parsed event
+ * @returns {boolean} whether the reader learnt to see this kind of event after ids were first handed out
+ */
+const seenSince = (ev) =>
+  (ev.type === 'file_change' && !FILE_SIGNAL_BEFORE_PLANS.test(String(ev.path))) ||
+  ev.type === 'waiting' ||
+  ev.type === 'answered';
+
+// What a session the hooks recorded live takes from its transcript: what the hooks did not report. Token figures
+// they never carry; file writes, questions and answers they did not report before 1.0.5 and 1.0.7. None of these
+// is counted twice if the hooks report it too: the first two count nothing, and a pause announced twice is one pause.
+const LIVE_TAKES = new Set(['token_usage', 'file_change', 'waiting', 'answered']);
+
+/**
+ * Id of an event the reader learnt to see later: by content, so its position changes nothing else's. A plan write
+ * keeps the id 1.0.5 gave it.
  * @param {string} sessionId transcript basename
- * @param {{ts:number, path?:string}} ev parsed file_change event
+ * @param {{ts:number, type:string, path?:string}} ev parsed event
  * @returns {string}
  */
-function planWriteId(sessionId, ev) {
-  return 'bf:plan:' + crypto.createHash('sha1').update(`${sessionId}|${ev.ts}|${ev.path}`).digest('hex').slice(0, 16);
+function contentId(sessionId, ev) {
+  const plan = ev.type === 'file_change';
+  const key = plan ? `${sessionId}|${ev.ts}|${ev.path}` : `${sessionId}|${ev.ts}|${ev.type}`;
+  return (plan ? 'bf:plan:' : 'bf:' + ev.type + ':') + crypto.createHash('sha1').update(key).digest('hex').slice(0, 16);
 }
 
 /**
@@ -87,15 +104,12 @@ function backfillDir(db, root, { keepProject = () => true } = {}) {
       // The hooks already recorded a session that reported live: its prompts, commands and turns are on record
       // under their own ids, and the transcript describes the SAME session. Filing all of it again would file a
       // second copy of each — every prompt counted twice, a turn's minutes cut at a prompt that never happened.
-      // Only the token figures are new, because nothing but the transcript carries them.
+      // So it takes only what the hooks did not report (LIVE_TAKES).
       const live = db.prepare("SELECT 1 FROM events WHERE session_id=? AND id NOT LIKE 'bf:%' LIMIT 1").get(sessionId);
       let i = 0;
       for (const ev of events) {
-        const seenSince = ev.type === 'file_change' && !FILE_SIGNAL_BEFORE_PLANS.test(String(ev.path));
-        const id = seenSince ? planWriteId(sessionId, ev) : stableId(sessionId, ev, i++);
-        // Besides tokens, a live session takes the file writes: pure phase signals that count nothing, which the
-        // hooks did not report before 1.0.5 -- so a past session's plan still moves it into the Plan phase.
-        if (live && ev.type !== 'token_usage' && ev.type !== 'file_change') continue;
+        const id = seenSince(ev) ? contentId(sessionId, ev) : stableId(sessionId, ev, i++);
+        if (live && !LIVE_TAKES.has(ev.type)) continue;
         if (ingestEvent(db, { id, ...ev })) ingested++;
       }
       // Backfilled sessions are flagged so the board can badge their data as partial. A session that also reported

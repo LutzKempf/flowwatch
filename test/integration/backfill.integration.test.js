@@ -148,3 +148,52 @@ test('a walk after the reader learnt to see plans adds the plan writes and nothi
   expect(db.prepare("SELECT current_phase FROM sessions WHERE id='sess-plan'").get().current_phase).toBe(6);
   db.close();
 });
+
+// Questions put to the operator reach the dashboard from 1.0.7, from the hooks and from transcripts. A past session
+// that reported live gains its questions from its transcript -- the hooks did not report them then -- and, as with
+// plan writes, adding them shifts no other event's id.
+test("a walk adds a live session's questions and answers, and nothing twice", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bf-ask-'));
+  const wtDir = path.join(root, 'C--repo--worktrees-wtQ');
+  fs.mkdirSync(wtDir, { recursive: true });
+  const file = path.join(wtDir, 'sess-ask.jsonl');
+  const at = (s) => `2026-09-25T06:00:${s}.000Z`;
+  const prompt = JSON.stringify({ type: 'user', timestamp: at('00'), message: { role: 'user', content: 'go' } });
+  const bash = JSON.stringify({
+    type: 'assistant',
+    timestamp: at('02'),
+    message: { content: [{ type: 'tool_use', name: 'Bash', input: { command: 'ls' } }], usage: { output_tokens: 5 } },
+  });
+  const ask = JSON.stringify({
+    type: 'assistant',
+    timestamp: at('08'),
+    message: { content: [{ type: 'tool_use', id: 'q1', name: 'AskUserQuestion', input: { questions: [] } }] },
+  });
+  const answer = JSON.stringify({
+    type: 'user',
+    timestamp: at('59'),
+    message: { role: 'user', content: [{ type: 'tool_result', tool_use_id: 'q1', content: 'ok' }] },
+  });
+  const db = openDb(':memory:');
+  // What an older reader filed for a session nobody tracked live: the transcript without its question.
+  fs.writeFileSync(file, [prompt, bash].join('\n') + '\n');
+  backfillDir(db, root);
+  const count = () => db.prepare("SELECT COUNT(*) c FROM events WHERE session_id='sess-ask'").get().c;
+  const had = count();
+
+  fs.writeFileSync(file, [prompt, ask, answer, bash].join('\n') + '\n');
+  expect(backfillDir(db, root)).toBe(2); // the question and the answer; every older event kept its id
+  expect(count()).toBe(had + 2);
+
+  // and a session that reported live takes them too
+  const { ingestEvent } = require('../../server/ingest');
+  ingestEvent(db, { id: 'hook-1', session_id: 'sess-live-ask', worktree: 'wtQ', ts: 1, type: 'session_start' });
+  fs.writeFileSync(path.join(wtDir, 'sess-live-ask.jsonl'), [prompt, ask, answer].join('\n') + '\n');
+  backfillDir(db, root);
+  const types = db
+    .prepare("SELECT type FROM events WHERE session_id='sess-live-ask' AND id LIKE 'bf:%' ORDER BY ts")
+    .all()
+    .map((r) => r.type);
+  expect(types).toEqual(['waiting', 'answered']);
+  db.close();
+});

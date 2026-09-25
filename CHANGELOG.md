@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.7 — 2026-09-25
+
+A question to you, or a permission prompt, pauses the agent's work instead of counting as it. Claude Code fires no
+Stop while one waits — the turn has not ended — so the wait read as work until the next prompt: one night of it, 864
+minutes, on the board that exposed this. A probe recorded what Claude Code does send while a question waits:
+PreToolUse for AskUserQuestion, a `permission_prompt` notification, and PostToolUse when it is answered. Those now
+stop the work clock, count the wait as waiting on you, count the answer as one of your inputs, and show the session
+as waiting on you on the board while it waits. Transcripts carry the questions too, so walking them again adds them
+to past sessions.
+
+The hooks gain three entries: `Notification` (permission prompts and other requests for input), and
+`AskUserQuestion` in `PreToolUse` and `PostToolUse`. Run `npx flowwatch install-hooks` again to add them; it adds
+exactly those and changes nothing already installed.
+
 ## 1.0.6 — 2026-09-24
 
 Work time stops counting sessions that were left open. Inside a turn, work now runs from event to event, and no single
