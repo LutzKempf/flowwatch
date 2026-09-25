@@ -47,12 +47,9 @@ test("fragment carries WorktreeRemove so the mapper's worktree_remove (phase 11)
 // must add exactly those: the merge appends what is missing, so a CHANGED entry (say, AskUserQuestion folded into the
 // Bash|PowerShell|Skill matcher) would sit beside the old one and every command would be reported twice.
 test('installing over an earlier install adds the question and permission hooks, and changes nothing else', () => {
-  const before = JSON.parse(
-    require('child_process').execFileSync('git', ['show', 'v1.0.6:templates/hooks.json'], {
-      cwd: require('path').join(__dirname, '..', '..', '..'),
-      encoding: 'utf8',
-    })
-  );
+  // The hooks as v1.0.6 installed them, kept as a fixture: a test must not need the repo's tags, which a CI
+  // checkout does not fetch.
+  const before = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'fixtures', 'hooks-v1.0.6.json'), 'utf8'));
   const merged = mergeHookSettings(before, fragment);
   const count = (s) => Object.values(s.hooks).reduce((n, groups) => n + groups.length, 0);
   expect(count(merged)).toBe(count(before) + 3);
